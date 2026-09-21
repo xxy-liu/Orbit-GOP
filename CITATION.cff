@@ -1,0 +1,12 @@
+cff-version: 1.2.0
+message: "Please cite the Orbit-GOP manuscript when referencing this work."
+title: "Orbit-GOP: Near-Out-of-Distribution Detection for Evidential Deep Learning via Cross-View Functional Stability"
+authors:
+  - given-names: Xue
+    family-names: Liu
+  - given-names: Shangzhu
+    family-names: Jin
+  - given-names: Mou
+    family-names: Zhou
+  - given-names: Jun
+    family-names: Peng
