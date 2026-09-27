@@ -1,0 +1,251 @@
+{
+  "frozen_at_utc": "2026-09-07T13:52:07.521703+00:00",
+  "Backbone": "ResNet18-EDL",
+  "Seed": 0,
+  "Checkpoint": "PROJECT\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_0\\best.pt",
+  "checkpoint_sha256": "a2a29a847c7a1afbf333b4313fa3639ad98a6947ab86bcac14819cb763879dee",
+  "beta": 0.4,
+  "risk": "q_func only",
+  "c_global": 16.661915817233986,
+  "candidates": [
+    {
+      "ID": "L1",
+      "Layer": "Layer2",
+      "hook": "layer2",
+      "feature_shape": [
+        128,
+        16,
+        16
+      ]
+    },
+    {
+      "ID": "L2",
+      "Layer": "Layer3",
+      "hook": "layer3",
+      "feature_shape": [
+        256,
+        8,
+        8
+      ]
+    },
+    {
+      "ID": "L3",
+      "Layer": "Layer4",
+      "hook": "layer4",
+      "feature_shape": [
+        512,
+        4,
+        4
+      ]
+    }
+  ],
+  "execution_order": [
+    "Layer3_run1",
+    "Layer3_run2",
+    "Layer2_run1",
+    "Layer2_run2",
+    "Layer4_run1",
+    "Layer4_run2"
+  ],
+  "views": [
+    "Original",
+    "Brightness 0.90",
+    "Reflect-shift 1 px"
+  ],
+  "view_implementation": [
+    "original",
+    "brightness",
+    "shift"
+  ],
+  "gradient_target": "formal decision margin: z_c - logsumexp(z_others); fixed original predicted class",
+  "discrepancy": "formal normalized generalized JSD; entropy difference / log(number_of_views); float32; nonnegative clamp",
+  "signature": "energy=mean_spatial(gradient squared); epsilon=1e-12; (energy+epsilon)/(sum_channels(energy)+C_layer*epsilon)",
+  "reference": "For EACH layer AND each run, freshly extract all 3000 calibration rows; sort d_GOP within original-view predicted class; evaluation uses only own reference; no cache or reference reuse",
+  "q_func": "formal midrank_cdf_sorted, float64, (N_less+0.5*N_equal)/n_class",
+  "uncertainty": "float64 alpha=1+c_global*exp(-0.40*q_func)*float64(original evidence); u_Orbit=10/sum(alpha)",
+  "operational_prediction": "inherits base probability argmax; alpha numeric argmax is diagnostic only",
+  "data": {
+    "calibration": {
+      "count": 3000,
+      "indices_sha256": "1e6f825959100f4b89e966698a5f3fa549769c713ae9c7e631972cc7d4a035d0",
+      "labels_sha256": "10ec2f774651d4417a800af7cd0c932985a4ba69d04230047d3c28435bf20d18",
+      "uint8_NCHW_sha256": "e3c22f5ff8acadd314db1cf7d7d5db961625b63ade30dcffe3d21f599d608445",
+      "float32_NCHW_sha256": "7382ee2e612488b445f3e366785cc83216170d0b30c9d121bee89f41ee5c0156",
+      "source": "CIFAR-10 train validation"
+    },
+    "id_development": {
+      "count": 2000,
+      "indices_sha256": "acb7f8434fc5ca28a7f9cd54bf28eb829a6efb47bc9f398c2253c89f40f5884a",
+      "labels_sha256": "4e64a02568003d897e7b68ba22d98a34f324c87f72edef91cddc23d3c5cfeb56",
+      "uint8_NCHW_sha256": "e9289ec39a5c33c76a7a83d1fb35ee9a9eba2608779fb81d5d22f00e28eab196",
+      "float32_NCHW_sha256": "b6b236c182a9f5ac2c88b2ba80678e285280686a66eeeb94de307db898383ac5",
+      "source": "CIFAR-10 train validation"
+    },
+    "ood_development": {
+      "count": 12500,
+      "indices_sha256": "0376dfd46d41dbf6380ac5e85d9f0e526bf582e146f0520da91d0a7f7c08915e",
+      "labels_sha256": "f3358b72fb9498acd0c47695208e2011c0ddeb4989171160c3e0f09353f191a2",
+      "uint8_NCHW_sha256": "e964a9a3a3a662bf71b0ef4fc152debad609676cb6eb80ebccf6e3a3457c39d1",
+      "float32_NCHW_sha256": "f375f347ed7a4c152e95a61fe9aff6bc2d855c01d65832b9420850552c515cab",
+      "source": "CIFAR-100 train"
+    }
+  },
+  "OOD_positive": true,
+  "batch_size": 32,
+  "input_order": "exact frozen index file order; no shuffle; unchanged final batch",
+  "forward_dtype": "torch.float32 CUDA",
+  "AMP": false,
+  "TF32": false,
+  "model_eval": true,
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "torch_threads": 6,
+  "Layer3_identity": {
+    "source_authority": "FINAL_PUBLICATION_VIEW_ABLATION_AUTHORITY",
+    "source_directory": "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813",
+    "AUROC": 0.87842696,
+    "FPR95": 0.411,
+    "array_comparison": "exact shape, dtype and np.array_equal; zero tolerance for source indices, labels, base prediction, evidence, d_GOP, class references, q_func, u_Orbit",
+    "metrics_comparison": "exact equality using unchanged formal evaluator",
+    "on_failure": "STOP all subsequent forward runs, preserve data and diagnose; publication BLOCKED"
+  },
+  "repeat_identity": "Two independent Python processes per layer, reloaded same checkpoint, full calibration and development fresh forward, independent reference construction/scoring; zero tolerance arrays and metrics; same hardware/runtime/batch/order",
+  "metric_definition": {
+    "AUROC": "Mann-Whitney average tied ranks; OOD positive",
+    "FPR95": "ID fraction >= smallest score cutoff achieving at least 95% OOD TPR; conventional ROC summary only, no deployed threshold selected or exported"
+  },
+  "point_estimates_only": true,
+  "ranking_is_a_gate": false,
+  "formal_layer_remains": "Layer3",
+  "old_manuscript": {
+    "Layer2": {
+      "AUROC": 0.8673,
+      "FPR95": 0.524
+    },
+    "Layer3": {
+      "AUROC": 0.8784,
+      "FPR95": 0.4115
+    },
+    "Layer4": {
+      "AUROC": 0.8699,
+      "FPR95": 0.473
+    }
+  },
+  "hard_gates": [
+    "protocol identity",
+    "Layer3 exact current Full Orbit identity",
+    "two complete exact repeats each layer",
+    "model state unchanged",
+    "project no-mutation"
+  ],
+  "prohibited": [
+    "training",
+    "optimizer step",
+    "checkpoint modification",
+    "c_global refit",
+    "beta search",
+    "layer selection",
+    "official test evaluation",
+    "holdout evaluation",
+    "Tiny ImageNet evaluation",
+    "q_evi",
+    "joint risk",
+    "old Stage_P4_A risk cache reuse",
+    "old d_GOP/q_func/evidence reuse",
+    "historical mutation",
+    "bootstrap",
+    "CI",
+    "p-value",
+    "significance stars"
+  ],
+  "source_authorities": {
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\VIEW_ABLATION_REPAIR_PROTOCOL.json": {
+      "sha256": "8a58e505471182466984bba8ecdadd248eacf4888f14f55d45015dd70e38e972"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\run_repair.py": {
+      "sha256": "1a47c297d39461b912fa7a4f12fd29d7d39dc0aec62391f47591a0c90050a9f9"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\function_only_core.py": {
+      "sha256": "5228db1b03dfe9e360e51f79a94ba5ff16f949c67138f09578476ec1e6a4fffb"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\ENVIRONMENT.json": {
+      "sha256": "a168bd1261460a4fe9781e07557d4722289dddfce82f7a747466a2682f66ac9d"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\FINAL_VIEW_ABLATION_SAMPLE_SCORES.parquet": {
+      "sha256": "a4a825ce8a9c979b5a6240d644e510914b9df8a5c2c46023b9ea78ba5e501865"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\FINAL_VIEW_ABLATION_DEVELOPMENT_RESULTS.csv": {
+      "sha256": "eb957f28466e0deb407b1cca8c75afaf57ece310c89738be242a071352192133"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_calibration_reference.npz": {
+      "sha256": "adc3ead98d9bdc36aeb2731ae662d4cc915ccba3b31b7063b961caadb7ded776"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_calibration_raw.npz": {
+      "sha256": "4c2c803bde4c966b6d08c50c9ab1456393913d76b30ddd8313827b20ecc3041c"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_id_development_raw.npz": {
+      "sha256": "a671eefc1a28d9b4361e669dc2b081be9597afc4e950309c1602547c86781338"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_ood_development_raw.npz": {
+      "sha256": "c266978f04e5cfe13271a83ba5c528208003d3c6b4cf2c0dda64895dee3eddd6"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_PUBLICATION\\FINAL_VIEW_ABLATION_PUBLICATION_AUTHORITY.md": {
+      "sha256": "29c90c5a99129953d6025d3f9e8c4880e013be278bea42b942dc6754a7150833"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_PUBLICATION\\FINAL_TABLE4_VIEW_CONFIGURATION_SOURCE.csv": {
+      "sha256": "d79476c93201a6b581967cb9f510527a3ba1a196ac09ef13c2e2f004bf321bf8"
+    },
+    "PROJECT\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_0\\best.pt": {
+      "sha256": "a2a29a847c7a1afbf333b4313fa3639ad98a6947ab86bcac14819cb763879dee"
+    },
+    "PROJECT\\outputs\\FINAL_beta040_formal_rebuild_20260824_165921\\FORMAL_ASSET_AUTHORITY_MANIFEST.json": {
+      "sha256": "fead273489ee8e4d240f9bb891370f539b6417e1f6add612eeeb09763835e3eb"
+    },
+    "PROJECT\\outputs\\ResNet18-EDL-Softplus\\code\\b0_edl\\model.py": {
+      "sha256": "7267d210e54c68428f0b0dc4831360ca84ef5685fb9ef33c2dcd6fe51ba65d8f"
+    },
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\index_manifest.json": {
+      "sha256": "4e182e30ff585949a6a8e07f78e0d8894804795f5f30f57979cc2b6a5f074a40"
+    },
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar10_calibration_indices.npy": {
+      "sha256": "9eb11ea177d3a00904440a450a40da3ade3767880aecc5798750bdd9120960c6"
+    },
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar10_id_safety_indices.npy": {
+      "sha256": "ad3fd63c36812961aa9ca4b5235926ef6d34cf3bf66cbc4dde3a78559c94fbb4"
+    },
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar100_development_indices.npy": {
+      "sha256": "023fd70333e4032412f02c5e520b459570f5c36a7117e7fd0e4501b77a491ae9"
+    },
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_1": {
+      "sha256": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd"
+    },
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_2": {
+      "sha256": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8"
+    },
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_3": {
+      "sha256": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9"
+    },
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_4": {
+      "sha256": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b"
+    },
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_5": {
+      "sha256": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154"
+    },
+    "PROJECT\\datasets\\CIFAR-100\\cifar-100-python\\train": {
+      "sha256": "735e79b04f092ca3d2e6d07f368c0a7d70d48c48d28865950cc24454cf45129b"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\ARTIFACT_MANIFEST.json": {
+      "sha256": "6902956416d460b8d73be674bd75d03796299a4b788a2b2ff701a43297153328"
+    },
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_PUBLICATION\\_audit\\DELIVERY_SHA256.json": {
+      "sha256": "5afc8633ddae44de844f8081634d14eac97506b04ecabea1d77c858f204d1231"
+    }
+  },
+  "code_sha256": {
+    "run_layers.py": "1d1416f78ac3515d1132c3adbc9dbd1a48de85889abe8282fe4c2690eae5fb55",
+    "layer_core.py": "74dc306785a8a0d16d0353056cf7d0d01f7785563d46e17d8d2d32fd8f2a5644",
+    "verify_layers.py": "52070c0d7f0c502242a62f3f7d448b69b12803a38a108f6de761ad88c493e6cc",
+    "finalize.py": "e1665e1d98af9de546c4d375400dc74052e2a63ac049cb2fde902c6df8873647",
+    "audit_files.py": "2dd690023b2e5a6e1561784338da36308b474f665e38d093506859b751b2ae4c"
+  }
+}

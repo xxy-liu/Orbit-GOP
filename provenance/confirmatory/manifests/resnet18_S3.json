@@ -1,0 +1,16 @@
+{
+  "backbone": "resnet18",
+  "seed": 3,
+  "training_commit": "NO_ROOT_GIT_COMMIT",
+  "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+  "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+  "checkpoint_hash": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+  "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_3\\best.pt",
+  "best_val_epoch": 198,
+  "fixed_epoch": "NOT_APPLICABLE",
+  "val_metric": 0.929,
+  "val_role": "checkpoint_selection",
+  "train_end_time": "2026-09-17T11:23:43.162205+00:00",
+  "test_admission": false,
+  "status": "FROZEN"
+}

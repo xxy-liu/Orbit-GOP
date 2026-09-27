@@ -1,0 +1,72 @@
+[
+  {
+    "source": "PROJECT/outputs/ResNet18-EDL-Softplus/scripts/train.py",
+    "exists": true,
+    "sha256": "36cbe6620e5747a18a162687d65eaac56cfdd88dac2e26b14c6f30fc846dd483",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/experiments/P8_R1_vgg_baseline_recovery/code/p8_r1.py",
+    "exists": true,
+    "sha256": "3eef30332d7771115fa5a4c6ea368177632bb7405f9ab552e1d65892c12254e3",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/run_p6c.py",
+    "exists": true,
+    "sha256": "b4120cf84d11ec0ca46c158bc87b418af1e00461b60bb3cf823e60809671e6bb",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/FINAL_beta040_formal_rebuild_20260824_165921/run_final_rebuild.py",
+    "exists": true,
+    "sha256": "e6cae796f6450cd7d76f42eaaa017da3d40bfc7475751e8f3082108539989a7a",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/NEW_VALIDATION_FORMAL_V2_20260912_141557/run.py",
+    "exists": true,
+    "sha256": "f083338036933633744bb5d50e07d8df2df0eaf80fb385c5aaeea444b1c685eb",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/NEW_VALIDATION_FORMAL_V2_20260912_141557/common.py",
+    "exists": true,
+    "sha256": "aacde8432b3e3cb481650e9dcc09076951c773e84239ee5cf9dc85375c7f21b8",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/NEW_VALIDATION_FORMAL_V2_20260912_141557/analysis.py",
+    "exists": true,
+    "sha256": "86bbd75f245a7b6e1cdfabab5fc871b6d4afc0579b14d77e919df5ea131b0b52",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/NEW_VALIDATION_READINESS_CLOSURE_20260912_130032/technical_test.py",
+    "exists": true,
+    "sha256": "3c9efbdef028af1f5cdd792aa9b2be7b15483bd75728e09467be368eab21e99a",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/NEW_VALIDATION_TARGETED_FIX_20260912_133901/TECHNICAL_CONTRACT_V2.json",
+    "exists": true,
+    "sha256": "c1f530d61c3d680546b8af92fed2313245ed69b901a133a2378c3a99c13009e8",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  },
+  {
+    "source": "PROJECT/outputs/NEW_VALIDATION_DATA_PREP_20260912_120837/DATA_PREPARATION_REPORT.md",
+    "exists": true,
+    "sha256": "1dbfe7f6a8fbd1c34b2ab901c8787493cd2913c6ee76f5ebbb99eb20d6894b2a",
+    "packaged": false,
+    "reason": "Historical authority reference; archive executor not portable, external dependencies remain local"
+  }
+]

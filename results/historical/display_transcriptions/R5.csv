@@ -1,0 +1,9 @@
+latex_cell_1,latex_cell_2,latex_cell_3,latex_cell_4
+CIFAR-100,Positive,3769,Yes
+CIFAR-100,Positive,2320,No
+CIFAR-100,Negative,1271,Yes
+CIFAR-100,Negative,1969,No
+Tiny ImageNet,Positive,4374,Yes
+Tiny ImageNet,Positive,7779,No
+Tiny ImageNet,Negative,2887,Yes
+Tiny ImageNet,Negative,2946,No

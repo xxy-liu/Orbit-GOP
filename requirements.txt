@@ -1,0 +1,9 @@
+# Recorded confirmatory versions. CUDA wheels require the PyTorch cu128 index.
+numpy==1.26.4
+torch==2.11.0+cu128
+torchvision==0.26.0+cu128
+scipy==1.15.3
+scikit-learn==1.7.2
+pandas==2.3.3
+pillow==12.2.0
+opencv-python==4.9.0.80

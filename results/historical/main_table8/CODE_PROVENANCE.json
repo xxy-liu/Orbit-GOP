@@ -1,0 +1,67 @@
+{
+  "source": "PROJECT\\outputs\\Stage_P4_D\\code\\benchmark_core.py",
+  "sha256": "2adea2519b5d36206f4b0e5d5cf0915d74ec02208baf572a9d59c99fe7437f21",
+  "copied_symbols": [
+    {
+      "symbol": "normalize",
+      "line": 98,
+      "end": 101
+    },
+    {
+      "symbol": "make_transformed_view",
+      "line": 104,
+      "end": 111
+    },
+    {
+      "symbol": "stable_margin",
+      "line": 114,
+      "end": 119
+    },
+    {
+      "symbol": "generalized_js",
+      "line": 122,
+      "end": 127
+    },
+    {
+      "symbol": "midrank_cdf_sorted",
+      "line": 130,
+      "end": 135
+    },
+    {
+      "symbol": "BNHooks",
+      "line": 260,
+      "end": 288
+    },
+    {
+      "symbol": "RawJoint",
+      "line": 292,
+      "end": 296
+    },
+    {
+      "symbol": "_to_device",
+      "line": 332,
+      "end": 335
+    },
+    {
+      "symbol": "global_edl",
+      "line": 337,
+      "end": 343
+    },
+    {
+      "symbol": "react_energy",
+      "line": 345,
+      "end": 355
+    },
+    {
+      "symbol": "gaia_z",
+      "line": 357,
+      "end": 374
+    },
+    {
+      "symbol": "_joint_raw",
+      "line": 376,
+      "end": 467
+    }
+  ],
+  "changes": "No historical risk/dispatch/initialization imported. All configurations use identical frozen class references and explicit alpha summation at beta=0.40."
+}

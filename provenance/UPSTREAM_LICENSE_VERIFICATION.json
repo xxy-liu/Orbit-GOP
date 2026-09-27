@@ -1,0 +1,14 @@
+[
+  {
+    "component": "CEDL_LICENSE",
+    "commit": "c939f2796065f448bf3077891c6a4b342a424101",
+    "git_object_notice_matches": true,
+    "license_sha256": "7e210e881f774e017801c0f567385a7904f29de082c1accbf923d1984ac71108"
+  },
+  {
+    "component": "OPENOOD_LICENSE",
+    "commit": "8d44375e4c695d03d2b97850b754f24fd4bda447",
+    "git_object_notice_matches": true,
+    "license_sha256": "9d95944eb28fd2ac4006869ec453447c3c9cc560dcc2700884f6623a1a1ef4c4"
+  }
+]

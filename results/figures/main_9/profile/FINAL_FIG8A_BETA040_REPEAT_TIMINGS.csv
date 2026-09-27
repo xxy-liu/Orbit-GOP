@@ -1,0 +1,36 @@
+mode,repeat_id,step_id,step,batch_size,measured_batches,warmup_batches,mean_latency_ms_per_batch,beta
+step_profile,0,view_construction,View construction,64,200,50,0.20592850000000001,0.4
+step_profile,0,forward,Forward pass,64,200,50,33.505436,0.4
+step_profile,0,gradient_extraction,Gradient extraction,64,200,50,13.173882,0.4
+step_profile,0,gop_signature,GOP signature,64,200,50,0.6007729999999999,0.4
+step_profile,0,jsd,JSD,64,200,50,0.2470785,0.4
+step_profile,0,risk_mapping,Risk mapping / evidence calibration,64,200,50,0.3583345,0.4
+step_profile,1,view_construction,View construction,64,200,50,0.20178149999999997,0.4
+step_profile,1,forward,Forward pass,64,200,50,33.082528,0.4
+step_profile,1,gradient_extraction,Gradient extraction,64,200,50,12.825587,0.4
+step_profile,1,gop_signature,GOP signature,64,200,50,0.5449335,0.4
+step_profile,1,jsd,JSD,64,200,50,0.24399300000000002,0.4
+step_profile,1,risk_mapping,Risk mapping / evidence calibration,64,200,50,0.344871,0.4
+step_profile,2,view_construction,View construction,64,200,50,0.19898749999999998,0.4
+step_profile,2,forward,Forward pass,64,200,50,33.0720615,0.4
+step_profile,2,gradient_extraction,Gradient extraction,64,200,50,12.945354499999999,0.4
+step_profile,2,gop_signature,GOP signature,64,200,50,0.5503295,0.4
+step_profile,2,jsd,JSD,64,200,50,0.2354985,0.4
+step_profile,2,risk_mapping,Risk mapping / evidence calibration,64,200,50,0.34292149999999993,0.4
+step_profile,3,view_construction,View construction,64,200,50,0.19766099999999998,0.4
+step_profile,3,forward,Forward pass,64,200,50,33.051291500000005,0.4
+step_profile,3,gradient_extraction,Gradient extraction,64,200,50,12.7969655,0.4
+step_profile,3,gop_signature,GOP signature,64,200,50,0.5445605,0.4
+step_profile,3,jsd,JSD,64,200,50,0.222318,0.4
+step_profile,3,risk_mapping,Risk mapping / evidence calibration,64,200,50,0.34155050000000003,0.4
+step_profile,4,view_construction,View construction,64,200,50,0.18866300000000003,0.4
+step_profile,4,forward,Forward pass,64,200,50,32.770537,0.4
+step_profile,4,gradient_extraction,Gradient extraction,64,200,50,12.652583,0.4
+step_profile,4,gop_signature,GOP signature,64,200,50,0.5426614999999999,0.4
+step_profile,4,jsd,JSD,64,200,50,0.2385725,0.4
+step_profile,4,risk_mapping,Risk mapping / evidence calibration,64,200,50,0.3330045,0.4
+end_to_end_qa,0,end_to_end,Orbit-GOP end-to-end,64,200,50,44.57315599999674,0.4
+end_to_end_qa,1,end_to_end,Orbit-GOP end-to-end,64,200,50,44.313348000005135,0.4
+end_to_end_qa,2,end_to_end,Orbit-GOP end-to-end,64,200,50,44.17913700000099,0.4
+end_to_end_qa,3,end_to_end,Orbit-GOP end-to-end,64,200,50,44.24237799999901,0.4
+end_to_end_qa,4,end_to_end,Orbit-GOP end-to-end,64,200,50,44.283586500005185,0.4

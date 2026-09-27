@@ -1,0 +1,148 @@
+{
+  "protocol_version": "P0_ORBIT_GOP_V5_20260806",
+  "status": "PASS",
+  "reason": "All preregistered quality, signal, evidence-stratified, incremental, noninferiority, and replication gates passed.",
+  "quality_gate": true,
+  "transform_gate": {
+    "seed_0": "PASS",
+    "seed_1": "PASS",
+    "seed_2": "PASS"
+  },
+  "scientific_validities": [
+    "PASS",
+    "PASS",
+    "PASS"
+  ],
+  "gate_b_signal": {
+    "pass": true,
+    "q50_d_gop_auroc": [
+      0.734224152244058,
+      0.7460636331864781,
+      0.7204536940686784
+    ],
+    "ci95_lower": [
+      0.7117190586939146,
+      0.7225745705540965,
+      0.6957425078043705
+    ]
+  },
+  "gate_c_stratified": {
+    "pass": true,
+    "per_seed": [
+      0.7298871569598279,
+      0.741373492690717,
+      0.7167962921463082
+    ],
+    "mean": 0.7293523139322845,
+    "synchronous_ci95": [
+      0.7109963450793656,
+      0.7467338775322586
+    ]
+  },
+  "gate_d_increment": {
+    "pass": true,
+    "path_d1": {
+      "all_seed_delta_auroc_nonnegative": true,
+      "mean_delta_auroc_at_least_0_008": true,
+      "one_sided_97_5_lower_above_zero": true,
+      "mean_delta_fpr95_safety": true,
+      "each_delta_fpr95_safety": true,
+      "pass": true
+    },
+    "path_d2": {
+      "all_seed_delta_fpr95_nonpositive": true,
+      "mean_delta_fpr95_at_most_minus_0_02": true,
+      "one_sided_97_5_upper_below_zero": false,
+      "mean_delta_auroc_safety": true,
+      "each_delta_auroc_safety": true,
+      "pass": false
+    },
+    "delta_auroc_q50": [
+      0.0263101331723646,
+      0.0109082436668643,
+      0.015445022545959
+    ],
+    "delta_fpr95_q50": [
+      -0.0649554740701937,
+      -0.0026939655172413,
+      -0.0265348595213319
+    ],
+    "mean_delta_auroc_q50": 0.0175544664617293,
+    "mean_delta_fpr95_q50": -0.03139476636958897,
+    "synchronous_delta_auroc_lower_97_5": 0.008690234266268262,
+    "synchronous_delta_fpr95_upper_97_5": 0.005821152990348978
+  },
+  "gate_e_overall_noninferiority": {
+    "pass": true,
+    "delta_auroc_overall": [
+      0.0016612016021362,
+      0.001785050993022,
+      0.002007257203842
+    ],
+    "mean": 0.0018178365996667333
+  },
+  "gate_f_replication": {
+    "pass": true,
+    "completed_seeds": [
+      0,
+      1,
+      2
+    ]
+  },
+  "synchronous_bootstrap": {
+    "iterations": 2000,
+    "seed": 20260805,
+    "invalid": {
+      "mean_q50_d_gop_auroc": 0,
+      "mean_auc_stratified": 0,
+      "mean_delta_auroc_q50": 0,
+      "mean_delta_fpr95_q50": 0
+    },
+    "invalid_fraction": {
+      "mean_q50_d_gop_auroc": 0.0,
+      "mean_auc_stratified": 0.0,
+      "mean_delta_auroc_q50": 0.0,
+      "mean_delta_fpr95_q50": 0.0
+    },
+    "summary": {
+      "mean_q50_d_gop_auroc": {
+        "n_valid": 2000,
+        "ci95": [
+          0.7157511306326094,
+          0.7508641392613885
+        ],
+        "p2_5": 0.7157511306326094,
+        "p97_5": 0.7508641392613885
+      },
+      "mean_auc_stratified": {
+        "n_valid": 2000,
+        "ci95": [
+          0.7109963450793656,
+          0.7467338775322586
+        ],
+        "p2_5": 0.7109963450793656,
+        "p97_5": 0.7467338775322586
+      },
+      "mean_delta_auroc_q50": {
+        "n_valid": 2000,
+        "ci95": [
+          0.008690234266268262,
+          0.024266522130189584
+        ],
+        "p2_5": 0.008690234266268262,
+        "p97_5": 0.024266522130189584
+      },
+      "mean_delta_fpr95_q50": {
+        "n_valid": 2000,
+        "ci95": [
+          -0.06605775005398334,
+          0.005821152990348978
+        ],
+        "p2_5": -0.06605775005398334,
+        "p97_5": 0.005821152990348978
+      }
+    }
+  },
+  "p1": "NOT_RUN",
+  "completed_at_utc": "2026-08-05T16:00:16.302165+00:00"
+}

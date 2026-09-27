@@ -1,0 +1,10 @@
+latex_cell_1,latex_cell_2,latex_cell_3,latex_cell_4,latex_cell_5,latex_cell_6
+Gradient target,\textbf{Decision margin (final)},\textbf{0.8732},\textbf{0.4223},\textbf{+0.0065},\textbf{−0.0560}
+,Predicted-class logit,0.8731,0.4240,+0.0064,−0.0543
+Cross-view discrepancy measure,\textbf{JSD (final)},\textbf{0.8732},\textbf{0.4223},\textbf{+0.0065},\textbf{−0.0560}
+,Cosine distance,0.8721,0.4345,+0.0054,−0.0438
+,Normalized L1,0.8735,0.4233,+0.0068,−0.0550
+View strength,Brightness 0.85 + shift 1 px,0.8736,0.4207,+0.0070,−0.0577
+,\textbf{Brightness 0.90 + shift 1 px (final)},\textbf{0.8732},\textbf{0.4223},\textbf{+0.0065},\textbf{−0.0560}
+,Brightness 0.95 + shift 1 px,0.8727,0.4267,+0.0060,−0.0517
+,Brightness 0.90 + shift 2 px,0.8721,0.4332,+0.0054,−0.0452

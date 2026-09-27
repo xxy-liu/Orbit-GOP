@@ -1,0 +1,74 @@
+{
+  "experiment_name": "ResNet18-EDL-Softplus",
+  "dataset": "CIFAR-10",
+  "data_root": "PROJECT\\datasets",
+  "num_classes": 10,
+  "model": "CIFAR-adapted ResNet18",
+  "feature_dim": 512,
+  "pretrained": false,
+  "evidence_activation": "Softplus",
+  "softplus_beta": 1.0,
+  "softplus_threshold": 20.0,
+  "alpha_definition": "evidence + 1",
+  "probability_definition": "alpha / sum(alpha)",
+  "uncertainty_definition": "10 / sum(alpha)",
+  "loss": "Sensoy Equation 5 Bayes risk plus label-masked Dirichlet KL",
+  "kl_annealing_epochs": 10,
+  "epochs": 200,
+  "batch_size": 128,
+  "optimizer": "SGD",
+  "learning_rate": 0.1,
+  "momentum": 0.9,
+  "nesterov": true,
+  "weight_decay": 0.0005,
+  "warmup_epochs": 5,
+  "scheduler": "linear warmup plus cosine decay",
+  "minimum_learning_rate": 1e-06,
+  "training_seeds": [
+    3,
+    4,
+    5
+  ],
+  "split_seed": 20260917,
+  "num_workers": 4,
+  "mixed_precision_backbone": true,
+  "edl_math_float32": true,
+  "grad_scaler_init_scale": 65536.0,
+  "grad_scaler_growth_interval": 1000000000,
+  "ece_bins": 15,
+  "checkpoint_selection": [
+    "max_validation_accuracy",
+    "min_validation_ece",
+    "min_validation_nll",
+    "earliest_epoch"
+  ],
+  "train_augmentation": [
+    "RandomCrop(32,padding=4)",
+    "RandomHorizontalFlip()"
+  ],
+  "normalization_mean": [
+    0.4914,
+    0.4822,
+    0.4465
+  ],
+  "normalization_std": [
+    0.247,
+    0.2435,
+    0.2616
+  ],
+  "forbidden_components": [
+    "AGOP",
+    "P1 tail loss",
+    "temperature scaling",
+    "OOD training",
+    "extra evidence constraint",
+    "Mixup",
+    "CutMix",
+    "label smoothing",
+    "pretrained weights",
+    "test-time adaptation",
+    "transform track",
+    "pseudo-count calibration"
+  ],
+  "claim_boundary": "Not a line-by-line reproduction of all Sensoy paper training settings"
+}

@@ -1,0 +1,501 @@
+[
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/model.py",
+    "public_path": "models/resnet18.py",
+    "source_sha256": "7267d210e54c68428f0b0dc4831360ca84ef5685fb9ef33c2dcd6fe51ba65d8f",
+    "public_sha256": "7267d210e54c68428f0b0dc4831360ca84ef5685fb9ef33c2dcd6fe51ba65d8f",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/experiments/P5_3R_vgg_lr_selection/code/model.py",
+    "public_path": "models/vgg16_bn.py",
+    "source_sha256": "c90cc9618a62fee4e46e18c9225a8bb62709220a7ca34940b6414f69a10c655f",
+    "public_sha256": "c90cc9618a62fee4e46e18c9225a8bb62709220a7ca34940b6414f69a10c655f",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/model.py",
+    "public_path": "models/wrn28_10.py",
+    "source_sha256": "4a34cfdf6a52c5953e909987e6571f18ba94a867f6d81befccd021129f5621cc",
+    "public_sha256": "4a34cfdf6a52c5953e909987e6571f18ba94a867f6d81befccd021129f5621cc",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/data.py",
+    "public_path": "training/b0/data.py",
+    "source_sha256": "36b89c9b139ec3c05b34f3c7728241e88b57541a1422e7203b0ba1a050c630b0",
+    "public_sha256": "36b89c9b139ec3c05b34f3c7728241e88b57541a1422e7203b0ba1a050c630b0",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/engine.py",
+    "public_path": "training/b0/engine.py",
+    "source_sha256": "5c68ef0842a135aff5ed6b38bb823baec3927370d275b1f51bab61c17ef410ad",
+    "public_sha256": "5c68ef0842a135aff5ed6b38bb823baec3927370d275b1f51bab61c17ef410ad",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/loss.py",
+    "public_path": "training/b0/loss.py",
+    "source_sha256": "6f079b44c0d6d68cc43482b141b736478bfc119430e0bbb4f406b562372ef38e",
+    "public_sha256": "6f079b44c0d6d68cc43482b141b736478bfc119430e0bbb4f406b562372ef38e",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/metrics.py",
+    "public_path": "training/b0/metrics.py",
+    "source_sha256": "7b26b68e51f52249c7dc780f47caef4acfac6822b7dfb551167c5eb5f0064a87",
+    "public_sha256": "7b26b68e51f52249c7dc780f47caef4acfac6822b7dfb551167c5eb5f0064a87",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/schedule.py",
+    "public_path": "training/b0/schedule.py",
+    "source_sha256": "e01ceeb2f7a6a6481e164c275b1bb61ea0a627e9dc7df17ae1c81f716d7d31d9",
+    "public_sha256": "e01ceeb2f7a6a6481e164c275b1bb61ea0a627e9dc7df17ae1c81f716d7d31d9",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/code/b0_edl/artifacts.py",
+    "public_path": "training/artifacts.py",
+    "source_sha256": "3c1c14498c668d598a8971fa5dda05e196ef009e7b7239aabfa9e1671c244623",
+    "public_sha256": "54e28e8d48e03c673af82efb8714dca80373c112445075fd67c0c5b0c30abacd",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "sha256_file",
+      "canonical_hash",
+      "set_determinism",
+      "utc_now",
+      "write_json"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P0实验归档/02_V3技术停止/code/p0_core.py",
+    "public_path": "orbit_gop/views.py",
+    "source_sha256": "39623189186c60c56551f5d487c8ae406277522b66303087525fb61613cfbb8e",
+    "public_sha256": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "make_views",
+      "normalize"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/core.py",
+    "public_path": "orbit_gop/functional_risk.py",
+    "source_sha256": "45ea61492902ffbc4e6f644aa1063f46916f54f29fe5f78f16c460093234be09",
+    "public_sha256": "6dbe913e348f533fc64c2da9a580e5714d4f0f01aff26d2aaf408ad825a8536b",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "generalized_js",
+      "midrank",
+      "q_func"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P0实验归档/02_V3技术停止/code/p0_core.py",
+    "public_path": "orbit_gop/_resnet_signature.py",
+    "source_sha256": "39623189186c60c56551f5d487c8ae406277522b66303087525fb61613cfbb8e",
+    "public_sha256": "e4d39b0a01582a44b37ab00bc4ad3261f0c2b50bfdd9a4637bd575561288afbc",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "stable_margin",
+      "_forward_view"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/core.py",
+    "public_path": "orbit_gop/_wrn_source.py",
+    "source_sha256": "45ea61492902ffbc4e6f644aa1063f46916f54f29fe5f78f16c460093234be09",
+    "public_sha256": "bb842f56072cea8795a796aba0715e524925398f5a9bac127ade20c2a8a8e0c9",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "stable_margin",
+      "image_view",
+      "normalize",
+      "loader",
+      "worker_init",
+      "extract_gop"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/Stage_P3/code/p3_core.py",
+    "public_path": "orbit_gop/calibration.py",
+    "source_sha256": "d78a15200ce19b3f519f7f466f436089a99e7aa933491284dcd84889ebb5a0dd",
+    "public_sha256": "bf55cad26c3a1fe79124694428bff9a16f111379777e64d5f9bbb4c1b8a03869",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "categorical_nll",
+      "fit_global_scale",
+      "scaled_probability"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/core.py",
+    "public_path": "orbit_gop/_scores.py",
+    "source_sha256": "45ea61492902ffbc4e6f644aa1063f46916f54f29fe5f78f16c460093234be09",
+    "public_sha256": "d3955a9c226a5c97f326925cc64c83d56e4e21811e7a241661f7c96d2790a286",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "fit_c_global",
+      "scores"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/Stage_P4_B/code/p4b_common.py",
+    "public_path": "baselines/output_scores.py",
+    "source_sha256": "037e48dfbfa55ef734ed2b2645d94148e7791ef16387bd4ff4025c77146a9147",
+    "public_sha256": "c4d09736b751c02ed8de5afda1f71f216db92af0fbb11bf87538d56aa6a5e25b",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "stable_softmax_scores",
+      "react_logits"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/core.py",
+    "public_path": "orbit_gop/metrics.py",
+    "source_sha256": "45ea61492902ffbc4e6f644aa1063f46916f54f29fe5f78f16c460093234be09",
+    "public_sha256": "d47c401835630a8ca8565441852e5b2ea89697112f11d4661c3584dab0bd1eab",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "ood_metrics",
+      "ece",
+      "aurc",
+      "id_metrics"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/P5_ROBUSTNESS_EXTENSION/01_cedl_fair_tuning/01_code/cedl_parametric_offline.py",
+    "public_path": "baselines/cedl_offline.py",
+    "source_sha256": "ce9ea9551cfb0d979192423c60422d796258718bebb37bf365c85738bb9c835b",
+    "public_sha256": "ce9ea9551cfb0d979192423c60422d796258718bebb37bf365c85738bb9c835b",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/cedl_novelty_check/external/cedl_official/LICENSE",
+    "public_path": "docs/licenses/CEDL_LICENSE",
+    "source_sha256": "7e210e881f774e017801c0f567385a7904f29de082c1accbf923d1984ac71108",
+    "public_sha256": "7e210e881f774e017801c0f567385a7904f29de082c1accbf923d1984ac71108",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/scripts/train.py",
+    "public_path": "training/resnet.py",
+    "source_sha256": "36cbe6620e5747a18a162687d65eaac56cfdd88dac2e26b14c6f30fc846dd483",
+    "public_sha256": "08936753c7469bc8e24a8dd361f259842aa665d63e29952537a142bf0be07bc4",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "atomic_torch_save",
+      "logger_for",
+      "validate_config",
+      "better",
+      "gradient_check",
+      "main"
+    ],
+    "changes": "Extracted unchanged symbols; {'config = json.loads((ROOT / \"config.json\").read_text(encoding=\"utf-8\"))': 'config = CONFIG', '    preflight = json.loads((ROOT / \"audits\" / \"preflight.json\").read_text(encoding=\"utf-8\"))\\n    if preflight.get(\"status\") != \"PASS\":\\n        raise RuntimeError(\"Preflight audit is not PASS\")\\n    if args.seed in (1, 2):\\n        seed0_audit = json.loads((ROOT / \"audits\" / \"seed0_audit.json\").read_text(encoding=\"utf-8\"))\\n        if seed0_audit.get(\"status\") != \"PASS\" or not (ROOT / \"frozen_manifest.json\").exists():\\n            raise RuntimeError(\"Seed 0 audit/freeze gate has not passed\")\\n        verify_manifest(ROOT, ROOT / \"frozen_manifest.json\")': '    # Historical approval artifacts are not fabricated for new public runs.\\n    # The CLI verifies packaged split identities before calling this loop.', 'ROOT / \"splits\"': 'MANIFESTS', 'preflight[\"split\"][\"combined_split_sha256\"]': 'canonical_hash([sha256_file(MANIFESTS / \"train_indices.npy\"),sha256_file(MANIFESTS / \"validation_indices.npy\")])'}"
+  },
+  {
+    "original_path": "outputs/experiments/P8_R1_vgg_baseline_recovery/code/p8_r1.py",
+    "public_path": "training/vgg.py",
+    "source_sha256": "3eef30332d7771115fa5a4c6ea368177632bb7405f9ab552e1d65892c12254e3",
+    "public_sha256": "86211dac3564bddb091c8654a08931091fa4fc33de01b3439bb1ac8c29ba5b64",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "IndexedSubset",
+      "utc_now",
+      "sha256_file",
+      "canonical_hash",
+      "state_dict_hash",
+      "atomic_text",
+      "write_json",
+      "read_json",
+      "write_csv",
+      "atomic_torch_save",
+      "set_determinism",
+      "worker_init_fn",
+      "make_loader",
+      "id_train_validation_datasets",
+      "norm_of",
+      "parameter_norms",
+      "required_gradient_norms",
+      "ece",
+      "evaluate",
+      "checkpoint_better",
+      "collapse_reason",
+      "run_paths",
+      "training_initial_state",
+      "reproduce_checkpoint",
+      "assess_health",
+      "train_run"
+    ],
+    "changes": "Extracted unchanged symbols; {'    tests_payload = read_json(ROOT / \"tests\" / \"unit_tests.json\")\\n    if tests_payload.get(\"status\") != \"PASS\":\\n        raise RuntimeError(\"unit/isolation tests are not PASS\")\\n    protocol = read_json(ROOT / \"audit\" / \"protocol.json\")': '    protocol = {\"protocol_sha256\": sha256_file(ROOT / \"run_config.json\")}', '    data_log = read_json(ROOT / \"audit\" / \"data_access_log.json\")\\n    data_log[\"events\"].append({\"event\": \"training\", \"run\": run_name, \"seed\": seed, \"data\": \"CIFAR-10 train=True frozen train/validation split\", \"at_utc\": utc_now()})\\n    write_json(ROOT / \"audit\" / \"data_access_log.json\", data_log)': '    # New run metadata is written above; no historical access log is replayed.', 'ROOT / \"checkpoints\" / \"seed0_initial_state.pt\"': 'INITIAL_CHECKPOINT', '        if payload[\"protocol_sha256\"] != protocol_sha:\\n            raise RuntimeError(\"seed-0 frozen initialization protocol mismatch\")': '        # CLI verifies the original frozen initialization file SHA256.', 'weights_only=False': 'weights_only=True'}"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/run_p6c.py",
+    "public_path": "training/wrn.py",
+    "source_sha256": "b4120cf84d11ec0ca46c158bc87b418af1e00461b60bb3cf823e60809671e6bb",
+    "public_sha256": "0136ef3ca74c43cc33dc5ae6cf682a28b91e8b7d0e384d7459d6fdd5e14cc97f",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "now",
+      "log",
+      "atomic_torch_save",
+      "save_npz",
+      "load_checkpoint",
+      "cmd_train"
+    ],
+    "changes": "Extracted unchanged symbols; {'    preflight = read_json(OUT / \"qa\" / \"PREFLIGHT.json\")\\n    if preflight[\"status\"] != \"PASS\":\\n        raise RuntimeError(\"preflight gate is not PASS\")': '    # Public CLI verifies split hashes and inputs before training.', 'OUT / \"P6_C_CONFIG_MANIFEST.json\"': 'OUT / \"run_config.json\"', 'weights_only=False': 'weights_only=True'}"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/core.py",
+    "public_path": "training/wrn_core.py",
+    "source_sha256": "45ea61492902ffbc4e6f644aa1063f46916f54f29fe5f78f16c460093234be09",
+    "public_sha256": "1c42f696cee2fefddfb642f3f5a6892e2cb2a5b332e8c4f1e569a6fc84275003",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "sha256_file",
+      "write_json",
+      "read_json",
+      "configure",
+      "IndexedSubset",
+      "IndexedDataset",
+      "worker_init",
+      "loader",
+      "train_transform",
+      "eval_transform",
+      "edl_loss",
+      "learning_rate",
+      "classification_arrays",
+      "classification_metrics"
+    ],
+    "changes": "Extracted unchanged symbols; imports/constants only"
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/splits/train_indices.npy",
+    "public_path": "manifests/train_indices.npy",
+    "source_sha256": "09211853556dc294e9a756796d8007dfe5c511713124bdc2920163dcd1765f5c",
+    "public_sha256": "09211853556dc294e9a756796d8007dfe5c511713124bdc2920163dcd1765f5c",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/splits/validation_indices.npy",
+    "public_path": "manifests/validation_indices.npy",
+    "source_sha256": "adc0b54caf7e75c5cd2deb912e5296bb3b87f0ef5ac1c91b231cb87d20b7c002",
+    "public_sha256": "adc0b54caf7e75c5cd2deb912e5296bb3b87f0ef5ac1c91b231cb87d20b7c002",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/Stage_P1_v2/protocol/data_indices/cifar10_calibration_indices.npy",
+    "public_path": "manifests/cifar10_calibration_indices.npy",
+    "source_sha256": "9eb11ea177d3a00904440a450a40da3ade3767880aecc5798750bdd9120960c6",
+    "public_sha256": "9eb11ea177d3a00904440a450a40da3ade3767880aecc5798750bdd9120960c6",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/Stage_P1_v2/protocol/data_indices/cifar10_id_safety_indices.npy",
+    "public_path": "manifests/cifar10_id_safety_indices.npy",
+    "source_sha256": "ad3fd63c36812961aa9ca4b5235926ef6d34cf3bf66cbc4dde3a78559c94fbb4",
+    "public_sha256": "ad3fd63c36812961aa9ca4b5235926ef6d34cf3bf66cbc4dde3a78559c94fbb4",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/Stage_P1_v2/protocol/data_indices/cifar100_development_indices.npy",
+    "public_path": "manifests/cifar100_development_indices.npy",
+    "source_sha256": "023fd70333e4032412f02c5e520b459570f5c36a7117e7fd0e4501b77a491ae9",
+    "public_sha256": "023fd70333e4032412f02c5e520b459570f5c36a7117e7fd0e4501b77a491ae9",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/Stage_P1_v2/protocol/data_indices/cifar100_p2_v2_holdout_indices.npy",
+    "public_path": "manifests/cifar100_p2_v2_holdout_indices.npy",
+    "source_sha256": "61b05e43f87251a9e34a328b878b5aaaaddecf2b0dfbe17e5be0eae8d93c696e",
+    "public_sha256": "61b05e43f87251a9e34a328b878b5aaaaddecf2b0dfbe17e5be0eae8d93c696e",
+    "action": "COPY",
+    "symbols": [],
+    "changes": ""
+  },
+  {
+    "original_path": "outputs/ResNet18-EDL-Softplus/config.json",
+    "public_path": "configs/resnet_training.json",
+    "source_sha256": "195ba1a8752ccd3da1845faa782aebd827eb332c273156c4c84cbb1b288bf22c",
+    "public_sha256": "b4216e3cc8ba57ab9cd60059ccdd6ecbf77cac54a34959301bdc0f9fceabd28c",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Removed local data_root; supplied by CLI"
+  },
+  {
+    "original_path": "outputs/Stage_P3/protocol/calibration/seed_0_calibration.npz",
+    "public_path": "manifests/references/resnet18_S0.npz",
+    "source_sha256": "e3f5e1bbb54e63e8612808dec2d37f7e14b94db19f5e853d05772f90a4749bee",
+    "public_sha256": "199a51e844fe7f019d4031b06503f33b4b0cd9ddb4ccceae06cceecf11b5d5fe",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/Stage_P3/protocol/calibration/seed_1_calibration.npz",
+    "public_path": "manifests/references/resnet18_S1.npz",
+    "source_sha256": "ae32f8037fd520ad9e38a7b0719a9784f949a3fd58fd88d1711c09c0cec9efe8",
+    "public_sha256": "f78cae906a10b2bf7face5013fd060c822c98135a8a9597ef850ab086b0d1f73",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/Stage_P3/protocol/calibration/seed_2_calibration.npz",
+    "public_path": "manifests/references/resnet18_S2.npz",
+    "source_sha256": "c501f2483f1dbf263db7289ed7022c1b223297ea4d235273db459fd111901c00",
+    "public_sha256": "ff589e0978e17eb4594a89113c7141b2f4cff078a20d616f7085aed3d91adeba",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/experiments/P13_block4_manuscript_figure_repair/final_repaired/references/V0_block4_qfunc_reference.npz",
+    "public_path": "manifests/references/vgg16_bn_S0.npz",
+    "source_sha256": "d47944af1087d3b4173c30463867ef22f0cb6d2db30b194df8274b81dd480386",
+    "public_sha256": "d7614a2b64f9a7b1924f8efeb20ae1448d70f8c7a510aafb9a19f9ad17bce1ae",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/experiments/P13_block4_manuscript_figure_repair/final_repaired/references/V1_block4_qfunc_reference.npz",
+    "public_path": "manifests/references/vgg16_bn_S1.npz",
+    "source_sha256": "aabae27e47d5ac0cd393994fbd626eb342a2615d2f14eb6e51ff3e9cecadcb70",
+    "public_sha256": "dcd4aadc4ec218a3d2ee9932b1d42371a36a31ac0e163895bae25e64d6c6eddd",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/experiments/P13_block4_manuscript_figure_repair/final_repaired/references/V2_block4_qfunc_reference.npz",
+    "public_path": "manifests/references/vgg16_bn_S2.npz",
+    "source_sha256": "0b4cf230b76d2bf6ad391766f80655306fbb3cb7ee4796da64f7d33711ad654c",
+    "public_sha256": "f178ea9ac66b9835215236b0e5934f700d63800998d3329c2c0d9043aaf4de02",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/raw/seed_0_calibration.npz",
+    "public_path": "manifests/references/wrn28_10_S0.npz",
+    "source_sha256": "5107c6b7b85fab62490029490c4ec598234178e0e22fd9e8b5dfa9b3f517d2f0",
+    "public_sha256": "970ffe6abc45f302ae47ff432760e16362101b28d480d67e454f9533e4af6187",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/raw/seed_1_calibration.npz",
+    "public_path": "manifests/references/wrn28_10_S1.npz",
+    "source_sha256": "430e786ddb4cdc6a794f061f0827c105ad1ffa075e3c43d4f6ec01b47a82826b",
+    "public_sha256": "05fb0eccbd1f59eec33cf81d9a29e1651f0570f2597b176de889cdefe5b06d95",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/raw/seed_2_calibration.npz",
+    "public_path": "manifests/references/wrn28_10_S2.npz",
+    "source_sha256": "254a6f61bda5e4544857d1e09600c91c431b929bf3baf9278689ecff22869c1b",
+    "public_sha256": "cf5f4eb4ae4ebe6e2c958ef86ca2647a88b8a9efe0b3de35fe1316d5618bf21e",
+    "action": "REWRITE_COPY",
+    "symbols": [],
+    "changes": "Retained exactly class-conditioned d_GOP values; normalized schema; added frozen checkpoint/c_global identity; removed unused diagnostic fields"
+  },
+  {
+    "original_path": "outputs/experiments/P5_frozen_extension/P5_2_strong_baselines/code/p5_2.py",
+    "public_path": "baselines/knn.py",
+    "source_sha256": "eb18e9063aba5fa504c0d28b9f468eb8789239824863b1bb916a5de8b0e3fb61",
+    "public_sha256": "8cd2710f170c25dec9d24eb43b00225de7d85b35f8412b8b953c260549b5d891",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "l2_normalize",
+      "kth_distance_formula"
+    ],
+    "changes": "Exact function/class extraction; portable imports"
+  },
+  {
+    "original_path": "outputs/P5_ROBUSTNESS_EXTENSION/05_gradnorm_baseline/01_code/adapter.py",
+    "public_path": "baselines/gradnorm.py",
+    "source_sha256": "b863dfe762b43cf29036cdda2f67ea7b5a0ce370e709a4a3a20722155ad53335",
+    "public_sha256": "2ea7712b44f6fcece9d72c374b2b62903e8bafc121f687ba03a57d5c4869d45b",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "EDLAdapter",
+      "state_hash",
+      "AuditedGradNorm"
+    ],
+    "changes": "Exact function/class extraction; portable imports"
+  },
+  {
+    "original_path": "outputs/Stage_P4_C/source/OpenOOD_v1.5/LICENSE",
+    "public_path": "docs/licenses/OPENOOD_LICENSE",
+    "source_sha256": "9d95944eb28fd2ac4006869ec453447c3c9cc560dcc2700884f6623a1a1ef4c4",
+    "public_sha256": "9d95944eb28fd2ac4006869ec453447c3c9cc560dcc2700884f6623a1a1ef4c4",
+    "action": "COPY",
+    "symbols": [],
+    "changes": "Full original license notice preserved"
+  },
+  {
+    "original_path": "outputs/P5_ROBUSTNESS_EXTENSION/05_gradnorm_baseline/00_admission/public_source/AUTHOR_LICENSE",
+    "public_path": "docs/licenses/GRADNORM_LICENSE",
+    "source_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "public_sha256": "43070e2d4e532684de521b885f385d0841030efa2b1a20bafb76133a5e1379c1",
+    "action": "COPY",
+    "symbols": [],
+    "changes": "Full original license notice preserved"
+  },
+  {
+    "original_path": "outputs/P6_C_WRN28_10_TRANSFER_20260906_170857/code/core.py",
+    "public_path": "scripts/tiny_dataset.py",
+    "source_sha256": "45ea61492902ffbc4e6f644aa1063f46916f54f29fe5f78f16c460093234be09",
+    "public_sha256": "a607a242026c448806f6bca8e895080dad5c1142d5066cb22be47670fb91e007",
+    "action": "REWRITE_COPY",
+    "symbols": [
+      "TinyManifest"
+    ],
+    "changes": "Only constructor accepts manifest and image_root arguments"
+  }
+]

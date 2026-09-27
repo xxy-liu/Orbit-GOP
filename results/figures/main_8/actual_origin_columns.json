@@ -1,0 +1,126 @@
+[
+  {
+    "range": "[Reference0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.4,
+        0.4
+      ],
+      [
+        87.05,
+        88.0
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[BetaAUROC]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1.2
+      ],
+      [
+        87.181888,
+        87.341356,
+        87.476408,
+        87.675596,
+        87.842696,
+        87.67515999999999,
+        87.215612
+      ]
+    ],
+    "meaning": "Frozen FP32 Seed-0 development; proportion ×100; original seven beta values"
+  },
+  {
+    "range": "[SelectedAUROC]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.4
+      ],
+      [
+        87.842696
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Reference3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.4,
+        0.4
+      ],
+      [
+        40.0,
+        48.2
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[BetaFPR95]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1.2
+      ],
+      [
+        46.9,
+        45.15,
+        43.8,
+        42.5,
+        41.099999999999994,
+        41.5,
+        44.9
+      ]
+    ],
+    "meaning": "Frozen FP32 Seed-0 development; proportion ×100; original seven beta values"
+  },
+  {
+    "range": "[SelectedFPR95]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.4
+      ],
+      [
+        41.099999999999994
+      ]
+    ],
+    "meaning": ""
+  }
+]

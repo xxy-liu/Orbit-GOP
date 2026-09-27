@@ -1,0 +1,7 @@
+step_id,step,n_repeats,batches_per_repeat,batch_size,mean_ms_per_batch,sample_sd_ms_per_batch,beta,use_in_figure8a
+view_construction,View construction,5,200,64,0.1986043,0.006395400853347654,0.4,True
+forward,Forward pass,5,200,64,33.0963708,0.26282918004870764,0.4,True
+gradient_extraction,Gradient extraction,5,200,64,12.8788744,0.1950676167164223,0.4,True
+gop_signature,GOP signature,5,200,64,0.5566515999999999,0.024828906294881343,0.4,True
+jsd,JSD,5,200,64,0.2374921,0.00961191684446969,0.4,True
+risk_mapping,Risk mapping / evidence calibration,5,200,64,0.34413639999999995,0.009140674745334728,0.4,True

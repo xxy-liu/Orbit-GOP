@@ -1,0 +1,110 @@
+path,classification,reason,referenced_by_public_doc,safe_to_exclude
+FINAL_PAPER_COVERAGE.csv,USEFUL_PROVENANCE,Identical coverage copy consolidated at provenance/PAPER_COVERAGE.csv,NO,YES
+LICENSE_PENDING.md,ESSENTIAL,"Superseded public document; current scope, attribution, authorization, or exclusion record supplied elsewhere",NO,YES
+provenance/ARCHIVE_CODE_AUDIT.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/BINARY_CONTENT_CHECK.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/confirmatory/v2/CODE_AUDIT.json,INTERNAL_ONLY,"Internal v2 QA detail superseded; S5 bugfix, locked protocol, freeze, and finite-path evidence retained",NO,YES
+provenance/confirmatory/v2/PRESERVATION_QA.json,INTERNAL_ONLY,"Internal v2 QA detail superseded; S5 bugfix, locked protocol, freeze, and finite-path evidence retained",NO,YES
+provenance/CONTENT_MIGRATION_MAP.csv,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/CURRENT_PAPER_ALIGNMENT.json,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/EXCLUDED_SOURCE_RECORDS.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/EXCLUDED_SUBTREES.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/FIGURE_NUMBERING_IDENTITY.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/FINAL_BOUNDARY_INPUTS.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/FINAL_CHECK.json,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/FINAL_CODE_AUDIT.csv,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/FINAL_STATIC_AUDIT.json,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/HISTORICAL_TABLE_NUMERIC_CHECK.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/MANUSCRIPT_REFERENCE_CHECK.json,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/NUMERICAL_SOURCE_CHECK.json,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/retained/additional_samples/RUN_FREEZE.json,INTERNAL_ONLY,Duplicate or relocated historical record; canonical historical provenance retained,NO,YES
+provenance/retained/additional_samples/RUN_PROVENANCE.json,INTERNAL_ONLY,Duplicate or relocated historical record; canonical historical provenance retained,NO,YES
+provenance/retained/additional_samples/RUN_QA_REPORT.md,INTERNAL_ONLY,Duplicate or relocated historical record; canonical historical provenance retained,NO,YES
+provenance/retained/additional_samples/RUN_STATE.json,INTERNAL_ONLY,Duplicate or relocated historical record; canonical historical provenance retained,NO,YES
+provenance/retained/additional_samples/statistics/BOOTSTRAP_PLAN.json,INTERNAL_ONLY,Duplicate or relocated historical record; canonical historical provenance retained,NO,YES
+provenance/retained/additional_samples/VALIDATION_PROTOCOL_APPROVED.md,INTERNAL_ONLY,Duplicate or relocated historical record; canonical historical provenance retained,NO,YES
+provenance/retained/FIGURE_COMPLIANCE_TABLE.csv,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/SOURCE_LINK_CHECK.json,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/SOURCE_TREE_AUDIT.csv,USEFUL_PROVENANCE,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+provenance/TECHNICAL_CHECKS.json,INTERNAL_ONLY,Internal packaging audit or superseded source-scope metadata; paper evidence and current provenance retained,NO,YES
+PUBLICATION_EXCLUDE_LIST.txt,USEFUL_PROVENANCE,"Superseded public document; current scope, attribution, authorization, or exclusion record supplied elsewhere",NO,YES
+README_REPRODUCIBILITY.md,ESSENTIAL,"Superseded public document; current scope, attribution, authorization, or exclusion record supplied elsewhere",NO,YES
+results/figures/late_efficiency/cost.csv,USEFUL_PROVENANCE,Identical presentation copy; canonical retained under results/figures/main_9,NO,YES
+results/figures/late_efficiency/data_checks.json,USEFUL_PROVENANCE,Identical presentation copy; canonical retained under results/figures/main_9,NO,YES
+results/figures/late_efficiency/figure8_plot_data.csv,USEFUL_PROVENANCE,Identical presentation copy; canonical retained under results/figures/main_9,NO,YES
+results/figures/late_efficiency/performance.csv,USEFUL_PROVENANCE,Identical presentation copy; canonical retained under results/figures/main_9,NO,YES
+results/figures/late_efficiency/profile.csv,USEFUL_PROVENANCE,Identical presentation copy; canonical retained under results/figures/main_9,NO,YES
+results/figures/late_efficiency/source_data_manifest.json,USEFUL_PROVENANCE,Identical presentation copy; canonical retained under results/figures/main_9,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_FORMAL_V2_20260912_141557/analysis.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_FORMAL_V2_20260912_141557/code/verify_delivery.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_FORMAL_V2_20260912_141557/common.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_FORMAL_V2_20260912_141557/preflight.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_FORMAL_V2_20260912_141557/resume.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_FORMAL_V2_20260912_141557/run.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_READINESS_CLOSURE_20260912_130032/finalize_closure.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_READINESS_CLOSURE_20260912_130032/prepare_closure.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_READINESS_CLOSURE_20260912_130032/technical_test.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_TARGETED_FIX_20260912_133901/finalize_fix.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_TARGETED_FIX_20260912_133901/prepare_fix.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/additional_samples/NEW_VALIDATION_TARGETED_FIX_20260912_133901/technical_v2.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/audit_files.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/finalize.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/function_only_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/plot_figure7.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/run_closure.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/table4_pipeline.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/beta/verify_closure.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/cifar10c/p6b_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/cifar10c/run_p6b.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/efficiency/audit_files.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/efficiency/build_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/efficiency/finalize.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/efficiency/function_only_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/efficiency/performance_audit.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/efficiency/run_benchmark.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/confirmatory/draw_figures.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/late_confirmatory/绘制图1和2.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/late_confirmatory/绘制图3.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/late_efficiency/绘制图10.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_4/base/plot_figure3.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_4/current/plot_figure3.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_5/base/plot_figure6.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_5/current/plot_figure6.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_6/base/plot_figure9.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_6/current/plot_figure9.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_7/base/plot_figure10.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_7/current/plot_figure10.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_8/base/plot_figure7.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_8/current/plot_figure7.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_8/final_input/plot_figure7.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_9/base/plot_figure8.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_9/current/plot_figure8.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/main_9/final_input/绘制图10.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/origin_compliance/adapt.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/origin_compliance/package.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/origin_compliance/run_origin.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/figures/origin_compliance/verify_delivery.py,INTERNAL_ONLY,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/layer_ablation/audit_files.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/layer_ablation/finalize.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/layer_ablation/layer_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/layer_ablation/run_layers.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/layer_ablation/verify_layers.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/matched_cost/audit_files.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/matched_cost/build_runner.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/matched_cost/function_only_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/matched_cost/plot_finalize.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/matched_cost/run_latency.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/audit_files.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/build_profile.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/finalize.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/function_only_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/preserve_attempt.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/profiling_core.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/run_profile.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/profile/table7_source.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/vgg_layers/P11_cedl_weakness_complementarity/p11.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/vgg_layers/P11_cedl_weakness_complementarity/verify_p11.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/vgg_layers/P12_block4_replacement_audit/p12.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+scripts/archive/vgg_layers/P12_block4_replacement_audit/verify_p12.py,OPTIONAL,Historical archive source excluded for minimal public scope and unclosed file-level redistribution rights,NO,YES
+THIRD_PARTY.md,ESSENTIAL,"Superseded public document; current scope, attribution, authorization, or exclusion record supplied elsewhere",NO,YES
+THIRD_PARTY_AUDIT.md,USEFUL_PROVENANCE,"Superseded public document; current scope, attribution, authorization, or exclusion record supplied elsewhere",NO,YES

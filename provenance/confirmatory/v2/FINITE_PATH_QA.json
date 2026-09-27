@@ -1,0 +1,138 @@
+{
+  "status": "PASS",
+  "comparison": "bitwise equality (tensor byte digests), no tolerance",
+  "torch_version": "2.11.0+cu128",
+  "device": "NVIDIA GeForce RTX 5060 Ti",
+  "finite_batches": [
+    {
+      "batch": 1,
+      "n": 128,
+      "source_ids_sha256": "d9d4942b24339e613d4cbe61eca101f3c013c1eca09f4aaa602a6b4d938e1b5a",
+      "exact_equal": {
+        "forward": true,
+        "loss": true,
+        "gradient": true,
+        "model": true,
+        "optimizer": true,
+        "scaler": true,
+        "cpu_rng": true,
+        "cuda_rng": true
+      },
+      "v1": {
+        "forward": "4cf4807597228fe256828042f468a5ac75c37893893c1028cbc649dc34b70ecf",
+        "loss": "f2b5b7fd5c2c5ae8ffeaefb88e96a2fdfe803e031306265af03aae3b3098d0b3",
+        "gradient": "04af312088543fa278d7957004870b8330d560449683bc48180b6596cfbba2d9",
+        "model": "6624de047391ba49e28641faf219a420c2f9029088077731be446bb6a573ee27",
+        "optimizer": "69c24f6c9458162fd21e008a22e749142f0782396d88283f04934e298e3c29dd",
+        "scaler": "feb56798a98dbf3ced87ef05ae964c4d1d7c3e6f5ab26844563603e1f86e9df8",
+        "cpu_rng": "98787080c4a86fd882bfe09477c946278c19198fc7a9d8501bb0f45cc62669a9",
+        "cuda_rng": "506f4633d29108739251639c0ea3e949454f012af47c839ff501d18d0172680c"
+      },
+      "v2": {
+        "forward": "4cf4807597228fe256828042f468a5ac75c37893893c1028cbc649dc34b70ecf",
+        "loss": "f2b5b7fd5c2c5ae8ffeaefb88e96a2fdfe803e031306265af03aae3b3098d0b3",
+        "gradient": "04af312088543fa278d7957004870b8330d560449683bc48180b6596cfbba2d9",
+        "model": "6624de047391ba49e28641faf219a420c2f9029088077731be446bb6a573ee27",
+        "optimizer": "69c24f6c9458162fd21e008a22e749142f0782396d88283f04934e298e3c29dd",
+        "scaler": "feb56798a98dbf3ced87ef05ae964c4d1d7c3e6f5ab26844563603e1f86e9df8",
+        "cpu_rng": "98787080c4a86fd882bfe09477c946278c19198fc7a9d8501bb0f45cc62669a9",
+        "cuda_rng": "506f4633d29108739251639c0ea3e949454f012af47c839ff501d18d0172680c"
+      }
+    },
+    {
+      "batch": 2,
+      "n": 128,
+      "source_ids_sha256": "6782d1af47ac5fa046065d7b2c62559aaf34568c822e59302d2a016bcc5c166d",
+      "exact_equal": {
+        "forward": true,
+        "loss": true,
+        "gradient": true,
+        "model": true,
+        "optimizer": true,
+        "scaler": true,
+        "cpu_rng": true,
+        "cuda_rng": true
+      },
+      "v1": {
+        "forward": "bc09c4e22fae88a227f0f566e6bb893fe6baacebda514d1f5ae945d2edde2cc6",
+        "loss": "ee6c030ba58b4cbdaba8057f65d2e52ae6f7e20ed89932cb721ef3f94dc56cdf",
+        "gradient": "1fa3faa225b6e5259c734d8e59850235e5c98d07c67428b6d8a35cb33b7ea3a5",
+        "model": "f06ddf8c314e613c8ed257971f3b3f1f2492b13531fc7d6f020e29eaf497ffd6",
+        "optimizer": "9a9a1e30c022374be107ba573659974e8f9e417d9294c8c81d116d8db60c1891",
+        "scaler": "8d2414595404b6630c0e3f2dc27271da57854165f68e2251530ff1c3b334755a",
+        "cpu_rng": "98787080c4a86fd882bfe09477c946278c19198fc7a9d8501bb0f45cc62669a9",
+        "cuda_rng": "506f4633d29108739251639c0ea3e949454f012af47c839ff501d18d0172680c"
+      },
+      "v2": {
+        "forward": "bc09c4e22fae88a227f0f566e6bb893fe6baacebda514d1f5ae945d2edde2cc6",
+        "loss": "ee6c030ba58b4cbdaba8057f65d2e52ae6f7e20ed89932cb721ef3f94dc56cdf",
+        "gradient": "1fa3faa225b6e5259c734d8e59850235e5c98d07c67428b6d8a35cb33b7ea3a5",
+        "model": "f06ddf8c314e613c8ed257971f3b3f1f2492b13531fc7d6f020e29eaf497ffd6",
+        "optimizer": "9a9a1e30c022374be107ba573659974e8f9e417d9294c8c81d116d8db60c1891",
+        "scaler": "8d2414595404b6630c0e3f2dc27271da57854165f68e2251530ff1c3b334755a",
+        "cpu_rng": "98787080c4a86fd882bfe09477c946278c19198fc7a9d8501bb0f45cc62669a9",
+        "cuda_rng": "506f4633d29108739251639c0ea3e949454f012af47c839ff501d18d0172680c"
+      }
+    },
+    {
+      "batch": 3,
+      "n": 128,
+      "source_ids_sha256": "125ec1bdcc974ce24615c2576edd6ea2cf27ec38ac6263db39cf554a061ac2aa",
+      "exact_equal": {
+        "forward": true,
+        "loss": true,
+        "gradient": true,
+        "model": true,
+        "optimizer": true,
+        "scaler": true,
+        "cpu_rng": true,
+        "cuda_rng": true
+      },
+      "v1": {
+        "forward": "f212e01e2cfed035252b8b499fd2c47182a24c0ae5c0625eb6ba8ee901cf1e75",
+        "loss": "e1eda8721c2b976ccd3b674eebb2ee089509bcfdf8c9fa485cc3305cb2817162",
+        "gradient": "fa5a3dc0ac305f62d04ab0d7c7cebe24d27589d59aa20348ef8603a66ddc71a9",
+        "model": "fff5cd06911a853b2bbedda527e5b645ab98d11f3bb9cbcae08e77e0dfd005b5",
+        "optimizer": "537838f3a86b5aa86ba0606934585d9ba7770c976b73507ce961400de94787ae",
+        "scaler": "7a9d9671e00c97b24b598981616d41dc6408ac34d8343d4bed4c271cc6ac119e",
+        "cpu_rng": "98787080c4a86fd882bfe09477c946278c19198fc7a9d8501bb0f45cc62669a9",
+        "cuda_rng": "506f4633d29108739251639c0ea3e949454f012af47c839ff501d18d0172680c"
+      },
+      "v2": {
+        "forward": "f212e01e2cfed035252b8b499fd2c47182a24c0ae5c0625eb6ba8ee901cf1e75",
+        "loss": "e1eda8721c2b976ccd3b674eebb2ee089509bcfdf8c9fa485cc3305cb2817162",
+        "gradient": "fa5a3dc0ac305f62d04ab0d7c7cebe24d27589d59aa20348ef8603a66ddc71a9",
+        "model": "fff5cd06911a853b2bbedda527e5b645ab98d11f3bb9cbcae08e77e0dfd005b5",
+        "optimizer": "537838f3a86b5aa86ba0606934585d9ba7770c976b73507ce961400de94787ae",
+        "scaler": "7a9d9671e00c97b24b598981616d41dc6408ac34d8343d4bed4c271cc6ac119e",
+        "cpu_rng": "98787080c4a86fd882bfe09477c946278c19198fc7a9d8501bb0f45cc62669a9",
+        "cuda_rng": "506f4633d29108739251639c0ea3e949454f012af47c839ff501d18d0172680c"
+      }
+    }
+  ],
+  "overflow_regression": {
+    "status": "PASS",
+    "event": {
+      "event": "grad_scaler_overflow",
+      "seed": 5,
+      "epoch": 181,
+      "batch": 111,
+      "old_scale": 65536.0,
+      "new_scale": 32768.0,
+      "optimizer_step_skipped": true,
+      "nonfinite_parameter_count": 1,
+      "first_offending_parameter": "block3.layer.3.conv1.weight"
+    },
+    "parameters_unchanged": true,
+    "optimizer_state_unchanged": true,
+    "artifact_sha256": "b1767399cb94105030b6cd9c96ba7ddeb7143693f23f5dc62479992cd6f5d7ae",
+    "qa_only": true,
+    "formal_resume": false
+  },
+  "fail_fast": {
+    "forward": "non-finite training forward",
+    "loss": "non-finite training loss"
+  },
+  "scientific_parameters_changed": false,
+  "formal_checkpoint_written": false
+}

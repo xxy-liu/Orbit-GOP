@@ -1,0 +1,33 @@
+{
+  "frozen_before_timing": "2026-09-07T12:30:29.646076+00:00",
+  "method_order": [
+    "global_edl",
+    "react_energy",
+    "gaia_z",
+    "orbit_gop",
+    "brightness_only",
+    "shift_only"
+  ],
+  "scenarios": [
+    {
+      "batch": 1,
+      "iterations": 1000
+    },
+    {
+      "batch": 64,
+      "iterations": 200
+    }
+  ],
+  "warmup": 50,
+  "repeats": 5,
+  "repeat_id": "0..4",
+  "batch_selection": "absolute=repeat_id*iterations+iteration_id; start=(absolute*B)%(2048-B+1)",
+  "clock": "perf_counter; CUDA synchronize immediately before and after each repeat",
+  "SD": "sample SD of five repeat means, ddof=1",
+  "throughput": "64000 / mean_latency_ms",
+  "Full_Orbit": "Identical configuration object and scorer; one shared measurement, not an independent duplicate run",
+  "memory": "after all latency scenarios, synchronize/gc.collect/empty_cache/zero_grad/reset_peak; one iteration-0 batch; allocated bytes / 2^20",
+  "state_sha256_before": "6bbb2c5eea489e1ed16cc807ad7b25a07a9835c74b0b9fbea3d603362b05628b",
+  "code_sha256": "5228db1b03dfe9e360e51f79a94ba5ff16f949c67138f09578476ec1e6a4fffb",
+  "runner_sha256": "b14e5e7d3f2cca336902d02cfeb569a9a05c9debe89fd508889cd360de535ef8"
+}

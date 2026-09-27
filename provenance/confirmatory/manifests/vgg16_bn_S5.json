@@ -1,0 +1,16 @@
+{
+  "backbone": "vgg16_bn",
+  "seed": 5,
+  "training_commit": "NO_ROOT_GIT_COMMIT",
+  "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+  "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+  "checkpoint_hash": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+  "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_5\\best.pt",
+  "best_val_epoch": 191,
+  "fixed_epoch": "NOT_APPLICABLE",
+  "val_metric": 0.9193333333333333,
+  "val_role": "checkpoint_selection",
+  "train_end_time": "2026-09-17T15:13:06.678120+00:00",
+  "test_admission": false,
+  "status": "FROZEN"
+}

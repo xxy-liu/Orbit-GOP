@@ -1,0 +1,482 @@
+[
+  {
+    "range": "[Step0CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        32.8335416199513,
+        33.35919998004871
+      ],
+      [
+        5,
+        5
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[Step0Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        32.8335416199513,
+        32.8335416199513
+      ],
+      [
+        4.93,
+        5.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Step0Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        33.35919998004871,
+        33.35919998004871
+      ],
+      [
+        4.93,
+        5.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[StepMean0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        33.0963708
+      ],
+      [
+        5
+      ]
+    ],
+    "meaning": "{\"step_id\": \"forward\", \"step\": \"Forward pass\", \"n_repeats\": \"5\", \"batches_per_repeat\": \"200\", \"batch_size\": \"64\", \"mean_ms_per_batch\": \"33.0963708\", \"sample_sd_ms_per_batch\": \"0.26282918004870764\", \"beta\": \"0.4\", \"use_in_figure8a\": \"True\"}"
+  },
+  {
+    "range": "[Step1CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        12.683806783283579,
+        13.073942016716423
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[Step1Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        12.683806783283579,
+        12.683806783283579
+      ],
+      [
+        3.93,
+        4.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Step1Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        13.073942016716423,
+        13.073942016716423
+      ],
+      [
+        3.93,
+        4.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[StepMean1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        12.8788744
+      ],
+      [
+        4
+      ]
+    ],
+    "meaning": "{\"step_id\": \"gradient_extraction\", \"step\": \"Gradient extraction\", \"n_repeats\": \"5\", \"batches_per_repeat\": \"200\", \"batch_size\": \"64\", \"mean_ms_per_batch\": \"12.8788744\", \"sample_sd_ms_per_batch\": \"0.1950676167164223\", \"beta\": \"0.4\", \"use_in_figure8a\": \"True\"}"
+  },
+  {
+    "range": "[Step2CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5318226937051186,
+        0.5814805062948812
+      ],
+      [
+        3,
+        3
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[Step2Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5318226937051186,
+        0.5318226937051186
+      ],
+      [
+        2.93,
+        3.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Step2Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5814805062948812,
+        0.5814805062948812
+      ],
+      [
+        2.93,
+        3.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[StepMean2]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5566515999999999
+      ],
+      [
+        3
+      ]
+    ],
+    "meaning": "{\"step_id\": \"gop_signature\", \"step\": \"GOP signature\", \"n_repeats\": \"5\", \"batches_per_repeat\": \"200\", \"batch_size\": \"64\", \"mean_ms_per_batch\": \"0.5566515999999999\", \"sample_sd_ms_per_batch\": \"0.024828906294881343\", \"beta\": \"0.4\", \"use_in_figure8a\": \"True\"}"
+  },
+  {
+    "range": "[Step3CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.22788018315553032,
+        0.2471040168444697
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[Step3Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.22788018315553032,
+        0.22788018315553032
+      ],
+      [
+        1.93,
+        2.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Step3Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.2471040168444697,
+        0.2471040168444697
+      ],
+      [
+        1.93,
+        2.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[StepMean3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.2374921
+      ],
+      [
+        2
+      ]
+    ],
+    "meaning": "{\"step_id\": \"jsd\", \"step\": \"JSD\", \"n_repeats\": \"5\", \"batches_per_repeat\": \"200\", \"batch_size\": \"64\", \"mean_ms_per_batch\": \"0.2374921\", \"sample_sd_ms_per_batch\": \"0.00961191684446969\", \"beta\": \"0.4\", \"use_in_figure8a\": \"True\"}"
+  },
+  {
+    "range": "[Step4CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.19220889914665235,
+        0.20499970085334768
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[Step4Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.19220889914665235,
+        0.19220889914665235
+      ],
+      [
+        0.9299999999999999,
+        1.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Step4Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.20499970085334768,
+        0.20499970085334768
+      ],
+      [
+        0.9299999999999999,
+        1.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[StepMean4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.1986043
+      ],
+      [
+        1
+      ]
+    ],
+    "meaning": "{\"step_id\": \"view_construction\", \"step\": \"View construction\", \"n_repeats\": \"5\", \"batches_per_repeat\": \"200\", \"batch_size\": \"64\", \"mean_ms_per_batch\": \"0.1986043\", \"sample_sd_ms_per_batch\": \"0.006395400853347654\", \"beta\": \"0.4\", \"use_in_figure8a\": \"True\"}"
+  },
+  {
+    "range": "[Step5CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3349957252546652,
+        0.3532770747453347
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[Step5Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3349957252546652,
+        0.3349957252546652
+      ],
+      [
+        -0.07,
+        0.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Step5Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3532770747453347,
+        0.3532770747453347
+      ],
+      [
+        -0.07,
+        0.07
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[StepMean5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.34413639999999995
+      ],
+      [
+        0
+      ]
+    ],
+    "meaning": "{\"step_id\": \"risk_mapping\", \"step\": \"Risk mapping / evidence calibration\", \"n_repeats\": \"5\", \"batches_per_repeat\": \"200\", \"batch_size\": \"64\", \"mean_ms_per_batch\": \"0.34413639999999995\", \"sample_sd_ms_per_batch\": \"0.009140674745334728\", \"beta\": \"0.4\", \"use_in_figure8a\": \"True\"}"
+  },
+  {
+    "range": "[Config0]Sheet1",
+    "columns": [
+      "Latency (ms)",
+      "AUROC (%)",
+      "Latency SD (ms)"
+    ],
+    "values": [
+      [
+        32.444087300005776
+      ],
+      [
+        87.73850800000001
+      ],
+      [
+        2.902984246046484
+      ]
+    ],
+    "meaning": "{\"View_configuration\": \"Brightness-only\", \"Latency_mean_ms\": \"32.444087300005776\", \"Latency_sd_ms\": \"2.902984246046484\", \"Reference_ID\": \"V1_sha256_fe0df1c38ab7be97eff45f6eed44a2a1026fe0134f283444a41475ebc2d24d1d\", \"Reference_SHA256\": \"fe0df1c38ab7be97eff45f6eed44a2a1026fe0134f283444a41475ebc2d24d1d\", \"Beta\": \"0.4\", \"Risk\": \"q_func only\", \"Views\": \"original+brightness\", \"Backbone\": \"ResNet18-EDL\", \"Seed\": \"0\", \"Timing_protocol_ID\": \"FINAL_EFFICIENCY_CONFIRMATION_20260907_202800_B64_CONFIGURATION_MATCHED\", \"AUROC\": \"0.87738508\", \"AUROC_percent\": \"87.73850800000001\", \"FPR95\": \"0.4225\", \"Layer\": \"Layer3\", \"Performance_source\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\\\FINAL_VIEW_ABLATION_DEVELOPMENT_RESULTS.csv\", \"Performance_source_SHA256\": \"eb957f28466e0deb407b1cca8c75afaf57ece310c89738be242a071352192133\", \"Performance_source_status\": \"PASS\", \"Performance_authorization\": \"Protocol-frozen values for current Figure 8(b) closure; prior historical reproduction gate unchanged\", \"Performance_batch_size\": \"32\", \"Latency_batch_size\": \"64\"}"
+  },
+  {
+    "range": "[Config1]Sheet1",
+    "columns": [
+      "Latency (ms)",
+      "AUROC (%)",
+      "Latency SD (ms)"
+    ],
+    "values": [
+      [
+        28.803781000002346
+      ],
+      [
+        87.766472
+      ],
+      [
+        0.011484409848357361
+      ]
+    ],
+    "meaning": "{\"View_configuration\": \"Reflect-shift-only\", \"Latency_mean_ms\": \"28.803781000002346\", \"Latency_sd_ms\": \"0.011484409848357361\", \"Reference_ID\": \"V2_sha256_55349af5fc71244f3994ea0de104c6fc0d84c0659586786c55acf314728a2b5a\", \"Reference_SHA256\": \"55349af5fc71244f3994ea0de104c6fc0d84c0659586786c55acf314728a2b5a\", \"Beta\": \"0.4\", \"Risk\": \"q_func only\", \"Views\": \"original+shift\", \"Backbone\": \"ResNet18-EDL\", \"Seed\": \"0\", \"Timing_protocol_ID\": \"FINAL_EFFICIENCY_CONFIRMATION_20260907_202800_B64_CONFIGURATION_MATCHED\", \"AUROC\": \"0.87766472\", \"AUROC_percent\": \"87.766472\", \"FPR95\": \"0.4155\", \"Layer\": \"Layer3\", \"Performance_source\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\\\FINAL_VIEW_ABLATION_DEVELOPMENT_RESULTS.csv\", \"Performance_source_SHA256\": \"eb957f28466e0deb407b1cca8c75afaf57ece310c89738be242a071352192133\", \"Performance_source_status\": \"PASS\", \"Performance_authorization\": \"Protocol-frozen values for current Figure 8(b) closure; prior historical reproduction gate unchanged\", \"Performance_batch_size\": \"32\", \"Latency_batch_size\": \"64\"}"
+  },
+  {
+    "range": "[Config2]Sheet1",
+    "columns": [
+      "Latency (ms)",
+      "AUROC (%)",
+      "Latency SD (ms)"
+    ],
+    "values": [
+      [
+        44.24112830000013
+      ],
+      [
+        87.842696
+      ],
+      [
+        1.2841102275211
+      ]
+    ],
+    "meaning": "{\"View_configuration\": \"Full Orbit\", \"Latency_mean_ms\": \"44.24112830000013\", \"Latency_sd_ms\": \"1.2841102275211\", \"Reference_ID\": \"V3_sha256_adc3ead98d9bdc36aeb2731ae662d4cc915ccba3b31b7063b961caadb7ded776\", \"Reference_SHA256\": \"adc3ead98d9bdc36aeb2731ae662d4cc915ccba3b31b7063b961caadb7ded776\", \"Beta\": \"0.4\", \"Risk\": \"q_func only\", \"Views\": \"original+brightness+shift\", \"Backbone\": \"ResNet18-EDL\", \"Seed\": \"0\", \"Timing_protocol_ID\": \"FINAL_EFFICIENCY_CONFIRMATION_20260907_202800_B64_CONFIGURATION_MATCHED\", \"AUROC\": \"0.87842696\", \"AUROC_percent\": \"87.842696\", \"FPR95\": \"0.411\", \"Layer\": \"Layer3\", \"Performance_source\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\\\FINAL_VIEW_ABLATION_DEVELOPMENT_RESULTS.csv\", \"Performance_source_SHA256\": \"eb957f28466e0deb407b1cca8c75afaf57ece310c89738be242a071352192133\", \"Performance_source_status\": \"FAIL\", \"Performance_authorization\": \"Protocol-frozen values for current Figure 8(b) closure; prior historical reproduction gate unchanged\", \"Performance_batch_size\": \"32\", \"Latency_batch_size\": \"64\"}"
+  }
+]

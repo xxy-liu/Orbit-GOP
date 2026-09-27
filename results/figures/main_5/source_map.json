@@ -1,0 +1,122 @@
+{
+  "current_figure": "Fig6",
+  "historic_figure": 6,
+  "current_pdf": "PRIVATE_DESKTOP\\画图\\Fig6.pdf",
+  "current_pdf_sha256": "a422480e909362ff7676ae0a2513043fc0a8cffbbbdf0b606539ec076328f295",
+  "current_pdf_size_mm": [
+    447.67499999999995,
+    148.8722222222222
+  ],
+  "current_text": "",
+  "candidate_text": "",
+  "inputs": [
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\figure6_field_sources.csv",
+      "sha256": "48b4638c5420ae0f57d40e616f2fd23e0d90e43e3bba9e73c6938111675a575c",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\figure6_field_sources.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\figure6_plot_data.csv",
+      "sha256": "c03ae95348fb0962b98e6705aaf39dc31e49cfddc1840c5d5e5c9e5d73a30327",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\figure6_plot_data.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\figure6_source_manifest.csv",
+      "sha256": "0281241691880d9884574aeebeb9a04d7b675ba09510293f727c86e7e2d9b587",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\figure6_source_manifest.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\thresholds.csv",
+      "sha256": "319e1cd7ee59b3c11dc54f3771ac544690f8a37b6420ddee8eab21d42c05abe2",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\thresholds.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\vgg_references.csv",
+      "sha256": "3336fdc8cd54392a7fe5dd19252099ed8b8ab253a7dfb717b8b064b20a47dc2d",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\vgg_references.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\data_checks.json",
+      "sha256": "d477cbf15e2c5b57778c4592d0a8eb9056af446a8344c272ab4b938f670aeca4",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\data_checks.json"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure6\\resnet_protocol.json",
+      "sha256": "666a825595af919554ebd52a62403373d6ccd3583035a38822b15b6fcadcd181",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\resnet_protocol.json"
+    }
+  ],
+  "embedded_pixels_exact": true,
+  "reference": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\reports\\current_pdf\\figure6_embedded.png",
+  "columns": [
+    "backbone",
+    "dataset",
+    "panel",
+    "point_AUROC",
+    "bootstrap_mean",
+    "CI_low",
+    "CI_high",
+    "source"
+  ],
+  "records": 6,
+  "manuscript_width_mm": 130.739,
+  "binding": "Exact embedded pixel identity to archived current-PDF reference; static renderer links frozen CSV coordinates.",
+  "purpose": "Historical conditional residual functional-risk information; distinct backbone data roles retained.",
+  "panels": {
+    "a": {
+      "condition": "q_conf<=0.2; historical 3 views",
+      "unit": "AUROC",
+      "shape": "3 means/95% bootstrap CIs"
+    },
+    "b": {
+      "condition": "C-EDL uncertainty <= historical ID calibration Q95; 5 views",
+      "unit": "AUROC",
+      "shape": "3 means/95% bootstrap CIs"
+    },
+    "data_roles": {
+      "ResNet18": "CIFAR-10 ID-development and CIFAR-100 holdout; no Tiny result",
+      "VGG16-BN": "official CIFAR-10 test versus CIFAR-100 test or Tiny ImageNet"
+    }
+  },
+  "final_inputs": [
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\actual_origin_columns.json",
+      "sha256": "b0f12d8fb0820e2b80a9364d4a84bae160eefc0e0ae8f6f9371d32a1f0bbb945"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\data_checks.json",
+      "sha256": "d477cbf15e2c5b57778c4592d0a8eb9056af446a8344c272ab4b938f670aeca4"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\figure6_field_sources.csv",
+      "sha256": "48b4638c5420ae0f57d40e616f2fd23e0d90e43e3bba9e73c6938111675a575c"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\figure6_plot_data.csv",
+      "sha256": "c03ae95348fb0962b98e6705aaf39dc31e49cfddc1840c5d5e5c9e5d73a30327"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\figure6_source_manifest.csv",
+      "sha256": "0281241691880d9884574aeebeb9a04d7b675ba09510293f727c86e7e2d9b587"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\resnet_protocol.json",
+      "sha256": "666a825595af919554ebd52a62403373d6ccd3583035a38822b15b6fcadcd181"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\thresholds.csv",
+      "sha256": "319e1cd7ee59b3c11dc54f3771ac544690f8a37b6420ddee8eab21d42c05abe2"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig6\\plot_inputs\\vgg_references.csv",
+      "sha256": "3336fdc8cd54392a7fe5dd19252099ed8b8ab253a7dfb717b8b064b20a47dc2d"
+    }
+  ],
+  "actual_scripts": [
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\build_all.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\polish.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\export_embedded.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\final_native_check.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\numerical_qa.py"
+  ]
+}

@@ -1,0 +1,1454 @@
+[
+  {
+    "range": "[Reference0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0,
+        0
+      ],
+      [
+        0.5,
+        6.5
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR0S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.68857500000001
+      ],
+      [
+        6.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0068857500000001\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR0S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.498154
+      ],
+      [
+        6.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.00498154\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR0S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.617358
+      ],
+      [
+        5.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.00617358\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR0CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5294876,
+        0.6718605249999999
+      ],
+      [
+        5.76,
+        5.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[AUROCR0Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5294876,
+        0.5294876
+      ],
+      [
+        5.694999999999999,
+        5.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR0Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.6718605249999999,
+        0.6718605249999999
+      ],
+      [
+        5.694999999999999,
+        5.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCMean0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.60136233333334
+      ],
+      [
+        5.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR1S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.4716720133453
+      ],
+      [
+        5.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.004716720133453\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR1S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.39012447067882
+      ],
+      [
+        5.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0039012447067882\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR1S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.47233029641985996
+      ],
+      [
+        4.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0047233029641986\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR1CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.37676610419607,
+        0.51397880576585
+      ],
+      [
+        4.76,
+        4.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[AUROCR1Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.37676610419607,
+        0.37676610419607
+      ],
+      [
+        4.694999999999999,
+        4.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR1Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.51397880576585,
+        0.51397880576585
+      ],
+      [
+        4.694999999999999,
+        4.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCMean1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.44470892681466
+      ],
+      [
+        4.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR2S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.76042299999998
+      ],
+      [
+        4.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0176042299999998\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR2S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.0340170000000097
+      ],
+      [
+        4.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0203401700000001\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR2S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.9308379999999898
+      ],
+      [
+        3.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0193083799999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR2CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.7845174750000001,
+        2.03470986666666
+      ],
+      [
+        3.76,
+        3.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[AUROCR2Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.7845174750000001,
+        1.7845174750000001
+      ],
+      [
+        3.695,
+        3.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR2Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.03470986666666,
+        2.03470986666666
+      ],
+      [
+        3.695,
+        3.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCMean2]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.9084259999999902
+      ],
+      [
+        3.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR3S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.42440010265624
+      ],
+      [
+        3.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0142440010265624\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR3S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.73853329911458
+      ],
+      [
+        3.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0173853329911458\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR3S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.62308738611575
+      ],
+      [
+        2.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0162308738611575\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR3CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.46960058171863,
+        1.72302274477094
+      ],
+      [
+        2.76,
+        2.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[AUROCR3Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.46960058171863,
+        1.46960058171863
+      ],
+      [
+        2.695,
+        2.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR3Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.72302274477094,
+        1.72302274477094
+      ],
+      [
+        2.695,
+        2.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCMean3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.59534026262886
+      ],
+      [
+        2.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR4S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.18440800000001
+      ],
+      [
+        2.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0018440800000001\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR4S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.34221599999998004
+      ],
+      [
+        2.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0034221599999998\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR4S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.49124900000000005
+      ],
+      [
+        1.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"CIFAR100\", \"metric\": \"AUROC\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.00491249\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR4CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.26907845,
+        0.41177375833332996
+      ],
+      [
+        1.76,
+        1.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[AUROCR4Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.26907845,
+        0.26907845
+      ],
+      [
+        1.695,
+        1.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR4Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.41177375833332996,
+        0.41177375833332996
+      ],
+      [
+        1.695,
+        1.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCMean4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.339291
+      ],
+      [
+        1.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR5S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.20928397279608998
+      ],
+      [
+        1.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0020928397279609\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR5S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.22209675349671998
+      ],
+      [
+        1.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0022209675349672\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR5S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3645117413063
+      ],
+      [
+        0.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"Tiny\", \"metric\": \"AUROC\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.003645117413063\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[AUROCR5CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.19724541254972,
+        0.33604486932717
+      ],
+      [
+        0.76,
+        0.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[AUROCR5Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.19724541254972,
+        0.19724541254972
+      ],
+      [
+        0.6950000000000001,
+        0.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCR5Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.33604486932717,
+        0.33604486932717
+      ],
+      [
+        0.6950000000000001,
+        0.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AUROCMean5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.2652974891997
+      ],
+      [
+        0.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Reference43]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0,
+        0
+      ],
+      [
+        0.5,
+        6.5
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R0S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -6.979999999999991
+      ],
+      [
+        6.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0697999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R0S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -5.390000000000001
+      ],
+      [
+        6.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0539\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R0S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -5.95999999999999
+      ],
+      [
+        5.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0595999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R0CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -7.18341666666666,
+        -4.859999999999999
+      ],
+      [
+        5.76,
+        5.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[FPR95R0Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -7.18341666666666,
+        -7.18341666666666
+      ],
+      [
+        5.694999999999999,
+        5.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R0Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -4.859999999999999,
+        -4.859999999999999
+      ],
+      [
+        5.694999999999999,
+        5.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95Mean0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -6.10999999999999
+      ],
+      [
+        5.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R1S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -3.37
+      ],
+      [
+        5.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0337\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R1S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.2699999999999902
+      ],
+      [
+        5.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0226999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R1S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -3.1299999999999897
+      ],
+      [
+        4.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"resnet18\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0312999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R1CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -3.68675,
+        -2.20999999999999
+      ],
+      [
+        4.76,
+        4.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[FPR95R1Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -3.68675,
+        -3.68675
+      ],
+      [
+        4.694999999999999,
+        4.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R1Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.20999999999999,
+        -2.20999999999999
+      ],
+      [
+        4.694999999999999,
+        4.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95Mean1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.92333333333333
+      ],
+      [
+        4.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R2S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -19.03
+      ],
+      [
+        4.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.1903\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R2S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -21.80999999999999
+      ],
+      [
+        4.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.2180999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R2S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -20.26
+      ],
+      [
+        3.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.2026\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R2CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -21.766750000000002,
+        -18.79991666666666
+      ],
+      [
+        3.76,
+        3.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[FPR95R2Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -21.766750000000002,
+        -21.766750000000002
+      ],
+      [
+        3.695,
+        3.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R2Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -18.79991666666666,
+        -18.79991666666666
+      ],
+      [
+        3.695,
+        3.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95Mean2]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -20.36666666666666
+      ],
+      [
+        3.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R3S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -15.049999999999992
+      ],
+      [
+        3.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.1504999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R3S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -20.289999999999992
+      ],
+      [
+        3.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.2028999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R3S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -16.3
+      ],
+      [
+        2.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"vgg16_bn\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.163\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R3CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -18.66333333333333,
+        -15.126666666666669
+      ],
+      [
+        2.76,
+        2.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[FPR95R3Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -18.66333333333333,
+        -18.66333333333333
+      ],
+      [
+        2.695,
+        2.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R3Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -15.126666666666669,
+        -15.126666666666669
+      ],
+      [
+        2.695,
+        2.8249999999999997
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95Mean3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -17.21333333333333
+      ],
+      [
+        2.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R4S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.05
+      ],
+      [
+        2.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0005\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R4S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.88
+      ],
+      [
+        2.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0088\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R4S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -4.43999999999999
+      ],
+      [
+        1.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"CIFAR100\", \"metric\": \"FPR95\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0443999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R4CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -3.18675,
+        -0.57658333333333
+      ],
+      [
+        1.76,
+        1.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[FPR95R4Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -3.18675,
+        -3.18675
+      ],
+      [
+        1.695,
+        1.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R4Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.57658333333333,
+        -0.57658333333333
+      ],
+      [
+        1.695,
+        1.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95Mean4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -1.79
+      ],
+      [
+        1.76
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R5S3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.1299999999999897
+      ],
+      [
+        1.24
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"3.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0212999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R5S4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.11
+      ],
+      [
+        1.08
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"4.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"-0.0211\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R5S5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.50999999999999
+      ],
+      [
+        0.92
+      ]
+    ],
+    "meaning": "{\"figure\": \"Fig3\", \"backbone\": \"wrn28_10\", \"dataset\": \"Tiny\", \"metric\": \"FPR95\", \"seed\": \"5.0\", \"statistic\": \"per-seed difference\", \"raw_proportion\": \"0.0050999999999999\", \"scale_factor\": \"100\", \"display_unit\": \"percentage points\", \"rounding\": \"none\", \"source_path\": \"ARCHIVE_E/orbit-GOP\\\\outputs\\\\Orbit-GOP-confirmatory-20260917-stage8\\\\results\\\\confirmatory_pairwise_effects.csv\", \"source_sha256\": \"292de422e51ca847519a60ce28b13b3a0963409b7bcd7d4113e1573761238fa5\", \"aggregation\": \"\"}"
+  },
+  {
+    "range": "[FPR95R5CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.3800833333333298,
+        -0.05333333333333
+      ],
+      [
+        0.76,
+        0.76
+      ]
+    ],
+    "meaning": "Saved lower/upper interval endpoints"
+  },
+  {
+    "range": "[FPR95R5Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -2.3800833333333298,
+        -2.3800833333333298
+      ],
+      [
+        0.6950000000000001,
+        0.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95R5Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.05333333333333,
+        -0.05333333333333
+      ],
+      [
+        0.6950000000000001,
+        0.825
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[FPR95Mean5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -1.24333333333333
+      ],
+      [
+        0.76
+      ]
+    ],
+    "meaning": ""
+  }
+]

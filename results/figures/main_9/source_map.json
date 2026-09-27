@@ -1,0 +1,140 @@
+{
+  "current_figure": "Fig10",
+  "historic_figure": 8,
+  "current_pdf": "PRIVATE_DESKTOP\\画图\\Fig10.pdf",
+  "current_pdf_sha256": "84a37dfc445d26bffb017a30b9fe04d3e9b05af49df0f3f3117e466de5458c60",
+  "current_pdf_size_mm": [
+    494.5944444444444,
+    161.21944444444443
+  ],
+  "current_text": "0.1\n1\n10\n50\nLatency (ms/batch)\n28\n32\n36\n40\n44\n48\nBatch-64 latency (ms)\n87.72\n87.76\n87.80\n87.84\nAUROC (%)\nBrightness-only\nReflect-shift-only\nFull Orbit\na Computational profile\nb Performance-cost trade-off\nForward pass\nGradient extraction\nGOP signature\nJSD\nView construction\nRisk mapping /\nevidence calibration\n",
+  "candidate_text": "0.1\n1\n10\n50\nLatency (ms/batch)\n28\n32\n36\n40\n44\n48\nBatch-64 latency (ms)\n87.72\n87.76\n87.80\n87.84\nAUROC (%)\nBrightness-only\nReflect-shift-only\nFull Orbit\na Computational profile\nb Performance-cost trade-off\nForward pass\nGradient extraction\nGOP signature\nJSD\nView construction\nRisk mapping /\nevidence calibration\n",
+  "inputs": [
+    {
+      "path": "ARCHIVE_E/投稿\\outputs\\图10\\profile.csv",
+      "sha256": "725c54ce421b336f962fd15b74d957d17ca256f10bfd242a23965cca64024702",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\profile.csv"
+    },
+    {
+      "path": "ARCHIVE_E/投稿\\outputs\\图10\\performance.csv",
+      "sha256": "5d04c45e0ba23f2d097de194bf190c7cb5c071998b8c967a87b3c0e31a5a3308",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\performance.csv"
+    },
+    {
+      "path": "ARCHIVE_E/投稿\\outputs\\图10\\cost.csv",
+      "sha256": "3be5bb0e01c5e8b997ca2e321f48d5b974aa0d1833a2f45057781d1bb179d2ae",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\cost.csv"
+    },
+    {
+      "path": "ARCHIVE_E/投稿\\outputs\\图10\\source_data_manifest.json",
+      "sha256": "4c79f334a4c0c45a8b48b753f27dee8c19d7b351320633ad5382e0fb913660ab",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\source_data_manifest.json"
+    },
+    {
+      "path": "ARCHIVE_E/投稿\\outputs\\图10\\绘制图10.py",
+      "sha256": "702e06c5ad276a8430fbbedb99ddfb585dba1238c77a2fd26d5ef2714edb96d2",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\绘制图10.py"
+    }
+  ],
+  "columns": [
+    "step_id",
+    "step",
+    "n_repeats",
+    "batches_per_repeat",
+    "batch_size",
+    "mean_ms_per_batch",
+    "sample_sd_ms_per_batch",
+    "beta",
+    "use_in_figure8a",
+    "panel",
+    "View_configuration",
+    "Latency_mean_ms",
+    "Latency_sd_ms",
+    "Reference_ID",
+    "Reference_SHA256",
+    "Beta",
+    "Risk",
+    "Views",
+    "Backbone",
+    "Seed",
+    "Timing_protocol_ID",
+    "AUROC",
+    "AUROC_percent",
+    "FPR95",
+    "Layer",
+    "Performance_source",
+    "Performance_source_SHA256",
+    "Performance_source_status",
+    "Performance_authorization",
+    "Performance_batch_size",
+    "Latency_batch_size"
+  ],
+  "records": 9,
+  "manuscript_width_mm": 130.739,
+  "binding": "Current submission source map and exact source plot lineage; historical figure numbers not used as identity.",
+  "source_map_path": "ARCHIVE_E/投稿/outputs/submission_confirmatory_working_20260918/FIGURE_TABLE_SOURCE_MAP.md",
+  "purpose": "Historical B64 step costs and configuration-matched Seed-0 development performance/latency.",
+  "panels": {
+    "a": {
+      "metric": "step mean and original SD",
+      "unit": "ms/batch; B64",
+      "shape": "6 steps; log x"
+    },
+    "b": {
+      "metric": "configuration-matched mean latency, SD and AUROC",
+      "unit": "ms B64 / percent",
+      "shape": "3 pairs",
+      "performance_batch_size": 32,
+      "timing_batch_size": 64
+    }
+  },
+  "final_inputs": [
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\actual_origin_columns.json",
+      "sha256": "75d714041db1590f6b32cf5b0c29dbaec34e254e29670a7310b9fc12b44275e3"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\cost.csv",
+      "sha256": "3be5bb0e01c5e8b997ca2e321f48d5b974aa0d1833a2f45057781d1bb179d2ae"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\data_checks.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\figure8_field_sources.csv",
+      "sha256": "5b4732ebb0198f118d51913063461be4100ccf7e6a9862a40d921fd7846798b4"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\figure8_plot_data.csv",
+      "sha256": "611deccb6598c3008d04c13e219c49c9547d37a43b4224ad51a6a994d30290ce"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\figure8_source_manifest.csv",
+      "sha256": "3f9fe01c54b59f191e0109ba43f48bb71cc3091b73855b8f5fac96ead90c89ba"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\performance.csv",
+      "sha256": "5d04c45e0ba23f2d097de194bf190c7cb5c071998b8c967a87b3c0e31a5a3308"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\profile.csv",
+      "sha256": "725c54ce421b336f962fd15b74d957d17ca256f10bfd242a23965cca64024702"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\source_data_manifest.json",
+      "sha256": "4c79f334a4c0c45a8b48b753f27dee8c19d7b351320633ad5382e0fb913660ab"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig10\\plot_inputs\\绘制图10.py",
+      "sha256": "702e06c5ad276a8430fbbedb99ddfb585dba1238c77a2fd26d5ef2714edb96d2"
+    }
+  ],
+  "actual_scripts": [
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\build_all.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\polish.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\export_embedded.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\final_native_check.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\numerical_qa.py"
+  ]
+}

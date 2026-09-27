@@ -1,0 +1,55 @@
+{
+  "current_figure": "Fig3",
+  "historic_figure": null,
+  "current_pdf": "PRIVATE_DESKTOP\\画图\\Fig3.pdf",
+  "current_pdf_sha256": "51dc51eebe95fc8e2f353671d9590e19ff15ab1ae32717d92d9a197d5383e32d",
+  "current_pdf_size_mm": [
+    177.99999855889212,
+    110.00000406901042
+  ],
+  "current_text": "C100\nTiny\nC100\nTiny\nC100\nTiny\n0.0\n0.5\n1.0\n1.5\n2.0\nΔAUROC (percentage points)\nResNet18 VGG16-BN WRN-28-10\na  AUROC change\nC100\nTiny\nC100\nTiny\nC100\nTiny\n−20\n−15\n−10\n−5\n0\nΔFPR95 (percentage points)\nResNet18 VGG16-BN WRN-28-10\nb  FPR95 change\nS3\nS4\nS5\nMean + primary 95% CI\n",
+  "candidate_text": "C100\nTiny\nC100\nTiny\nC100\nTiny\n0.0\n0.5\n1.0\n1.5\n2.0\nΔAUROC (percentage points)\nResNet18\nVGG16-BN\nWRN-28-10\na  AUROC change\nC100\nTiny\nC100\nTiny\nC100\nTiny\n−20\n−15\n−10\n−5\n0\nΔFPR95 (percentage points)\nResNet18\nVGG16-BN\nWRN-28-10\nb  FPR95 change\nS3\nS4\nS5\nMean + primary 95% CI\n",
+  "inputs": [
+    {
+      "path": "PROJECT\\outputs\\submission_confirmatory_stage9_R1_20260918_235009\\figure_data\\Fig3_elements.csv",
+      "sha256": "c2c86b98c9b3847d97d568cb97baab4275c50845f05186bea0fece214a7fceea",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig3\\plot_inputs\\Fig3_elements.csv"
+    }
+  ],
+  "registry_entries": 72,
+  "manuscript_width_mm": 130.739,
+  "purpose": "Confirmatory paired changes relative to Global EDL; S3–S5.",
+  "panels": {
+    "a": {
+      "metric": "AUROC",
+      "unit": "percentage points",
+      "shape": "6 means, 6 primary CIs, 18 seed points"
+    },
+    "b": {
+      "metric": "FPR95",
+      "unit": "percentage points",
+      "shape": "6 means, 6 primary CIs, 18 seed points"
+    }
+  },
+  "final_inputs": [
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig3\\plot_inputs\\actual_origin_columns.json",
+      "sha256": "09b3118bf2d718ea58b40abd331a77fb5bf5774293ad2298579ae003c4d0c008"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig3\\plot_inputs\\Fig3_elements.csv",
+      "sha256": "c2c86b98c9b3847d97d568cb97baab4275c50845f05186bea0fece214a7fceea"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig3\\plot_inputs\\registry.json",
+      "sha256": "88472474242ecca8b62be75b3514bf1b9b5c9392f4498b4e3b617a3b585f3646"
+    }
+  ],
+  "actual_scripts": [
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\build_all.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\polish.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\export_embedded.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\final_native_check.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\numerical_qa.py"
+  ]
+}

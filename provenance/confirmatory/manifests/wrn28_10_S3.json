@@ -1,0 +1,16 @@
+{
+  "backbone": "wrn28_10",
+  "seed": 3,
+  "training_commit": "NO_ROOT_GIT_COMMIT",
+  "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+  "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+  "checkpoint_hash": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+  "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_3\\best.pt",
+  "best_val_epoch": "NOT_APPLICABLE",
+  "fixed_epoch": 200,
+  "val_metric": 0.9293333333333333,
+  "val_role": "diagnostic_only",
+  "train_end_time": "2026-09-17T18:41:01.581135+00:00",
+  "test_admission": false,
+  "status": "FROZEN"
+}

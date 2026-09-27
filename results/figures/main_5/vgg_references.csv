@@ -1,0 +1,4 @@
+seed,calibration_n,c_global,c_global_nll,c_global_optimizer_success,cedl_uncertainty_Q95,dGOP_reference,conflict_reference,reference_sha256
+V0,3000,7.3263600911805815,0.3652227002048034,True,0.7831931753424387,predicted-class conditional midrank,matched Original/Brightness/Reflect-shift predicted-class conditional midrank,50fc1fe33ee4dbc68f1965d3b76f63c7b00ecf043e0bea7d61849cad41ac36fb
+V1,3000,8.23366795313237,0.33205539441407056,True,0.7568811539125563,predicted-class conditional midrank,matched Original/Brightness/Reflect-shift predicted-class conditional midrank,f8489b4df92edd2de2059b8b0f97e3eda523033018cf4ad30b7c1ed8e215ef72
+V2,3000,8.241928951246619,0.36501416084489996,True,0.8069661701065646,predicted-class conditional midrank,matched Original/Brightness/Reflect-shift predicted-class conditional midrank,7aa914787457e38faa5ee030428719956a1786b9e1f77865197de3a7c95fd56f

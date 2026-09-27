@@ -1,0 +1,147 @@
+{
+  "created_utc": "2026-09-09T10:32:12.169486+00:00",
+  "scope": "Figure 7 development beta closure; no candidate search or manuscript replacement",
+  "beta_grid": [
+    0.0,
+    0.05,
+    0.1,
+    0.2,
+    0.4,
+    0.8,
+    1.2
+  ],
+  "beta_grid_source": "PROJECT\\outputs\\P0_beta_extension_safe_20260824_143159\\beta_sweep_results.csv",
+  "backbone": "ResNet18-EDL",
+  "seed": 0,
+  "checkpoint": "PROJECT\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_0\\best.pt",
+  "c_global": 16.661915817233986,
+  "refit_c_global": false,
+  "layer": "Layer3",
+  "views": [
+    "original",
+    "brightness",
+    "shift"
+  ],
+  "risk": "q_func only",
+  "batch_size": 32,
+  "AMP": false,
+  "TF32": false,
+  "model_eval": true,
+  "cudnn_deterministic": true,
+  "cudnn_benchmark": false,
+  "precision": "Unchanged Table 4: CUDA float32 forward/gradient/JSD; NumPy float64 midrank and alpha/uncertainty. FP32 does not mean casting the established postprocessing to float32.",
+  "score": "10 / sum(1 + c_global * exp(-beta * clip(q_func,0,1)) * float64(original evidence))",
+  "global_edl": "beta=0 on the same fresh original evidence, with the same alpha/sum float64 postprocessing",
+  "data": {
+    "calibration": {
+      "count": 3000,
+      "indices_sha256": "1e6f825959100f4b89e966698a5f3fa549769c713ae9c7e631972cc7d4a035d0",
+      "labels_sha256": "10ec2f774651d4417a800af7cd0c932985a4ba69d04230047d3c28435bf20d18",
+      "uint8_NCHW_sha256": "e3c22f5ff8acadd314db1cf7d7d5db961625b63ade30dcffe3d21f599d608445",
+      "float32_NCHW_sha256": "7382ee2e612488b445f3e366785cc83216170d0b30c9d121bee89f41ee5c0156",
+      "source": "CIFAR-10 train validation"
+    },
+    "id_development": {
+      "count": 2000,
+      "indices_sha256": "acb7f8434fc5ca28a7f9cd54bf28eb829a6efb47bc9f398c2253c89f40f5884a",
+      "labels_sha256": "4e64a02568003d897e7b68ba22d98a34f324c87f72edef91cddc23d3c5cfeb56",
+      "uint8_NCHW_sha256": "e9289ec39a5c33c76a7a83d1fb35ee9a9eba2608779fb81d5d22f00e28eab196",
+      "float32_NCHW_sha256": "b6b236c182a9f5ac2c88b2ba80678e285280686a66eeeb94de307db898383ac5",
+      "source": "CIFAR-10 train validation"
+    },
+    "ood_development": {
+      "count": 12500,
+      "indices_sha256": "0376dfd46d41dbf6380ac5e85d9f0e526bf582e146f0520da91d0a7f7c08915e",
+      "labels_sha256": "f3358b72fb9498acd0c47695208e2011c0ddeb4989171160c3e0f09353f191a2",
+      "uint8_NCHW_sha256": "e964a9a3a3a662bf71b0ef4fc152debad609676cb6eb80ebccf6e3a3457c39d1",
+      "float32_NCHW_sha256": "f375f347ed7a4c152e95a61fe9aff6bc2d855c01d65832b9420850552c515cab",
+      "source": "CIFAR-100 train"
+    }
+  },
+  "metrics": {
+    "AUROC": "Mann-Whitney average tied ranks; OOD positive",
+    "FPR95": "ID fraction >= smallest score cutoff achieving at least 95% OOD TPR; conventional ROC summary only, no deployed threshold selected or exported"
+  },
+  "reference": "Fresh 3000-sample Full Orbit predicted-class reference; exact comparison to Table 4 V3 reference",
+  "replicates": 2,
+  "gates": [
+    "source hashes",
+    "data identity",
+    "exact repeat raw arrays and references",
+    "exact Table 4 V3 raw arrays and reference",
+    "beta=.40 exact Table 4 AUROC/FPR95",
+    "no mutation"
+  ],
+  "ranking_is_a_gate": false,
+  "prohibited": [
+    "training",
+    "new beta candidates",
+    "c_global refit",
+    "official test scoring",
+    "holdout scoring",
+    "Tiny ImageNet scoring",
+    "historical overwrite"
+  ],
+  "source_sha256": {
+    "PROJECT\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_0\\best.pt": "a2a29a847c7a1afbf333b4313fa3639ad98a6947ab86bcac14819cb763879dee",
+    "PROJECT\\outputs\\Stage_P3\\protocol\\calibration\\seed_0_calibration.npz": "e3f5e1bbb54e63e8612808dec2d37f7e14b94db19f5e853d05772f90a4749bee",
+    "PROJECT\\outputs\\FINAL_beta040_formal_rebuild_20260824_165921\\FORMAL_ASSET_AUTHORITY_MANIFEST.json": "fead273489ee8e4d240f9bb891370f539b6417e1f6add612eeeb09763835e3eb",
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\index_manifest.json": "4e182e30ff585949a6a8e07f78e0d8894804795f5f30f57979cc2b6a5f074a40",
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar10_calibration_indices.npy": "9eb11ea177d3a00904440a450a40da3ade3767880aecc5798750bdd9120960c6",
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar10_id_safety_indices.npy": "ad3fd63c36812961aa9ca4b5235926ef6d34cf3bf66cbc4dde3a78559c94fbb4",
+    "PROJECT\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar100_development_indices.npy": "023fd70333e4032412f02c5e520b459570f5c36a7117e7fd0e4501b77a491ae9",
+    "PROJECT\\outputs\\Stage_P2\\raw_scores\\cifar10_validation.npz": "3dee37a5b75cb6a24994f679c4f04cda99df552c3fc197d9de24204e7c49304a",
+    "PROJECT\\outputs\\Stage_P1_v2\\raw_scores\\cifar100_development.npz": "44fcbe04e4e0ce314069519c5e29cb5ba448993200b117bc93b69d38209a1e19",
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_1": "54636561a3ce25bd3e19253c6b0d8538147b0ae398331ac4a2d86c6d987368cd",
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_2": "766b2cef9fbc745cf056b3152224f7cf77163b330ea9a15f9392beb8b89bc5a8",
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_3": "0f00d98ebfb30b3ec0ad19f9756dc2630b89003e10525f5e148445e82aa6a1f9",
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_4": "3f7bb240661948b8f4d53e36ec720d8306f5668bd0071dcb4e6c947f78e9682b",
+    "PROJECT\\datasets\\CIFAR-10\\cifar-10-batches-py\\data_batch_5": "d91802434d8376bbaeeadf58a737e3a1b12ac839077e931237e0dcd43adcb154",
+    "PROJECT\\datasets\\CIFAR-100\\cifar-100-python\\train": "735e79b04f092ca3d2e6d07f368c0a7d70d48c48d28865950cc24454cf45129b",
+    "PROJECT\\outputs\\FINAL_EFFICIENCY_CONFIRMATION_20260907_202800\\function_only_core.py": "5228db1b03dfe9e360e51f79a94ba5ff16f949c67138f09578476ec1e6a4fffb",
+    "PROJECT\\outputs\\ResNet18-EDL-Softplus\\code\\b0_edl\\model.py": "7267d210e54c68428f0b0dc4831360ca84ef5685fb9ef33c2dcd6fe51ba65d8f",
+    "PROJECT\\outputs\\FINAL_EFFICIENCY_CONFIRMATION_20260907_202800\\FINAL_VIEW_EFFICIENCY.csv": "431deca3ea74e7c5f97344e54693e80cd43550b42390b3b122b276f018670107",
+    "PROJECT\\outputs\\FINAL_EFFICIENCY_CONFIRMATION_20260907_202800\\TIMING_REPEATS.csv": "625ca10858d97a287d04609254a13b608b8eecf108fa0723819817518b99fe67",
+    "PROJECT\\outputs\\FINAL_beta040_formal_rebuild_20260824_165921\\FINAL_RISK_COMPONENT_ABLATION_BETA040.csv": "48c38cd48884ab17683f93249b20d3017a4169495da1aff4334e27fb0fcaf9b4",
+    "PROJECT\\outputs\\FINAL_EFFICIENCY_CONFIRMATION_20260907_202800\\PERFORMANCE_AUTHORITY_EVIDENCE.json": "91c53d05ca26e9a66f9b3170ab440dee1efae1abdf4e88fde817cd3f5523b24e",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\VIEW_ABLATION_REPAIR_PROTOCOL.json": "8a58e505471182466984bba8ecdadd248eacf4888f14f55d45015dd70e38e972",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\run_repair.py": "1a47c297d39461b912fa7a4f12fd29d7d39dc0aec62391f47591a0c90050a9f9",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\function_only_core.py": "5228db1b03dfe9e360e51f79a94ba5ff16f949c67138f09578476ec1e6a4fffb",
+    "PROJECT\\outputs\\FINAL_LAYER_ABLATION_AUTHORITY_20260907_214436\\FINAL_TABLE4_COMBINED_SOURCE.csv": "59d5174e278abae6f81e126a05eaac1303f444cd0c2cc30633a0534f6c72188c",
+    "PROJECT\\outputs\\P0_beta_extension_safe_20260824_143159\\beta_sweep_results.csv": "367d0419de376b54a9c231c7bd23022d2750f121bf19e0ace061a52a41e17c6b",
+    "PROJECT\\outputs\\P0_beta_extension_safe_20260824_143159\\beta_sweep_plot.csv": "afafd67dda1f2fa2c501244018ff8177271172d44d7553bdf41530d5913b2bc0",
+    "PROJECT\\outputs\\P0_beta_extension_safe_20260824_143159\\run_beta_extension.py": "609bcea6beef4d395d8aae9cf40cb73f4e53842c4f5df38d6f205327bd082854",
+    "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure7\\figure7_plot_data.csv": "c4927c1cfd01999f6091874880337ec25387c00534cf853d8d2a498fadda0109",
+    "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure7\\Figure7_publication.pdf": "f0798c5cb424787f0d0251f73b5fdb005c3506c869750c9f3ff45ccbc1174b2f",
+    "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure7\\Figure7_publication_600dpi.png": "10866c3314e6bb2a550c26ac36dc009545dfd6ab8a694c3d04ccd5e8403d56ba",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_calibration_raw.npz": "4c2c803bde4c966b6d08c50c9ab1456393913d76b30ddd8313827b20ecc3041c",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_calibration_reference.npz": "adc3ead98d9bdc36aeb2731ae662d4cc915ccba3b31b7063b961caadb7ded776",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_id_development_raw.npz": "a671eefc1a28d9b4361e669dc2b081be9597afc4e950309c1602547c86781338",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\V3_ood_development_raw.npz": "c266978f04e5cfe13271a83ba5c528208003d3c6b4cf2c0dda64895dee3eddd6",
+    "PROJECT\\outputs\\FINAL_VIEW_ABLATION_AUTHORITY_REPAIR_20260907_204813\\FINAL_VIEW_ABLATION_SAMPLE_SCORES.parquet": "a4a825ce8a9c979b5a6240d644e510914b9df8a5c2c46023b9ea78ba5e501865"
+  },
+  "code_sha256": {
+    "run_closure.py": "d6842e4b1ac61ff603dc6fd3e5566d87b927d67ddf7b53a75d4dde8594c6d367",
+    "table4_pipeline.py": "1a47c297d39461b912fa7a4f12fd29d7d39dc0aec62391f47591a0c90050a9f9",
+    "function_only_core.py": "5228db1b03dfe9e360e51f79a94ba5ff16f949c67138f09578476ec1e6a4fffb"
+  },
+  "figure_contract": {
+    "claim": "Show the measured position of beta=.40 within the original seven-point development grid, irrespective of its rank",
+    "archetype": "quantitative grid",
+    "panels": [
+      "AUROC",
+      "FPR95"
+    ],
+    "backend": "Python",
+    "size_mm": [
+      170,
+      55
+    ],
+    "exports": [
+      "editable SVG",
+      "editable PDF",
+      "600 dpi PNG"
+    ],
+    "statistics": "Seed-0 development point estimates; no CI, significance or global-optimum claim"
+  }
+}

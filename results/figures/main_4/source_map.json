@@ -1,0 +1,113 @@
+{
+  "current_figure": "Fig5",
+  "historic_figure": 3,
+  "current_pdf": "PRIVATE_DESKTOP\\画图\\Fig5.pdf",
+  "current_pdf_sha256": "1f35e972d9d36e069c92e1990c2a38253d39a4fbb2d10db1550fa59b1550ec9d",
+  "current_pdf_size_mm": [
+    447.67499999999995,
+    236.71388888888885
+  ],
+  "current_text": "",
+  "candidate_text": "",
+  "inputs": [
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure3\\figure3_field_sources.csv",
+      "sha256": "5e8c5c89ebb7aad58553512001f20b9e85ab5606fb2dea3b25a2880d7285461a",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\figure3_field_sources.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure3\\figure3_plot_data.csv",
+      "sha256": "30fb5e3842a8d351eb1eb326147849720c944e379822ce63d29cee67bfa430ef",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\figure3_plot_data.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure3\\figure3_source_manifest.csv",
+      "sha256": "e51c150592dfe5c3f7f6540ad3f8694078787e1e3f2917e4dbdce0c12324c3ec",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\figure3_source_manifest.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure3\\data_checks.json",
+      "sha256": "2186fbcaf74eae7b1385eb5818813cc7893a98802b5bf186c648ebccd43c0abf",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\data_checks.json"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure3\\statistics.json",
+      "sha256": "d8b74afadc66112fcd4709d7b651ba8176e76601594d959df3775d9cd4f3255c",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\statistics.json"
+    }
+  ],
+  "embedded_pixels_exact": true,
+  "reference": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\reports\\current_pdf\\figure3_embedded.png",
+  "columns": [
+    "panel",
+    "dataset",
+    "seed",
+    "metric",
+    "value",
+    "ci_low",
+    "ci_high",
+    "n",
+    "note",
+    "group",
+    "q25",
+    "q75",
+    "ci95_low",
+    "ci95_high",
+    "position_risk",
+    "interval"
+  ],
+  "records": 10266,
+  "manuscript_width_mm": 130.739,
+  "binding": "Exact embedded pixel identity to archived current-PDF reference; static renderer links frozen CSV coordinates.",
+  "purpose": "Historical mechanism diagnostics: functional-risk distribution, uncertainty control and probe gain; S0–S2.",
+  "panels": {
+    "a": {
+      "metric": "q_func density and seed median/IQR",
+      "unit": "risk 0–1; common frozen display height",
+      "shape": "5 ×512 density grid plus 15 seed medians/IQR"
+    },
+    "b": {
+      "metric": "dGOP discrimination",
+      "unit": "AUROC proportion",
+      "shape": "3 paired unstratified/stratified seed points plus saved stratified mean/CI"
+    },
+    "c": {
+      "metric": "Extended minus Control probe",
+      "unit": "AUROC proportion difference",
+      "shape": "3 seeds and saved mean/CI"
+    }
+  },
+  "final_inputs": [
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\actual_origin_columns.json",
+      "sha256": "26a0c245616c2045a4f50b5e7a2376840f6d7d3dfdaf281bfd4abb41e1739624"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\data_checks.json",
+      "sha256": "2186fbcaf74eae7b1385eb5818813cc7893a98802b5bf186c648ebccd43c0abf"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\figure3_field_sources.csv",
+      "sha256": "5e8c5c89ebb7aad58553512001f20b9e85ab5606fb2dea3b25a2880d7285461a"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\figure3_plot_data.csv",
+      "sha256": "30fb5e3842a8d351eb1eb326147849720c944e379822ce63d29cee67bfa430ef"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\figure3_source_manifest.csv",
+      "sha256": "e51c150592dfe5c3f7f6540ad3f8694078787e1e3f2917e4dbdce0c12324c3ec"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig5\\plot_inputs\\statistics.json",
+      "sha256": "d8b74afadc66112fcd4709d7b651ba8176e76601594d959df3775d9cd4f3255c"
+    }
+  ],
+  "actual_scripts": [
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\build_all.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\polish.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\export_embedded.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\final_native_check.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\numerical_qa.py"
+  ]
+}

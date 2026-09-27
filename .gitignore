@@ -1,0 +1,22 @@
+# Local computation and credentials
+outputs/
+data/
+datasets/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.pkl
+*.pickle
+*.log
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+*.pem
+*.key
+*.aux
+*.out
+*.synctex.gz

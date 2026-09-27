@@ -1,0 +1,144 @@
+{
+  "current_figure": "Fig7",
+  "historic_figure": 9,
+  "current_pdf": "PRIVATE_DESKTOP\\画图\\Fig7.pdf",
+  "current_pdf_sha256": "48ef22c80194c468852341d33adcac13cabd38166651b790c95921d232880482",
+  "current_pdf_size_mm": [
+    447.67499999999995,
+    183.44444444444446
+  ],
+  "current_text": "",
+  "candidate_text": "",
+  "inputs": [
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\cases.csv",
+      "sha256": "7663735fac1e937b8a326103b969da24558d748277732c4473ef60acc808dfb5",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\cases.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\figure9_field_sources.csv",
+      "sha256": "433a2c37b70cab06446881535afecf63ef06fcc1ad39d9d6f79636786a3a768d",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\figure9_field_sources.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\figure9_plot_data.csv",
+      "sha256": "6083276f3c09475242e9c0bb2b8d70b5f7b25991dbf2926211d1808b23d16e31",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\figure9_plot_data.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\figure9_source_manifest.csv",
+      "sha256": "cbab1d510340d15138f56d0f06bac86a21672c9394786860c75feff05bfaded3",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\figure9_source_manifest.csv"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\artist_values.json",
+      "sha256": "f4aacd80ac5080c98083595ae31e0587918786f870fde31b15707a511a21b06e",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\artist_values.json"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\data_checks.json",
+      "sha256": "2d046bd5997f73a277590db77c0ce6f3193b25c4981b731b8f6a9a046b4cde43",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\data_checks.json"
+    },
+    {
+      "path": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\current\\figure9\\statistics.json",
+      "sha256": "232487c766c256e32b5d9eb45183813b76f553c0ccf9cbe0979685a4c57aad6e",
+      "copy": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\statistics.json"
+    }
+  ],
+  "embedded_pixels_exact": true,
+  "reference": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\reports\\current_pdf\\figure9_embedded.png",
+  "columns": [
+    "dataset",
+    "q_func_bin",
+    "q_func_left",
+    "q_func_right",
+    "q_func_interval",
+    "baseline_uncertainty_bin",
+    "baseline_percentile_left",
+    "baseline_percentile_right",
+    "baseline_uncertainty_interval",
+    "n",
+    "support_seed0",
+    "support_seed1",
+    "support_seed2",
+    "low_support",
+    "low_support_rule",
+    "mean_delta_r",
+    "median_delta_r",
+    "positive_delta_r_magnitude",
+    "negative_delta_r_magnitude",
+    "delta_r_definition"
+  ],
+  "records": 50,
+  "manuscript_width_mm": 130.739,
+  "binding": "Exact embedded pixel identity to archived current-PDF reference; static renderer links frozen CSV coordinates.",
+  "purpose": "Descriptive sample rank-change grids and all fixed cases; no reselection.",
+  "panels": {
+    "a": {
+      "shape": "2×5×5",
+      "statistics": "saved pooled bin mean Delta R",
+      "x": "original uncertainty percentile bins",
+      "y": "q_func bins; low values bottom",
+      "mask": "frozen low_support, any seed n<30",
+      "range": [
+        -0.36,
+        0.36
+      ]
+    },
+    "b": {
+      "shape": "8 fixed case identities×3 seeds×3 variables",
+      "units": {
+        "q_func": "0–1",
+        "d_GOP": "original divergence",
+        "delta_r": "rank percentile change"
+      },
+      "means": "6 saved group means; no CI"
+    }
+  },
+  "final_inputs": [
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\actual_origin_columns.json",
+      "sha256": "97ca3ddb41e673f25012705296f1abbb9afc4d95d43c30d7e5b30ecbb342abdb"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\artist_values.json",
+      "sha256": "f4aacd80ac5080c98083595ae31e0587918786f870fde31b15707a511a21b06e"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\cases.csv",
+      "sha256": "7663735fac1e937b8a326103b969da24558d748277732c4473ef60acc808dfb5"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\data_checks.json",
+      "sha256": "2d046bd5997f73a277590db77c0ce6f3193b25c4981b731b8f6a9a046b4cde43"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\figure9_field_sources.csv",
+      "sha256": "433a2c37b70cab06446881535afecf63ef06fcc1ad39d9d6f79636786a3a768d"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\figure9_plot_data.csv",
+      "sha256": "6083276f3c09475242e9c0bb2b8d70b5f7b25991dbf2926211d1808b23d16e31"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\figure9_source_manifest.csv",
+      "sha256": "cbab1d510340d15138f56d0f06bac86a21672c9394786860c75feff05bfaded3"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\rank_change.pal",
+      "sha256": "e46f86e4f0a5d701734bc854aa91b0ca062c700e9cc8f943f5b0be40a2892b7b"
+    },
+    {
+      "path": "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\Fig7\\plot_inputs\\statistics.json",
+      "sha256": "232487c766c256e32b5d9eb45183813b76f553c0ccf9cbe0979685a4c57aad6e"
+    }
+  ],
+  "actual_scripts": [
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\build_all.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\polish.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\export_embedded.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\final_native_check.py",
+    "PRIVATE_DESKTOP\\画图\\outputs\\remaining_figures_final_20260920_200440\\scripts\\numerical_qa.py"
+  ]
+}

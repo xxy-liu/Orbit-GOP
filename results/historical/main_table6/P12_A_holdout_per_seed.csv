@@ -1,0 +1,25 @@
+Layer,Seed,Score_stage,AUROC,FPR95,ID_role,OOD_role,Prediction_change_rate
+block3,0,d_GOP_raw,0.4824963,0.9765,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,0,q_func,0.49441223999999995,0.9765,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,0,Orbit_final,0.84912776,0.5855,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block4,0,d_GOP_raw,0.8143200199999999,0.394,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,0,q_func,0.80026658,0.4835,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,0,Orbit_final,0.85895616,0.5015,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block3,1,d_GOP_raw,0.4947264,0.9725,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,1,q_func,0.5006077999999999,0.9735,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,1,Orbit_final,0.85553832,0.601,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block4,1,d_GOP_raw,0.8209598,0.391,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,1,q_func,0.7987776600000001,0.514,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,1,Orbit_final,0.86413788,0.5185,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block3,2,d_GOP_raw,0.49571645999999997,0.975,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,2,q_func,0.4994651,0.977,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,2,Orbit_final,0.84603104,0.601,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block4,2,d_GOP_raw,0.8184664000000001,0.3955,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,2,q_func,0.8029872999999998,0.488,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,2,Orbit_final,0.8546006399999999,0.5185,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block3,Mean,d_GOP_raw,0.49097971999999995,0.9746666666666667,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,Mean,q_func,0.4981617133333333,0.9756666666666667,CIFAR-10 id_safety,CIFAR-100 holdout,
+block3,Mean,Orbit_final,0.8502323733333332,0.5958333333333333,CIFAR-10 id_safety,CIFAR-100 holdout,0.0
+block4,Mean,d_GOP_raw,0.8179154066666667,0.3935,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,Mean,q_func,0.80067718,0.4951666666666667,CIFAR-10 id_safety,CIFAR-100 holdout,
+block4,Mean,Orbit_final,0.8592315599999999,0.5128333333333334,CIFAR-10 id_safety,CIFAR-100 holdout,0.0

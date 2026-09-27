@@ -1,0 +1,16 @@
+{
+  "backbone": "wrn28_10",
+  "seed": 5,
+  "training_commit": "NO_ROOT_GIT_COMMIT",
+  "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+  "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+  "checkpoint_hash": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+  "checkpoint": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\checkpoints\\wrn28_10\\seed_5\\best.pt",
+  "best_val_epoch": "NOT_APPLICABLE",
+  "fixed_epoch": 200,
+  "val_metric": 0.929,
+  "val_role": "diagnostic_only",
+  "train_end_time": "2026-09-18T12:31:45.712811+00:00",
+  "test_admission": false,
+  "status": "FROZEN"
+}

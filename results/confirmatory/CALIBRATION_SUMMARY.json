@@ -1,0 +1,431 @@
+{
+  "status": "FROZEN",
+  "models": [
+    {
+      "backbone": "resnet18",
+      "seed": 3,
+      "checkpoint_hash": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T12:59:29.882775+00:00",
+      "fit": {
+        "c_global": 10.15746922746612,
+        "log_c_global": 2.3182093193369937,
+        "nll": 0.3379394259142526,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 12,
+        "boundary_distance": 5.681790680663006,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S3_state.npz",
+          "sha256": "fc2cc80900f0312d6c5b7dac6077fa5042d08c28f1c430a709e2b4727214a860"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S3_references.npz",
+          "sha256": "ba95e0163849544f9ebb364176c9c01d8dbad14cfb435087f99d96a5732ef5bf"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\resnet18\\seed_3\\cal.npz",
+          "sha256": "4a79a3743faf5b95aa44b3b94734f95915c5ed18535de11a6b19164e8acdd6f6"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\resnet18\\seed_3\\train.npz",
+          "sha256": "baf3533bbdc5207fb6c0b7b3a8be8d1feaba97eee5cf3f944d90facaf609d7f5"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S3.json",
+          "sha256": "b1e26673339122b7b030f34db09a41b0df119d62f970cd70b0f239d76788c839"
+        }
+      ]
+    },
+    {
+      "backbone": "resnet18",
+      "seed": 4,
+      "checkpoint_hash": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:00:08.134449+00:00",
+      "fit": {
+        "c_global": 11.205565750166224,
+        "log_c_global": 2.4164105968454024,
+        "nll": 0.33021146799875745,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 13,
+        "boundary_distance": 5.583589403154598,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S4_state.npz",
+          "sha256": "375a2b87338251faaac3e087c30844a34fa94a52e7883a76205d58589a9cc873"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S4_references.npz",
+          "sha256": "e7a22a01d1471479e0cc22b3ad7abc6633ff906d6c173f949a766c0adf902693"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\resnet18\\seed_4\\cal.npz",
+          "sha256": "de0accae5a87741bf281d68291c1d6506228bc0c878872dc407df1cc8e986254"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\resnet18\\seed_4\\train.npz",
+          "sha256": "f00de73309db6f89c560368809bf598278f35a49beb8f11fcb471e80b24e3b4c"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S4.json",
+          "sha256": "09611795a1268940d695a057d600f4d24c86d7983a269d098373981114ee1eff"
+        }
+      ]
+    },
+    {
+      "backbone": "resnet18",
+      "seed": 5,
+      "checkpoint_hash": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:00:45.818507+00:00",
+      "fit": {
+        "c_global": 10.672894784599878,
+        "log_c_global": 2.3677073297927165,
+        "nll": 0.33996241434835045,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 16,
+        "boundary_distance": 5.632292670207283,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S5_state.npz",
+          "sha256": "a1389a7fc0a8c7ed8383ad2b05c1d02c2f79460f4d0cdf312fb21358a5153903"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S5_references.npz",
+          "sha256": "f1a905e23881197ae5ca18e5cdd2c303a2f144c4b900afff34fa1f8dae10a309"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\resnet18\\seed_5\\cal.npz",
+          "sha256": "0261acd839b6c6471c0c9925e72a24eca10a08e57a0b9e05ca30a0840f2931ba"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\resnet18\\seed_5\\train.npz",
+          "sha256": "5d7103ea4370b8b55e753836ffedcb6b3be75a5af035367a0629853c59cdbd25"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\resnet18_S5.json",
+          "sha256": "01864475a13fee1731f6f6627862e6da1c78a4630ccdf3c4d91cb59834327ff7"
+        }
+      ]
+    },
+    {
+      "backbone": "vgg16_bn",
+      "seed": 3,
+      "checkpoint_hash": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:01:18.799349+00:00",
+      "fit": {
+        "c_global": 6.59823716922757,
+        "log_c_global": 1.8868025177844245,
+        "nll": 0.38843671067213276,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 18,
+        "boundary_distance": 6.1131974822155755,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S3_state.npz",
+          "sha256": "d8e4b46ab38175a5931fc616c0f3bbbffd5fe2e7b7cc2b70e3c8307cc455cd1e"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S3_references.npz",
+          "sha256": "8b7dcc01c4aeec8a7bf6f65b2e07d8f9095ad59ac84951275e4ee3f45518711a"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\vgg16_bn\\seed_3\\cal.npz",
+          "sha256": "fd8eb11cccc2fde3aeeed86869f57fb4c94ed5c2163c19a367f7733ae0635388"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\vgg16_bn\\seed_3\\train.npz",
+          "sha256": "2c94d5cc6f7fcbb600863581ac0356ed1655e90c4e53fc7b4c98114026609cd0"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S3.json",
+          "sha256": "4d33eb7802498f74bbde62c069351aea889628d556a8617221a00d91a5395b4d"
+        }
+      ]
+    },
+    {
+      "backbone": "vgg16_bn",
+      "seed": 4,
+      "checkpoint_hash": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:01:52.353137+00:00",
+      "fit": {
+        "c_global": 6.566075108356952,
+        "log_c_global": 1.88191625799615,
+        "nll": 0.37280492359994166,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 13,
+        "boundary_distance": 6.11808374200385,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S4_state.npz",
+          "sha256": "3729274cadc32ff47e64528e43175e98d7003496306034c95e5cd333d46d6438"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S4_references.npz",
+          "sha256": "a1143763c3e3061c0aa674438647356fd697c6fecfda83784bf7dacb8cc96ba7"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\vgg16_bn\\seed_4\\cal.npz",
+          "sha256": "c10b0bd0c00a508e4c8068ce6091b578a465076a7433b88bbb7c2be8bdc20a6d"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\vgg16_bn\\seed_4\\train.npz",
+          "sha256": "4c469582af8e7e678f7daef2476cf7bafeb23b221b1ae36995744b7b656cd90b"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S4.json",
+          "sha256": "aae22b4408b5152c485d2fe18d3ac8036fea4b5fbaad3b7d1f856bc221959f50"
+        }
+      ]
+    },
+    {
+      "backbone": "vgg16_bn",
+      "seed": 5,
+      "checkpoint_hash": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:02:25.817184+00:00",
+      "fit": {
+        "c_global": 7.296820908482308,
+        "log_c_global": 1.9874387613114446,
+        "nll": 0.359124018154955,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 13,
+        "boundary_distance": 6.012561238688555,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S5_state.npz",
+          "sha256": "18d18770ad9b4b60e34062da3421c1705a2455e0fe7727049a0b1fd5d89324c3"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S5_references.npz",
+          "sha256": "d4e8bb15464afa0f04a3872b92f582563aa42c07b450f8ce0a38515aed842cd6"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\vgg16_bn\\seed_5\\cal.npz",
+          "sha256": "5242bc69beaed45c93312080640bc978460cb94e14110b0836d077c7d448cac1"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\vgg16_bn\\seed_5\\train.npz",
+          "sha256": "61fa515120a7817e9e5ece7763a8fbf6e29b01f003ec2b3b7cb0d611578d824b"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\vgg16_bn_S5.json",
+          "sha256": "3311bb23f1a26a60b2181eafc6ef3089dc2499664a369b0f9ad9cd2f65bced7a"
+        }
+      ]
+    },
+    {
+      "backbone": "wrn28_10",
+      "seed": 3,
+      "checkpoint_hash": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:04:02.946698+00:00",
+      "fit": {
+        "c_global": 9.705741095910032,
+        "log_c_global": 2.2727175759837337,
+        "nll": 0.3259957601770177,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 17,
+        "boundary_distance": 5.727282424016266,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S3_state.npz",
+          "sha256": "24ef7eed661ed95f032a770c2e8c182b3dde121b49e92cb8377db48758f4f0d5"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S3_references.npz",
+          "sha256": "70d1ab1ea6abcbe15dfd7c5b69e46d3d3c091eb6927ffb6956c3560bcc914178"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\wrn28_10\\seed_3\\cal.npz",
+          "sha256": "001d11ad3d2f67913afff59c117b83e6ba075e3b511e0ba41046662728744002"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\wrn28_10\\seed_3\\train.npz",
+          "sha256": "3232a4fbefc351311bed2c91e9d5510bd888bba7995f7a3858b540d8ae5f144e"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S3.json",
+          "sha256": "ba0cdc0bf9e856c4248d6077b5470f2984a4135640638e158ccc5d3fa778f14e"
+        }
+      ]
+    },
+    {
+      "backbone": "wrn28_10",
+      "seed": 4,
+      "checkpoint_hash": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+      "training_config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:05:40.014660+00:00",
+      "fit": {
+        "c_global": 12.682235398360737,
+        "log_c_global": 2.5402022267173665,
+        "nll": 0.3047911135218884,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 17,
+        "boundary_distance": 5.4597977732826335,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S4_state.npz",
+          "sha256": "ed65305048d48537ec8a7eeb57eb9ce9ecfb803f034371db66670ca64b3fd93c"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S4_references.npz",
+          "sha256": "9fa13ab84e2920a220372acb546a77980e0297d694c6d84f642fc477ccf3b1e6"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\wrn28_10\\seed_4\\cal.npz",
+          "sha256": "7431096d5fb97067b8b0898bd1cd6f976c8e5e4bf701afcbe11e6fc377ae2872"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\wrn28_10\\seed_4\\train.npz",
+          "sha256": "27beab8b50783c608245d5e7aaf8d14f1d87f2e621a0cd6f9136a75095db1ca1"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S4.json",
+          "sha256": "7d3ebf3375449d63196c19021f2d8656bcc78ca2aaf340bf46a0c107fcd62f6d"
+        }
+      ]
+    },
+    {
+      "backbone": "wrn28_10",
+      "seed": 5,
+      "checkpoint_hash": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+      "training_config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+      "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+      "manifest_hash": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+      "method_implementation_hash": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+      "preprocessing_hash": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5",
+      "evaluation_implementation_hash": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f",
+      "wrapper_hash": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce",
+      "status": "FROZEN",
+      "time": "2026-09-18T13:07:17.505984+00:00",
+      "fit": {
+        "c_global": 11.667942563944369,
+        "log_c_global": 2.456845129465451,
+        "nll": 0.3276602735545212,
+        "optimizer_success": true,
+        "optimizer_message": "Solution found.",
+        "optimizer_nfev": 16,
+        "boundary_distance": 5.543154870534549,
+        "pass": true
+      },
+      "files": [
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S5_state.npz",
+          "sha256": "55372c0de56b05b64a6ebf56a4eb1049c91ad03b85acaf6f9cb377cd1b87af47"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S5_references.npz",
+          "sha256": "561385dd583ffe20cbef29f8af8db6cbdb1c3bd795924e2e9f1e0f497d663849"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\wrn28_10\\seed_5\\cal.npz",
+          "sha256": "c5b3ceb77576f72b6e5e71c728adac24a44da9e0d165a35d6afe94b83262ae85"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\raw\\wrn28_10\\seed_5\\train.npz",
+          "sha256": "893af7bf702938c84b8a71682e7e359af65d769423ff6ecc2811a3b9f33f2ec0"
+        },
+        {
+          "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-stage7\\calibration\\wrn28_10_S5.json",
+          "sha256": "ea00e7db51f536d5153d70b322cd1b965641ad7db7977f10229d58a416ca7b76"
+        }
+      ]
+    }
+  ],
+  "time": "2026-09-18T13:07:18.808067+00:00",
+  "test_forward_started": false,
+  "all_nine_before_test": true
+}

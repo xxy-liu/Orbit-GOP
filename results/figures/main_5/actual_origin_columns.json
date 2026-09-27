@@ -1,0 +1,458 @@
+[
+  {
+    "range": "[Reference0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.3,
+        1.5
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[A0CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.07,
+        -0.07
+      ],
+      [
+        0.625068880319623,
+        0.67244771497121
+      ]
+    ],
+    "meaning": "Saved lower/upper 95% CI endpoints"
+  },
+  {
+    "range": "[A0Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.095,
+        -0.045000000000000005
+      ],
+      [
+        0.625068880319623,
+        0.625068880319623
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[A0Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.095,
+        -0.045000000000000005
+      ],
+      [
+        0.67244771497121,
+        0.67244771497121
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AMean0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.07
+      ],
+      [
+        0.648968681982322
+      ]
+    ],
+    "meaning": "{\"backbone\": \"ResNet18\", \"dataset\": \"CIFAR-100\", \"panel\": \"A\", \"point_AUROC\": \"0.648968681982322\", \"bootstrap_mean\": \"\", \"CI_low\": \"0.625068880319623\", \"CI_high\": \"0.67244771497121\", \"source\": \"P7 frozen formal authority; reused without recomputation\"}"
+  },
+  {
+    "range": "[A1CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.1,
+        0.1
+      ],
+      [
+        0.696188222285854,
+        0.740884716921746
+      ]
+    ],
+    "meaning": "Saved lower/upper 95% CI endpoints"
+  },
+  {
+    "range": "[A1Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.07500000000000001,
+        0.125
+      ],
+      [
+        0.696188222285854,
+        0.696188222285854
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[A1Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.07500000000000001,
+        0.125
+      ],
+      [
+        0.740884716921746,
+        0.740884716921746
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AMean1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.1
+      ],
+      [
+        0.718842962546566
+      ]
+    ],
+    "meaning": "{\"backbone\": \"VGG16-BN\", \"dataset\": \"CIFAR-100\", \"panel\": \"A\", \"point_AUROC\": \"0.718842962546566\", \"bootstrap_mean\": \"0.71884379765075\", \"CI_low\": \"0.696188222285854\", \"CI_high\": \"0.740884716921746\", \"source\": \"P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields\"}"
+  },
+  {
+    "range": "[A2CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.08,
+        1.08
+      ],
+      [
+        0.701308091432629,
+        0.765246640620599
+      ]
+    ],
+    "meaning": "Saved lower/upper 95% CI endpoints"
+  },
+  {
+    "range": "[A2Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.0550000000000002,
+        1.105
+      ],
+      [
+        0.701308091432629,
+        0.701308091432629
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[A2Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.0550000000000002,
+        1.105
+      ],
+      [
+        0.765246640620599,
+        0.765246640620599
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[AMean2]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.08
+      ],
+      [
+        0.733715962837579
+      ]
+    ],
+    "meaning": "{\"backbone\": \"VGG16-BN\", \"dataset\": \"Tiny ImageNet\", \"panel\": \"A\", \"point_AUROC\": \"0.733715962837579\", \"bootstrap_mean\": \"0.733167005525656\", \"CI_low\": \"0.701308091432629\", \"CI_high\": \"0.765246640620599\", \"source\": \"P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields\"}"
+  },
+  {
+    "range": "[Reference13]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.3,
+        1.5
+      ],
+      [
+        0.5,
+        0.5
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[B0CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.07,
+        -0.07
+      ],
+      [
+        0.630175271745616,
+        0.650298201544042
+      ]
+    ],
+    "meaning": "Saved lower/upper 95% CI endpoints"
+  },
+  {
+    "range": "[B0Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.095,
+        -0.045000000000000005
+      ],
+      [
+        0.630175271745616,
+        0.630175271745616
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[B0Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.095,
+        -0.045000000000000005
+      ],
+      [
+        0.650298201544042,
+        0.650298201544042
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[BMean0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.07
+      ],
+      [
+        0.640324058123618
+      ]
+    ],
+    "meaning": "{\"backbone\": \"ResNet18\", \"dataset\": \"CIFAR-100\", \"panel\": \"B\", \"point_AUROC\": \"0.640324058123618\", \"bootstrap_mean\": \"\", \"CI_low\": \"0.630175271745616\", \"CI_high\": \"0.650298201544042\", \"source\": \"P7 frozen formal authority; reused without recomputation\"}"
+  },
+  {
+    "range": "[B1CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.1,
+        0.1
+      ],
+      [
+        0.786280413462676,
+        0.797365888455973
+      ]
+    ],
+    "meaning": "Saved lower/upper 95% CI endpoints"
+  },
+  {
+    "range": "[B1Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.07500000000000001,
+        0.125
+      ],
+      [
+        0.786280413462676,
+        0.786280413462676
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[B1Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.07500000000000001,
+        0.125
+      ],
+      [
+        0.797365888455973,
+        0.797365888455973
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[BMean1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.1
+      ],
+      [
+        0.791812084364161
+      ]
+    ],
+    "meaning": "{\"backbone\": \"VGG16-BN\", \"dataset\": \"CIFAR-100\", \"panel\": \"B\", \"point_AUROC\": \"0.791812084364161\", \"bootstrap_mean\": \"0.791811085736664\", \"CI_low\": \"0.786280413462676\", \"CI_high\": \"0.797365888455973\", \"source\": \"P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields\"}"
+  },
+  {
+    "range": "[B2CI]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.08,
+        1.08
+      ],
+      [
+        0.796473588477651,
+        0.807859413646961
+      ]
+    ],
+    "meaning": "Saved lower/upper 95% CI endpoints"
+  },
+  {
+    "range": "[B2Cap0]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.0550000000000002,
+        1.105
+      ],
+      [
+        0.796473588477651,
+        0.796473588477651
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[B2Cap1]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.0550000000000002,
+        1.105
+      ],
+      [
+        0.807859413646961,
+        0.807859413646961
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[BMean2]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.08
+      ],
+      [
+        0.802146131038482
+      ]
+    ],
+    "meaning": "{\"backbone\": \"VGG16-BN\", \"dataset\": \"Tiny ImageNet\", \"panel\": \"B\", \"point_AUROC\": \"0.802146131038482\", \"bootstrap_mean\": \"0.802147563471825\", \"CI_low\": \"0.796473588477651\", \"CI_high\": \"0.807859413646961\", \"source\": \"P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields\"}"
+  }
+]

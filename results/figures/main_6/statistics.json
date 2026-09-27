@@ -1,0 +1,21 @@
+{
+  "group_means": {
+    "q_func": {
+      "strong_fix": 0.9004535594576715,
+      "strong_break": 0.12150491822467245
+    },
+    "d_GOP": {
+      "strong_fix": 0.020997265276354912,
+      "strong_break": 0.0026694686787475165
+    },
+    "delta_r": {
+      "strong_fix": 0.3323,
+      "strong_break": -0.210525
+    }
+  },
+  "palette_limits": [
+    -0.36,
+    0.36
+  ],
+  "color_scale_center": 0
+}

@@ -1,0 +1,9 @@
+{
+  "WRN_epoch_loop_AST_identical": true,
+  "WRN_test_constructor_removed": true,
+  "WRN_policy": "fixed epoch 200; val only final diagnostic; no admission",
+  "ResNet_training_loop": "byte-exact copied training/resnet.py; wrapper only overrides isolated roots, split paths and authorized seed list",
+  "VGG_training_loop": "byte-exact copied training/vgg.py; wrapper disables class-collapse performance stop; numerical failure stop remains",
+  "VGG_initialization": "same constructor and S1/S2 double-construction/load call ordering extended to seeds 3,4,5",
+  "no_historical_modules_imported": "imports restricted to new copied vendor tree; no historical executor invoked"
+}

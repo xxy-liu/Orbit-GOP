@@ -1,0 +1,7 @@
+backbone,dataset,panel,point_AUROC,bootstrap_mean,CI_low,CI_high,source
+ResNet18,CIFAR-100,A,0.648968681982322,,0.625068880319623,0.67244771497121,P7 frozen formal authority; reused without recomputation
+VGG16-BN,CIFAR-100,A,0.718842962546566,0.71884379765075,0.696188222285854,0.740884716921746,P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields
+VGG16-BN,Tiny ImageNet,A,0.733715962837579,0.733167005525656,0.701308091432629,0.765246640620599,P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields
+ResNet18,CIFAR-100,B,0.640324058123618,,0.630175271745616,0.650298201544042,P7 frozen formal authority; reused without recomputation
+VGG16-BN,CIFAR-100,B,0.791812084364161,0.791811085736664,0.786280413462676,0.797365888455973,P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields
+VGG16-BN,Tiny ImageNet,B,0.802146131038482,0.802147563471825,0.796473588477651,0.807859413646961,P13 q_func_block4_final + aligned frozen P8 q_conf/C-EDL fields

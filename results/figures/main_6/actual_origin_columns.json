@@ -1,0 +1,2510 @@
+[
+  {
+    "range": "[HeatData0]Sheet1",
+    "columns": [
+      "0.1",
+      "0.30000000000000004",
+      "0.5",
+      "0.7000000000000001",
+      "0.9"
+    ],
+    "values": [
+      [
+        -0.0420447368421053,
+        0.00982641509433962,
+        0.105776470588235,
+        0.222136734693878,
+        0.34676484375
+      ],
+      [
+        -0.179929032258064,
+        -0.075562,
+        0.0373901098901099,
+        0.157983333333333,
+        0.255829292929293
+      ],
+      [
+        -0.25659298245614,
+        -0.137361855670103,
+        -0.0208690789473684,
+        0.07422890625,
+        0.141488481675393
+      ],
+      [
+        -0.122770408163265,
+        -0.070154415274463,
+        -0.0212951293759513,
+        0.013770498474059,
+        0.0406781772575251
+      ],
+      [
+        -0.0100746153846154,
+        -0.00566347962382441,
+        -0.00171794751640109,
+        0.00164211655345011,
+        0.00363555338407731
+      ]
+    ],
+    "meaning": "Rows q_func bins ascending; columns Global EDL uncertainty percentile bins ascending; native virtual matrix"
+  },
+  {
+    "range": "[HeatData1]Sheet1",
+    "columns": [
+      "0.1",
+      "0.30000000000000004",
+      "0.5",
+      "0.7000000000000001",
+      "0.9"
+    ],
+    "values": [
+      [
+        -0.0782833333333333,
+        0.00845,
+        0.0980666666666667,
+        0.235587719298246,
+        0.354993421052632
+      ],
+      [
+        -0.19330625,
+        -0.0798914285714286,
+        0.0384179487179487,
+        0.152696052631579,
+        0.260503125
+      ],
+      [
+        -0.241747619047619,
+        -0.135885714285714,
+        -0.0222389830508475,
+        0.0704898550724638,
+        0.145288349514563
+      ],
+      [
+        -0.121267256637168,
+        -0.0690847389558233,
+        -0.0230593908629442,
+        0.0141168157423971,
+        0.0414257706535142
+      ],
+      [
+        -0.00957030386740328,
+        -0.00516769172361424,
+        -0.00172135642135639,
+        0.00149784313725488,
+        0.0033350018447915
+      ]
+    ],
+    "meaning": "Rows q_func bins ascending; columns Global EDL uncertainty percentile bins ascending; native virtual matrix"
+  },
+  {
+    "range": "[Book2]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        0.5000000000000001,
+        0.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book3]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book4]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        1.1,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book5]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        0.5000000000000001,
+        0.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book6]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book7]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        1.1,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book8]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        3.1,
+        3.5
+      ],
+      [
+        0.5000000000000001,
+        0.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book9]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        3.5
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book10]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        2.9
+      ],
+      [
+        1.1,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book11]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        1.5,
+        1.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book12]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        1.5,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book13]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        2.1,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book14]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        1.5,
+        1.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book15]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        1.5,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book16]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        2.1,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book17]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        3.1,
+        3.5
+      ],
+      [
+        1.5,
+        1.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book18]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        3.5
+      ],
+      [
+        1.5,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book19]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        2.9
+      ],
+      [
+        2.1,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book20]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        2.5,
+        2.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book21]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        2.5,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book22]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        3.1,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book23]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        2.5,
+        2.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book24]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        2.5,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book25]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        3.1,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book26]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        3.4999999999999996,
+        3.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book27]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        3.5,
+        4.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book28]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        4.1,
+        4.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book29]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        0.5000000000000001,
+        0.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book30]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book31]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        1.1,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book32]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        0.5000000000000001,
+        0.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book33]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book34]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        1.1,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book35]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        3.1,
+        3.5
+      ],
+      [
+        0.5000000000000001,
+        0.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book36]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        3.5
+      ],
+      [
+        0.5,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book37]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        2.9
+      ],
+      [
+        1.1,
+        1.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book38]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        1.5,
+        1.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book39]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        1.5,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book40]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        2.1,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book41]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        1.5,
+        1.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book42]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        1.5,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book43]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        2.1,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book44]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        3.1,
+        3.5
+      ],
+      [
+        1.5,
+        1.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book45]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        3.5
+      ],
+      [
+        1.5,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book46]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.5,
+        2.9
+      ],
+      [
+        2.1,
+        2.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book47]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        2.5,
+        2.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book48]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        2.5,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book49]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        3.1,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book50]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        2.5,
+        2.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book51]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        2.5,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book52]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        3.1,
+        3.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book53]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        3.4999999999999996,
+        3.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book54]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        3.5,
+        4.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book55]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        4.1,
+        4.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book56]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        3.4999999999999996,
+        3.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book57]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        3.5,
+        4.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book58]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        4.1,
+        4.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book59]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.1,
+        1.5
+      ],
+      [
+        4.5,
+        4.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book60]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        1.5
+      ],
+      [
+        4.5,
+        5.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book61]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.5,
+        0.9
+      ],
+      [
+        5.1,
+        5.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book62]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        2.1,
+        2.5
+      ],
+      [
+        4.5,
+        4.9
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book63]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        2.5
+      ],
+      [
+        4.5,
+        5.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book64]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        1.5,
+        1.9
+      ],
+      [
+        5.1,
+        5.5
+      ]
+    ],
+    "meaning": "Frozen low_support=True; no support reclassification"
+  },
+  {
+    "range": "[Book65]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.899665551839465
+      ],
+      [
+        1.0
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"0\", \"source_index\": \"3769\", \"q_func\": \"0.899665551839465\", \"d_GOP\": \"0.0165893300426265\", \"delta_r\": \"0.3667\"}"
+  },
+  {
+    "range": "[Book66]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.838283828382838
+      ],
+      [
+        1.95
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"1\", \"source_index\": \"3769\", \"q_func\": \"0.838283828382838\", \"d_GOP\": \"0.0148166242233823\", \"delta_r\": \"0.3188\"}"
+  },
+  {
+    "range": "[Book67]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.870550161812298
+      ],
+      [
+        2.9
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"2\", \"source_index\": \"3769\", \"q_func\": \"0.870550161812298\", \"d_GOP\": \"0.016552759627412\", \"delta_r\": \"0.3011\"}"
+  },
+  {
+    "range": "[Book68]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.911262798634812
+      ],
+      [
+        3.8499999999999996
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"0\", \"source_index\": \"2320\", \"q_func\": \"0.911262798634812\", \"d_GOP\": \"0.0155366093517136\", \"delta_r\": \"0.297\"}"
+  },
+  {
+    "range": "[Book69]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.986928104575163
+      ],
+      [
+        4.8
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"1\", \"source_index\": \"2320\", \"q_func\": \"0.986928104575163\", \"d_GOP\": \"0.0399336103628127\", \"delta_r\": \"0.3879\"}"
+  },
+  {
+    "range": "[Book70]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.88628762541806
+      ],
+      [
+        5.75
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"2\", \"source_index\": \"2320\", \"q_func\": \"0.88628762541806\", \"d_GOP\": \"0.0127294723812257\", \"delta_r\": \"0.2929\"}"
+  },
+  {
+    "range": "[Book71]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.946488294314382
+      ],
+      [
+        6.699999999999999
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"0\", \"source_index\": \"4374\", \"q_func\": \"0.946488294314382\", \"d_GOP\": \"0.0205947457180969\", \"delta_r\": \"0.3195\"}"
+  },
+  {
+    "range": "[Book72]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.953795379537955
+      ],
+      [
+        7.6499999999999995
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"1\", \"source_index\": \"4374\", \"q_func\": \"0.953795379537955\", \"d_GOP\": \"0.0239291192287949\", \"delta_r\": \"0.3736\"}"
+  },
+  {
+    "range": "[Book73]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.841423948220064
+      ],
+      [
+        8.6
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"2\", \"source_index\": \"4374\", \"q_func\": \"0.841423948220064\", \"d_GOP\": \"0.0144321394551568\", \"delta_r\": \"0.33\"}"
+  },
+  {
+    "range": "[Book74]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.965079365079366
+      ],
+      [
+        9.549999999999999
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"0\", \"source_index\": \"7779\", \"q_func\": \"0.965079365079366\", \"d_GOP\": \"0.0317343259908428\", \"delta_r\": \"0.3449\"}"
+  },
+  {
+    "range": "[Book75]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.762820512820514
+      ],
+      [
+        10.5
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"1\", \"source_index\": \"7779\", \"q_func\": \"0.762820512820514\", \"d_GOP\": \"0.0109301541100018\", \"delta_r\": \"0.2667\"}"
+  },
+  {
+    "range": "[Book76]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.942857142857142
+      ],
+      [
+        11.45
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"2\", \"source_index\": \"7779\", \"q_func\": \"0.942857142857142\", \"d_GOP\": \"0.0341882928241929\", \"delta_r\": \"0.3885\"}"
+  },
+  {
+    "range": "[Book77]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.9004535594576715,
+        0.9004535594576715
+      ],
+      [
+        12.350000000000001,
+        13.25
+      ]
+    ],
+    "meaning": "Saved group mean; not recalculated"
+  },
+  {
+    "range": "[Book78]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.100334448160535
+      ],
+      [
+        15.0
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"0\", \"source_index\": \"1271\", \"q_func\": \"0.100334448160535\", \"d_GOP\": \"0.0022612224006756\", \"delta_r\": \"-0.223\"}"
+  },
+  {
+    "range": "[Book79]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.112211221122112
+      ],
+      [
+        15.95
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"1\", \"source_index\": \"1271\", \"q_func\": \"0.112211221122112\", \"d_GOP\": \"0.0023533328243422\", \"delta_r\": \"-0.2407\"}"
+  },
+  {
+    "range": "[Book80]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.13915857605178
+      ],
+      [
+        16.9
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"2\", \"source_index\": \"1271\", \"q_func\": \"0.13915857605178\", \"d_GOP\": \"0.0030829448187682\", \"delta_r\": \"-0.121\"}"
+  },
+  {
+    "range": "[Book81]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0443686006825939
+      ],
+      [
+        17.85
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"0\", \"source_index\": \"1969\", \"q_func\": \"0.0443686006825939\", \"d_GOP\": \"0.0021855871817062\", \"delta_r\": \"-0.2771\"}"
+  },
+  {
+    "range": "[Book82]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0
+      ],
+      [
+        18.8
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"1\", \"source_index\": \"1969\", \"q_func\": \"0\", \"d_GOP\": \"0.0012841014412455\", \"delta_r\": \"-0.3125\"}"
+  },
+  {
+    "range": "[Book83]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.434343434343434
+      ],
+      [
+        19.75
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"2\", \"source_index\": \"1969\", \"q_func\": \"0.434343434343434\", \"d_GOP\": \"0.0059886052884216\", \"delta_r\": \"-0.0694\"}"
+  },
+  {
+    "range": "[Book84]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.282539682539682
+      ],
+      [
+        20.7
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"0\", \"source_index\": \"2887\", \"q_func\": \"0.282539682539682\", \"d_GOP\": \"0.0039055393623137\", \"delta_r\": \"-0.125\"}"
+  },
+  {
+    "range": "[Book85]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0897435897435903
+      ],
+      [
+        21.65
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"1\", \"source_index\": \"2887\", \"q_func\": \"0.0897435897435903\", \"d_GOP\": \"0.0017821233996301\", \"delta_r\": \"-0.203\"}"
+  },
+  {
+    "range": "[Book86]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0412698412698398
+      ],
+      [
+        22.6
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"2\", \"source_index\": \"2887\", \"q_func\": \"0.0412698412698398\", \"d_GOP\": \"0.0013763905088891\", \"delta_r\": \"-0.2857\"}"
+  },
+  {
+    "range": "[Book87]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0564784053156145
+      ],
+      [
+        23.549999999999997
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"0\", \"source_index\": \"2946\", \"q_func\": \"0.0564784053156145\", \"d_GOP\": \"0.0021710528609738\", \"delta_r\": \"-0.2371\"}"
+  },
+  {
+    "range": "[Book88]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.130584192439863
+      ],
+      [
+        24.5
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"1\", \"source_index\": \"2946\", \"q_func\": \"0.130584192439863\", \"d_GOP\": \"0.0038576687713647\", \"delta_r\": \"-0.1696\"}"
+  },
+  {
+    "range": "[Book89]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.027027027027025
+      ],
+      [
+        25.45
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"2\", \"source_index\": \"2946\", \"q_func\": \"0.027027027027025\", \"d_GOP\": \"0.0017850552866395\", \"delta_r\": \"-0.2622\"}"
+  },
+  {
+    "range": "[Book90]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.12150491822467245,
+        0.12150491822467245
+      ],
+      [
+        25.55,
+        26.45
+      ]
+    ],
+    "meaning": "Saved group mean; not recalculated"
+  },
+  {
+    "range": "[Book91]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0165893300426265
+      ],
+      [
+        1.0
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"0\", \"source_index\": \"3769\", \"q_func\": \"0.899665551839465\", \"d_GOP\": \"0.0165893300426265\", \"delta_r\": \"0.3667\"}"
+  },
+  {
+    "range": "[Book92]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0148166242233823
+      ],
+      [
+        1.95
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"1\", \"source_index\": \"3769\", \"q_func\": \"0.838283828382838\", \"d_GOP\": \"0.0148166242233823\", \"delta_r\": \"0.3188\"}"
+  },
+  {
+    "range": "[Book93]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.016552759627412
+      ],
+      [
+        2.9
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"2\", \"source_index\": \"3769\", \"q_func\": \"0.870550161812298\", \"d_GOP\": \"0.016552759627412\", \"delta_r\": \"0.3011\"}"
+  },
+  {
+    "range": "[Book94]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0155366093517136
+      ],
+      [
+        3.8499999999999996
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"0\", \"source_index\": \"2320\", \"q_func\": \"0.911262798634812\", \"d_GOP\": \"0.0155366093517136\", \"delta_r\": \"0.297\"}"
+  },
+  {
+    "range": "[Book95]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0399336103628127
+      ],
+      [
+        4.8
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"1\", \"source_index\": \"2320\", \"q_func\": \"0.986928104575163\", \"d_GOP\": \"0.0399336103628127\", \"delta_r\": \"0.3879\"}"
+  },
+  {
+    "range": "[Book96]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0127294723812257
+      ],
+      [
+        5.75
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"2\", \"source_index\": \"2320\", \"q_func\": \"0.88628762541806\", \"d_GOP\": \"0.0127294723812257\", \"delta_r\": \"0.2929\"}"
+  },
+  {
+    "range": "[Book97]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0205947457180969
+      ],
+      [
+        6.699999999999999
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"0\", \"source_index\": \"4374\", \"q_func\": \"0.946488294314382\", \"d_GOP\": \"0.0205947457180969\", \"delta_r\": \"0.3195\"}"
+  },
+  {
+    "range": "[Book98]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0239291192287949
+      ],
+      [
+        7.6499999999999995
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"1\", \"source_index\": \"4374\", \"q_func\": \"0.953795379537955\", \"d_GOP\": \"0.0239291192287949\", \"delta_r\": \"0.3736\"}"
+  },
+  {
+    "range": "[Book99]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0144321394551568
+      ],
+      [
+        8.6
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"2\", \"source_index\": \"4374\", \"q_func\": \"0.841423948220064\", \"d_GOP\": \"0.0144321394551568\", \"delta_r\": \"0.33\"}"
+  },
+  {
+    "range": "[Book100]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0317343259908428
+      ],
+      [
+        9.549999999999999
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"0\", \"source_index\": \"7779\", \"q_func\": \"0.965079365079366\", \"d_GOP\": \"0.0317343259908428\", \"delta_r\": \"0.3449\"}"
+  },
+  {
+    "range": "[Book101]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0109301541100018
+      ],
+      [
+        10.5
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"1\", \"source_index\": \"7779\", \"q_func\": \"0.762820512820514\", \"d_GOP\": \"0.0109301541100018\", \"delta_r\": \"0.2667\"}"
+  },
+  {
+    "range": "[Book102]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0341882928241929
+      ],
+      [
+        11.45
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"2\", \"source_index\": \"7779\", \"q_func\": \"0.942857142857142\", \"d_GOP\": \"0.0341882928241929\", \"delta_r\": \"0.3885\"}"
+  },
+  {
+    "range": "[Book103]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.020997265276354912,
+        0.020997265276354912
+      ],
+      [
+        12.350000000000001,
+        13.25
+      ]
+    ],
+    "meaning": "Saved group mean; not recalculated"
+  },
+  {
+    "range": "[Book104]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0022612224006756
+      ],
+      [
+        15.0
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"0\", \"source_index\": \"1271\", \"q_func\": \"0.100334448160535\", \"d_GOP\": \"0.0022612224006756\", \"delta_r\": \"-0.223\"}"
+  },
+  {
+    "range": "[Book105]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0023533328243422
+      ],
+      [
+        15.95
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"1\", \"source_index\": \"1271\", \"q_func\": \"0.112211221122112\", \"d_GOP\": \"0.0023533328243422\", \"delta_r\": \"-0.2407\"}"
+  },
+  {
+    "range": "[Book106]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0030829448187682
+      ],
+      [
+        16.9
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"2\", \"source_index\": \"1271\", \"q_func\": \"0.13915857605178\", \"d_GOP\": \"0.0030829448187682\", \"delta_r\": \"-0.121\"}"
+  },
+  {
+    "range": "[Book107]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0021855871817062
+      ],
+      [
+        17.85
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"0\", \"source_index\": \"1969\", \"q_func\": \"0.0443686006825939\", \"d_GOP\": \"0.0021855871817062\", \"delta_r\": \"-0.2771\"}"
+  },
+  {
+    "range": "[Book108]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0012841014412455
+      ],
+      [
+        18.8
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"1\", \"source_index\": \"1969\", \"q_func\": \"0\", \"d_GOP\": \"0.0012841014412455\", \"delta_r\": \"-0.3125\"}"
+  },
+  {
+    "range": "[Book109]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0059886052884216
+      ],
+      [
+        19.75
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"2\", \"source_index\": \"1969\", \"q_func\": \"0.434343434343434\", \"d_GOP\": \"0.0059886052884216\", \"delta_r\": \"-0.0694\"}"
+  },
+  {
+    "range": "[Book110]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0039055393623137
+      ],
+      [
+        20.7
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"0\", \"source_index\": \"2887\", \"q_func\": \"0.282539682539682\", \"d_GOP\": \"0.0039055393623137\", \"delta_r\": \"-0.125\"}"
+  },
+  {
+    "range": "[Book111]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0017821233996301
+      ],
+      [
+        21.65
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"1\", \"source_index\": \"2887\", \"q_func\": \"0.0897435897435903\", \"d_GOP\": \"0.0017821233996301\", \"delta_r\": \"-0.203\"}"
+  },
+  {
+    "range": "[Book112]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0013763905088891
+      ],
+      [
+        22.6
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"2\", \"source_index\": \"2887\", \"q_func\": \"0.0412698412698398\", \"d_GOP\": \"0.0013763905088891\", \"delta_r\": \"-0.2857\"}"
+  },
+  {
+    "range": "[Book113]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0021710528609738
+      ],
+      [
+        23.549999999999997
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"0\", \"source_index\": \"2946\", \"q_func\": \"0.0564784053156145\", \"d_GOP\": \"0.0021710528609738\", \"delta_r\": \"-0.2371\"}"
+  },
+  {
+    "range": "[Book114]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0038576687713647
+      ],
+      [
+        24.5
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"1\", \"source_index\": \"2946\", \"q_func\": \"0.130584192439863\", \"d_GOP\": \"0.0038576687713647\", \"delta_r\": \"-0.1696\"}"
+  },
+  {
+    "range": "[Book115]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0017850552866395
+      ],
+      [
+        25.45
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"2\", \"source_index\": \"2946\", \"q_func\": \"0.027027027027025\", \"d_GOP\": \"0.0017850552866395\", \"delta_r\": \"-0.2622\"}"
+  },
+  {
+    "range": "[Book116]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.0026694686787475165,
+        0.0026694686787475165
+      ],
+      [
+        25.55,
+        26.45
+      ]
+    ],
+    "meaning": "Saved group mean; not recalculated"
+  },
+  {
+    "range": "[Reference117]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0,
+        0
+      ],
+      [
+        27.0,
+        0.0
+      ]
+    ],
+    "meaning": ""
+  },
+  {
+    "range": "[Book117]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3667
+      ],
+      [
+        1.0
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"0\", \"source_index\": \"3769\", \"q_func\": \"0.899665551839465\", \"d_GOP\": \"0.0165893300426265\", \"delta_r\": \"0.3667\"}"
+  },
+  {
+    "range": "[Book118]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3188
+      ],
+      [
+        1.95
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"1\", \"source_index\": \"3769\", \"q_func\": \"0.838283828382838\", \"d_GOP\": \"0.0148166242233823\", \"delta_r\": \"0.3188\"}"
+  },
+  {
+    "range": "[Book119]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3011
+      ],
+      [
+        2.9
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_1\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"3769\", \"source_label\": \"81\", \"seed\": \"2\", \"source_index\": \"3769\", \"q_func\": \"0.870550161812298\", \"d_GOP\": \"0.016552759627412\", \"delta_r\": \"0.3011\"}"
+  },
+  {
+    "range": "[Book120]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.297
+      ],
+      [
+        3.8499999999999996
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"0\", \"source_index\": \"2320\", \"q_func\": \"0.911262798634812\", \"d_GOP\": \"0.0155366093517136\", \"delta_r\": \"0.297\"}"
+  },
+  {
+    "range": "[Book121]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3879
+      ],
+      [
+        4.8
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"1\", \"source_index\": \"2320\", \"q_func\": \"0.986928104575163\", \"d_GOP\": \"0.0399336103628127\", \"delta_r\": \"0.3879\"}"
+  },
+  {
+    "range": "[Book122]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.2929
+      ],
+      [
+        5.75
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_fix_2\", \"dataset\": \"cifar100\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"2320\", \"source_label\": \"12\", \"seed\": \"2\", \"source_index\": \"2320\", \"q_func\": \"0.88628762541806\", \"d_GOP\": \"0.0127294723812257\", \"delta_r\": \"0.2929\"}"
+  },
+  {
+    "range": "[Book123]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3195
+      ],
+      [
+        6.699999999999999
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"0\", \"source_index\": \"4374\", \"q_func\": \"0.946488294314382\", \"d_GOP\": \"0.0205947457180969\", \"delta_r\": \"0.3195\"}"
+  },
+  {
+    "range": "[Book124]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3736
+      ],
+      [
+        7.6499999999999995
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"1\", \"source_index\": \"4374\", \"q_func\": \"0.953795379537955\", \"d_GOP\": \"0.0239291192287949\", \"delta_r\": \"0.3736\"}"
+  },
+  {
+    "range": "[Book125]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.33
+      ],
+      [
+        8.6
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_1\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"1\", \"sample_index\": \"4374\", \"source_label\": \"85\", \"seed\": \"2\", \"source_index\": \"4374\", \"q_func\": \"0.841423948220064\", \"d_GOP\": \"0.0144321394551568\", \"delta_r\": \"0.33\"}"
+  },
+  {
+    "range": "[Book126]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3449
+      ],
+      [
+        9.549999999999999
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"0\", \"source_index\": \"7779\", \"q_func\": \"0.965079365079366\", \"d_GOP\": \"0.0317343259908428\", \"delta_r\": \"0.3449\"}"
+  },
+  {
+    "range": "[Book127]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.2667
+      ],
+      [
+        10.5
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"1\", \"source_index\": \"7779\", \"q_func\": \"0.762820512820514\", \"d_GOP\": \"0.0109301541100018\", \"delta_r\": \"0.2667\"}"
+  },
+  {
+    "range": "[Book128]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3885
+      ],
+      [
+        11.45
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_fix_2\", \"dataset\": \"tin\", \"category\": \"strong_fix\", \"selection_order\": \"2\", \"sample_index\": \"7779\", \"source_label\": \"175\", \"seed\": \"2\", \"source_index\": \"7779\", \"q_func\": \"0.942857142857142\", \"d_GOP\": \"0.0341882928241929\", \"delta_r\": \"0.3885\"}"
+  },
+  {
+    "range": "[Book129]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        0.3323,
+        0.3323
+      ],
+      [
+        12.350000000000001,
+        13.25
+      ]
+    ],
+    "meaning": "Saved group mean; not recalculated"
+  },
+  {
+    "range": "[Book130]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.223
+      ],
+      [
+        15.0
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"0\", \"source_index\": \"1271\", \"q_func\": \"0.100334448160535\", \"d_GOP\": \"0.0022612224006756\", \"delta_r\": \"-0.223\"}"
+  },
+  {
+    "range": "[Book131]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.2407
+      ],
+      [
+        15.95
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"1\", \"source_index\": \"1271\", \"q_func\": \"0.112211221122112\", \"d_GOP\": \"0.0023533328243422\", \"delta_r\": \"-0.2407\"}"
+  },
+  {
+    "range": "[Book132]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.121
+      ],
+      [
+        16.9
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_1\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"1271\", \"source_label\": \"13\", \"seed\": \"2\", \"source_index\": \"1271\", \"q_func\": \"0.13915857605178\", \"d_GOP\": \"0.0030829448187682\", \"delta_r\": \"-0.121\"}"
+  },
+  {
+    "range": "[Book133]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.2771
+      ],
+      [
+        17.85
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"0\", \"source_index\": \"1969\", \"q_func\": \"0.0443686006825939\", \"d_GOP\": \"0.0021855871817062\", \"delta_r\": \"-0.2771\"}"
+  },
+  {
+    "range": "[Book134]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.3125
+      ],
+      [
+        18.8
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"1\", \"source_index\": \"1969\", \"q_func\": \"0\", \"d_GOP\": \"0.0012841014412455\", \"delta_r\": \"-0.3125\"}"
+  },
+  {
+    "range": "[Book135]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.0694
+      ],
+      [
+        19.75
+      ]
+    ],
+    "meaning": "{\"case_id\": \"cifar100_strong_break_2\", \"dataset\": \"cifar100\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"1969\", \"source_label\": \"36\", \"seed\": \"2\", \"source_index\": \"1969\", \"q_func\": \"0.434343434343434\", \"d_GOP\": \"0.0059886052884216\", \"delta_r\": \"-0.0694\"}"
+  },
+  {
+    "range": "[Book136]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.125
+      ],
+      [
+        20.7
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"0\", \"source_index\": \"2887\", \"q_func\": \"0.282539682539682\", \"d_GOP\": \"0.0039055393623137\", \"delta_r\": \"-0.125\"}"
+  },
+  {
+    "range": "[Book137]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.203
+      ],
+      [
+        21.65
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"1\", \"source_index\": \"2887\", \"q_func\": \"0.0897435897435903\", \"d_GOP\": \"0.0017821233996301\", \"delta_r\": \"-0.203\"}"
+  },
+  {
+    "range": "[Book138]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.2857
+      ],
+      [
+        22.6
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_1\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"1\", \"sample_index\": \"2887\", \"source_label\": \"36\", \"seed\": \"2\", \"source_index\": \"2887\", \"q_func\": \"0.0412698412698398\", \"d_GOP\": \"0.0013763905088891\", \"delta_r\": \"-0.2857\"}"
+  },
+  {
+    "range": "[Book139]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.2371
+      ],
+      [
+        23.549999999999997
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"0\", \"source_index\": \"2946\", \"q_func\": \"0.0564784053156145\", \"d_GOP\": \"0.0021710528609738\", \"delta_r\": \"-0.2371\"}"
+  },
+  {
+    "range": "[Book140]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.1696
+      ],
+      [
+        24.5
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"1\", \"source_index\": \"2946\", \"q_func\": \"0.130584192439863\", \"d_GOP\": \"0.0038576687713647\", \"delta_r\": \"-0.1696\"}"
+  },
+  {
+    "range": "[Book141]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.2622
+      ],
+      [
+        25.45
+      ]
+    ],
+    "meaning": "{\"case_id\": \"tin_strong_break_2\", \"dataset\": \"tin\", \"category\": \"strong_break\", \"selection_order\": \"2\", \"sample_index\": \"2946\", \"source_label\": \"96\", \"seed\": \"2\", \"source_index\": \"2946\", \"q_func\": \"0.027027027027025\", \"d_GOP\": \"0.0017850552866395\", \"delta_r\": \"-0.2622\"}"
+  },
+  {
+    "range": "[Book142]Sheet1",
+    "columns": [
+      "X",
+      "Y"
+    ],
+    "values": [
+      [
+        -0.210525,
+        -0.210525
+      ],
+      [
+        25.55,
+        26.45
+      ]
+    ],
+    "meaning": "Saved group mean; not recalculated"
+  }
+]

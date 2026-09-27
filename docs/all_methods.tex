@@ -1,0 +1,576 @@
+\section*{Repository Table R7. Complete confirmatory results for all 12 methods}\label{tab:s7}
+All values use S3--S5. AUROC and FPR95 are proportions; ID AURC is in $10^{-3}$ units. Accuracy and prediction changes are percentages. Mean rows report sample SD ($ddof=1$). OOD classification accuracy and OOD AURC are not applicable and are not computed.
+\subsection*{ResNet18 / CIFAR100}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AUROC & FPR95 & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 0.8509 & 1.0000 & 0.00 \\
+MSP & S4 & 0.8544 & 1.0000 & 0.00 \\
+MSP & S5 & 0.8501 & 1.0000 & 0.00 \\
+MSP & Mean $\pm$ SD & $0.8518 \pm 0.0022$ & $1.0000 \pm 0.0000$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 0.8697 & 0.4719 & 0.00 \\
+Predictive Entropy & S4 & 0.8737 & 0.4454 & 0.00 \\
+Predictive Entropy & S5 & 0.8691 & 0.4721 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $0.8708 \pm 0.0025$ & $0.4631 \pm 0.0154$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 0.8696 & 0.4684 & 0.00 \\
+Energy & S4 & 0.8738 & 0.4470 & 0.00 \\
+Energy & S5 & 0.8689 & 0.4725 & 0.00 \\
+Energy & Mean $\pm$ SD & $0.8708 \pm 0.0027$ & $0.4626 \pm 0.0137$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 0.8364 & 0.6548 & 0.41 \\
+ReAct-Energy & S4 & 0.8485 & 0.6153 & 0.52 \\
+ReAct-Energy & S5 & 0.8352 & 0.6486 & 1.02 \\
+ReAct-Energy & Mean $\pm$ SD & $0.8400 \pm 0.0073$ & $0.6396 \pm 0.0212$ & $0.65 \pm 0.33$ \\
+KNN & S3 & 0.8366 & 0.4837 & 0.00 \\
+KNN & S4 & 0.8394 & 0.4752 & 0.00 \\
+KNN & S5 & 0.8346 & 0.4950 & 0.00 \\
+KNN & Mean $\pm$ SD & $0.8369 \pm 0.0024$ & $0.4846 \pm 0.0099$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 0.8587 & 0.4986 & 0.00 \\
+ViM & S4 & 0.8623 & 0.4816 & 0.00 \\
+ViM & S5 & 0.8537 & 0.5443 & 0.00 \\
+ViM & Mean $\pm$ SD & $0.8583 \pm 0.0043$ & $0.5082 \pm 0.0324$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 0.8148 & 0.6840 & 0.00 \\
+GAIA-Z & S4 & 0.8124 & 0.6557 & 0.00 \\
+GAIA-Z & S5 & 0.7930 & 0.7484 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $0.8067 \pm 0.0120$ & $0.6960 \pm 0.0475$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 0.8544 & 0.5551 & 0.00 \\
+GradNorm & S4 & 0.8713 & 0.4716 & 0.00 \\
+GradNorm & S5 & 0.8607 & 0.5210 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $0.8621 \pm 0.0085$ & $0.5159 \pm 0.0420$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 0.8696 & 0.4693 & 0.00 \\
+Global EDL & S4 & 0.8739 & 0.4466 & 0.00 \\
+Global EDL & S5 & 0.8690 & 0.4729 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $0.8708 \pm 0.0027$ & $0.4629 \pm 0.0143$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 0.8751 & 0.4141 & 14.29 \\
+C-EDL (C018) & S4 & 0.8787 & 0.4078 & 14.59 \\
+C-EDL (C018) & S5 & 0.8742 & 0.4121 & 14.56 \\
+C-EDL (C018) & Mean $\pm$ SD & $0.8760 \pm 0.0024$ & $0.4113 \pm 0.0032$ & $14.48 \pm 0.17$ \\
+C-EDL (C009) & S3 & 0.8757 & 0.4079 & 14.29 \\
+C-EDL (C009) & S4 & 0.8799 & 0.4028 & 14.59 \\
+C-EDL (C009) & S5 & 0.8753 & 0.4125 & 14.56 \\
+C-EDL (C009) & Mean $\pm$ SD & $0.8770 \pm 0.0025$ & $0.4077 \pm 0.0049$ & $14.48 \pm 0.17$ \\
+Orbit-GOP & S3 & 0.8765 & 0.3995 & 0.00 \\
+Orbit-GOP & S4 & 0.8789 & 0.3927 & 0.00 \\
+Orbit-GOP & S5 & 0.8752 & 0.4133 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $0.8769 \pm 0.0019$ & $0.4018 \pm 0.0105$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{ResNet18 / Tiny}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AUROC & FPR95 & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 0.8748 & 1.0000 & 0.00 \\
+MSP & S4 & 0.8760 & 1.0000 & 0.00 \\
+MSP & S5 & 0.8723 & 1.0000 & 0.00 \\
+MSP & Mean $\pm$ SD & $0.8744 \pm 0.0019$ & $1.0000 \pm 0.0000$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 0.8912 & 0.3783 & 0.00 \\
+Predictive Entropy & S4 & 0.8926 & 0.3545 & 0.00 \\
+Predictive Entropy & S5 & 0.8898 & 0.3690 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $0.8912 \pm 0.0014$ & $0.3673 \pm 0.0120$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 0.8912 & 0.3754 & 0.00 \\
+Energy & S4 & 0.8931 & 0.3537 & 0.00 \\
+Energy & S5 & 0.8894 & 0.3702 & 0.00 \\
+Energy & Mean $\pm$ SD & $0.8912 \pm 0.0019$ & $0.3664 \pm 0.0113$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 0.8651 & 0.5765 & 0.67 \\
+ReAct-Energy & S4 & 0.8763 & 0.5445 & 0.60 \\
+ReAct-Energy & S5 & 0.8616 & 0.5827 & 1.07 \\
+ReAct-Energy & Mean $\pm$ SD & $0.8677 \pm 0.0077$ & $0.5679 \pm 0.0205$ & $0.78 \pm 0.25$ \\
+KNN & S3 & 0.8462 & 0.4020 & 0.00 \\
+KNN & S4 & 0.8504 & 0.3947 & 0.00 \\
+KNN & S5 & 0.8473 & 0.4041 & 0.00 \\
+KNN & Mean $\pm$ SD & $0.8479 \pm 0.0022$ & $0.4003 \pm 0.0049$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 0.8757 & 0.4067 & 0.00 \\
+ViM & S4 & 0.8782 & 0.4073 & 0.00 \\
+ViM & S5 & 0.8707 & 0.4479 & 0.00 \\
+ViM & Mean $\pm$ SD & $0.8749 \pm 0.0038$ & $0.4206 \pm 0.0236$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 0.8480 & 0.5624 & 0.00 \\
+GAIA-Z & S4 & 0.8523 & 0.5265 & 0.00 \\
+GAIA-Z & S5 & 0.8295 & 0.6846 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $0.8433 \pm 0.0121$ & $0.5912 \pm 0.0829$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 0.8826 & 0.4240 & 0.00 \\
+GradNorm & S4 & 0.8939 & 0.3668 & 0.00 \\
+GradNorm & S5 & 0.8864 & 0.4338 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $0.8876 \pm 0.0057$ & $0.4082 \pm 0.0362$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 0.8912 & 0.3754 & 0.00 \\
+Global EDL & S4 & 0.8933 & 0.3538 & 0.00 \\
+Global EDL & S5 & 0.8895 & 0.3705 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $0.8913 \pm 0.0019$ & $0.3666 \pm 0.0113$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 0.8946 & 0.3442 & 17.44 \\
+C-EDL (C018) & S4 & 0.8982 & 0.3287 & 16.31 \\
+C-EDL (C018) & S5 & 0.8924 & 0.3489 & 17.23 \\
+C-EDL (C018) & Mean $\pm$ SD & $0.8951 \pm 0.0029$ & $0.3406 \pm 0.0106$ & $16.99 \pm 0.60$ \\
+C-EDL (C009) & S3 & 0.8951 & 0.3406 & 17.44 \\
+C-EDL (C009) & S4 & 0.8990 & 0.3266 & 16.31 \\
+C-EDL (C009) & S5 & 0.8935 & 0.3419 & 17.23 \\
+C-EDL (C009) & Mean $\pm$ SD & $0.8959 \pm 0.0028$ & $0.3364 \pm 0.0085$ & $16.99 \pm 0.60$ \\
+Orbit-GOP & S3 & 0.8959 & 0.3417 & 0.00 \\
+Orbit-GOP & S4 & 0.8972 & 0.3311 & 0.00 \\
+Orbit-GOP & S5 & 0.8942 & 0.3392 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $0.8958 \pm 0.0015$ & $0.3373 \pm 0.0055$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{ResNet18 / ID}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AURC ($10^{-3}$) & Accuracy (\%) & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 11.087 & 92.88 & 0.00 \\
+MSP & S4 & 11.240 & 93.43 & 0.00 \\
+MSP & S5 & 11.278 & 93.06 & 0.00 \\
+MSP & Mean $\pm$ SD & $11.202 \pm 0.102$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 8.504 & 92.88 & 0.00 \\
+Predictive Entropy & S4 & 8.812 & 93.43 & 0.00 \\
+Predictive Entropy & S5 & 7.892 & 93.06 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $8.403 \pm 0.468$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 8.518 & 92.88 & 0.00 \\
+Energy & S4 & 8.826 & 93.43 & 0.00 \\
+Energy & S5 & 7.932 & 93.06 & 0.00 \\
+Energy & Mean $\pm$ SD & $8.426 \pm 0.454$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 12.660 & 92.82 & 0.08 \\
+ReAct-Energy & S4 & 11.787 & 93.41 & 0.06 \\
+ReAct-Energy & S5 & 12.156 & 93.12 & 0.09 \\
+ReAct-Energy & Mean $\pm$ SD & $12.201 \pm 0.438$ & $93.12 \pm 0.30$ & $0.08 \pm 0.02$ \\
+KNN & S3 & 10.387 & 92.88 & 0.00 \\
+KNN & S4 & 10.614 & 93.43 & 0.00 \\
+KNN & S5 & 9.814 & 93.06 & 0.00 \\
+KNN & Mean $\pm$ SD & $10.272 \pm 0.412$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 10.280 & 92.88 & 0.00 \\
+ViM & S4 & 9.763 & 93.43 & 0.00 \\
+ViM & S5 & 9.352 & 93.06 & 0.00 \\
+ViM & Mean $\pm$ SD & $9.798 \pm 0.465$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 21.322 & 92.88 & 0.00 \\
+GAIA-Z & S4 & 18.895 & 93.43 & 0.00 \\
+GAIA-Z & S5 & 22.679 & 93.06 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $20.965 \pm 1.917$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 11.015 & 92.88 & 0.00 \\
+GradNorm & S4 & 9.560 & 93.43 & 0.00 \\
+GradNorm & S5 & 10.123 & 93.06 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $10.233 \pm 0.734$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 8.522 & 92.88 & 0.00 \\
+Global EDL & S4 & 8.836 & 93.43 & 0.00 \\
+Global EDL & S5 & 7.945 & 93.06 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $8.434 \pm 0.452$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 8.746 & 92.72 & 2.11 \\
+C-EDL (C018) & S4 & 8.814 & 93.17 & 2.60 \\
+C-EDL (C018) & S5 & 8.050 & 92.68 & 2.59 \\
+C-EDL (C018) & Mean $\pm$ SD & $8.537 \pm 0.423$ & $92.86 \pm 0.27$ & $2.43 \pm 0.28$ \\
+C-EDL (C009) & S3 & 8.710 & 92.72 & 2.11 \\
+C-EDL (C009) & S4 & 8.789 & 93.17 & 2.60 \\
+C-EDL (C009) & S5 & 8.069 & 92.68 & 2.59 \\
+C-EDL (C009) & Mean $\pm$ SD & $8.523 \pm 0.395$ & $92.86 \pm 0.27$ & $2.43 \pm 0.28$ \\
+Orbit-GOP & S3 & 8.391 & 92.88 & 0.00 \\
+Orbit-GOP & S4 & 8.160 & 93.43 & 0.00 \\
+Orbit-GOP & S5 & 7.680 & 93.06 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $8.077 \pm 0.363$ & $93.12 \pm 0.28$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{VGG16-BN / CIFAR100}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AUROC & FPR95 & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 0.8084 & 1.0000 & 0.00 \\
+MSP & S4 & 0.8090 & 1.0000 & 0.00 \\
+MSP & S5 & 0.8099 & 1.0000 & 0.00 \\
+MSP & Mean $\pm$ SD & $0.8091 \pm 0.0008$ & $1.0000 \pm 0.0000$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 0.8446 & 0.6334 & 0.00 \\
+Predictive Entropy & S4 & 0.8441 & 0.6738 & 0.00 \\
+Predictive Entropy & S5 & 0.8487 & 0.6303 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $0.8458 \pm 0.0025$ & $0.6458 \pm 0.0243$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 0.8455 & 0.6257 & 0.00 \\
+Energy & S4 & 0.8454 & 0.6639 & 0.00 \\
+Energy & S5 & 0.8493 & 0.6213 & 0.00 \\
+Energy & Mean $\pm$ SD & $0.8467 \pm 0.0023$ & $0.6370 \pm 0.0234$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 0.8363 & 0.6676 & 0.86 \\
+ReAct-Energy & S4 & 0.8357 & 0.7088 & 1.09 \\
+ReAct-Energy & S5 & 0.8393 & 0.6428 & 0.64 \\
+ReAct-Energy & Mean $\pm$ SD & $0.8371 \pm 0.0019$ & $0.6731 \pm 0.0333$ & $0.86 \pm 0.23$ \\
+KNN & S3 & 0.8388 & 0.5148 & 0.00 \\
+KNN & S4 & 0.8393 & 0.5585 & 0.00 \\
+KNN & S5 & 0.8402 & 0.5744 & 0.00 \\
+KNN & Mean $\pm$ SD & $0.8394 \pm 0.0007$ & $0.5492 \pm 0.0309$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 0.8443 & 0.5118 & 0.00 \\
+ViM & S4 & 0.8458 & 0.5196 & 0.00 \\
+ViM & S5 & 0.8473 & 0.5208 & 0.00 \\
+ViM & Mean $\pm$ SD & $0.8458 \pm 0.0015$ & $0.5174 \pm 0.0049$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 0.8453 & 0.5348 & 0.00 \\
+GAIA-Z & S4 & 0.8660 & 0.4936 & 0.00 \\
+GAIA-Z & S5 & 0.8570 & 0.5196 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $0.8561 \pm 0.0104$ & $0.5160 \pm 0.0208$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 0.8391 & 0.6890 & 0.00 \\
+GradNorm & S4 & 0.8356 & 0.7421 & 0.00 \\
+GradNorm & S5 & 0.8414 & 0.6798 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $0.8387 \pm 0.0029$ & $0.7036 \pm 0.0336$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 0.8455 & 0.6257 & 0.00 \\
+Global EDL & S4 & 0.8455 & 0.6638 & 0.00 \\
+Global EDL & S5 & 0.8493 & 0.6215 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $0.8468 \pm 0.0022$ & $0.6370 \pm 0.0233$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 0.8574 & 0.4850 & 13.22 \\
+C-EDL (C018) & S4 & 0.8597 & 0.4851 & 13.77 \\
+C-EDL (C018) & S5 & 0.8615 & 0.4651 & 13.26 \\
+C-EDL (C018) & Mean $\pm$ SD & $0.8596 \pm 0.0021$ & $0.4784 \pm 0.0115$ & $13.42 \pm 0.31$ \\
+C-EDL (C009) & S3 & 0.8579 & 0.4958 & 13.22 \\
+C-EDL (C009) & S4 & 0.8598 & 0.5034 & 13.77 \\
+C-EDL (C009) & S5 & 0.8623 & 0.4777 & 13.26 \\
+C-EDL (C009) & Mean $\pm$ SD & $0.8600 \pm 0.0022$ & $0.4923 \pm 0.0132$ & $13.42 \pm 0.31$ \\
+Orbit-GOP & S3 & 0.8631 & 0.4354 & 0.00 \\
+Orbit-GOP & S4 & 0.8658 & 0.4457 & 0.00 \\
+Orbit-GOP & S5 & 0.8686 & 0.4189 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $0.8659 \pm 0.0028$ & $0.4333 \pm 0.0135$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{VGG16-BN / Tiny}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AUROC & FPR95 & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 0.8357 & 1.0000 & 0.00 \\
+MSP & S4 & 0.8348 & 1.0000 & 0.00 \\
+MSP & S5 & 0.8399 & 1.0000 & 0.00 \\
+MSP & Mean $\pm$ SD & $0.8368 \pm 0.0027$ & $1.0000 \pm 0.0000$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 0.8699 & 0.5095 & 0.00 \\
+Predictive Entropy & S4 & 0.8667 & 0.5769 & 0.00 \\
+Predictive Entropy & S5 & 0.8738 & 0.5056 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $0.8701 \pm 0.0036$ & $0.5307 \pm 0.0401$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 0.8711 & 0.5009 & 0.00 \\
+Energy & S4 & 0.8682 & 0.5677 & 0.00 \\
+Energy & S5 & 0.8745 & 0.5021 & 0.00 \\
+Energy & Mean $\pm$ SD & $0.8713 \pm 0.0031$ & $0.5236 \pm 0.0382$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 0.8639 & 0.5350 & 1.24 \\
+ReAct-Energy & S4 & 0.8626 & 0.5786 & 1.71 \\
+ReAct-Energy & S5 & 0.8669 & 0.5428 & 0.63 \\
+ReAct-Energy & Mean $\pm$ SD & $0.8645 \pm 0.0022$ & $0.5521 \pm 0.0233$ & $1.19 \pm 0.54$ \\
+KNN & S3 & 0.8552 & 0.4238 & 0.00 \\
+KNN & S4 & 0.8557 & 0.4659 & 0.00 \\
+KNN & S5 & 0.8606 & 0.4322 & 0.00 \\
+KNN & Mean $\pm$ SD & $0.8572 \pm 0.0030$ & $0.4406 \pm 0.0223$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 0.8643 & 0.4137 & 0.00 \\
+ViM & S4 & 0.8643 & 0.4239 & 0.00 \\
+ViM & S5 & 0.8682 & 0.4042 & 0.00 \\
+ViM & Mean $\pm$ SD & $0.8656 \pm 0.0022$ & $0.4139 \pm 0.0099$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 0.8884 & 0.4152 & 0.00 \\
+GAIA-Z & S4 & 0.9052 & 0.3530 & 0.00 \\
+GAIA-Z & S5 & 0.8986 & 0.3641 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $0.8974 \pm 0.0084$ & $0.3774 \pm 0.0332$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 0.8685 & 0.5366 & 0.00 \\
+GradNorm & S4 & 0.8634 & 0.6112 & 0.00 \\
+GradNorm & S5 & 0.8717 & 0.5313 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $0.8679 \pm 0.0042$ & $0.5597 \pm 0.0447$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 0.8712 & 0.5011 & 0.00 \\
+Global EDL & S4 & 0.8684 & 0.5676 & 0.00 \\
+Global EDL & S5 & 0.8746 & 0.5016 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $0.8714 \pm 0.0031$ & $0.5234 \pm 0.0383$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 0.8806 & 0.3909 & 15.50 \\
+C-EDL (C018) & S4 & 0.8808 & 0.4023 & 15.32 \\
+C-EDL (C018) & S5 & 0.8849 & 0.3781 & 15.37 \\
+C-EDL (C018) & Mean $\pm$ SD & $0.8821 \pm 0.0024$ & $0.3904 \pm 0.0121$ & $15.40 \pm 0.09$ \\
+C-EDL (C009) & S3 & 0.8812 & 0.3956 & 15.50 \\
+C-EDL (C009) & S4 & 0.8809 & 0.4097 & 15.32 \\
+C-EDL (C009) & S5 & 0.8853 & 0.3849 & 15.37 \\
+C-EDL (C009) & Mean $\pm$ SD & $0.8825 \pm 0.0025$ & $0.3967 \pm 0.0124$ & $15.40 \pm 0.09$ \\
+Orbit-GOP & S3 & 0.8854 & 0.3506 & 0.00 \\
+Orbit-GOP & S4 & 0.8857 & 0.3647 & 0.00 \\
+Orbit-GOP & S5 & 0.8908 & 0.3386 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $0.8873 \pm 0.0030$ & $0.3513 \pm 0.0131$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{VGG16-BN / ID}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AURC ($10^{-3}$) & Accuracy (\%) & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 19.884 & 91.77 & 0.00 \\
+MSP & S4 & 22.677 & 92.07 & 0.00 \\
+MSP & S5 & 18.889 & 91.93 & 0.00 \\
+MSP & Mean $\pm$ SD & $20.483 \pm 1.964$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 13.988 & 91.77 & 0.00 \\
+Predictive Entropy & S4 & 14.513 & 92.07 & 0.00 \\
+Predictive Entropy & S5 & 13.545 & 91.93 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $14.015 \pm 0.485$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 13.997 & 91.77 & 0.00 \\
+Energy & S4 & 14.455 & 92.07 & 0.00 \\
+Energy & S5 & 13.483 & 91.93 & 0.00 \\
+Energy & Mean $\pm$ SD & $13.978 \pm 0.486$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 16.325 & 91.75 & 0.11 \\
+ReAct-Energy & S4 & 16.510 & 92.06 & 0.10 \\
+ReAct-Energy & S5 & 15.081 & 91.95 & 0.08 \\
+ReAct-Energy & Mean $\pm$ SD & $15.972 \pm 0.777$ & $91.92 \pm 0.16$ & $0.10 \pm 0.02$ \\
+KNN & S3 & 12.588 & 91.77 & 0.00 \\
+KNN & S4 & 13.740 & 92.07 & 0.00 \\
+KNN & S5 & 14.347 & 91.93 & 0.00 \\
+KNN & Mean $\pm$ SD & $13.558 \pm 0.894$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 12.574 & 91.77 & 0.00 \\
+ViM & S4 & 13.321 & 92.07 & 0.00 \\
+ViM & S5 & 12.969 & 91.93 & 0.00 \\
+ViM & Mean $\pm$ SD & $12.954 \pm 0.374$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 18.944 & 91.77 & 0.00 \\
+GAIA-Z & S4 & 16.800 & 92.07 & 0.00 \\
+GAIA-Z & S5 & 16.932 & 91.93 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $17.558 \pm 1.202$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 15.251 & 91.77 & 0.00 \\
+GradNorm & S4 & 15.686 & 92.07 & 0.00 \\
+GradNorm & S5 & 15.212 & 91.93 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $15.383 \pm 0.263$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 14.000 & 91.77 & 0.00 \\
+Global EDL & S4 & 14.455 & 92.07 & 0.00 \\
+Global EDL & S5 & 13.480 & 91.93 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $13.978 \pm 0.488$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 11.300 & 91.83 & 2.55 \\
+C-EDL (C018) & S4 & 11.790 & 91.96 & 2.80 \\
+C-EDL (C018) & S5 & 11.572 & 92.05 & 2.40 \\
+C-EDL (C018) & Mean $\pm$ SD & $11.554 \pm 0.246$ & $91.95 \pm 0.11$ & $2.58 \pm 0.20$ \\
+C-EDL (C009) & S3 & 11.448 & 91.83 & 2.55 \\
+C-EDL (C009) & S4 & 12.025 & 91.96 & 2.80 \\
+C-EDL (C009) & S5 & 11.772 & 92.05 & 2.40 \\
+C-EDL (C009) & Mean $\pm$ SD & $11.748 \pm 0.289$ & $91.95 \pm 0.11$ & $2.58 \pm 0.20$ \\
+Orbit-GOP & S3 & 11.894 & 91.77 & 0.00 \\
+Orbit-GOP & S4 & 11.449 & 92.07 & 0.00 \\
+Orbit-GOP & S5 & 10.630 & 91.93 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $11.324 \pm 0.641$ & $91.92 \pm 0.15$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{WRN-28-10 / CIFAR100}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AUROC & FPR95 & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 0.8569 & 1.0000 & 0.00 \\
+MSP & S4 & 0.8500 & 1.0000 & 0.00 \\
+MSP & S5 & 0.8494 & 1.0000 & 0.00 \\
+MSP & Mean $\pm$ SD & $0.8521 \pm 0.0042$ & $1.0000 \pm 0.0000$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 0.8660 & 0.5530 & 0.00 \\
+Predictive Entropy & S4 & 0.8589 & 0.5550 & 0.00 \\
+Predictive Entropy & S5 & 0.8557 & 0.6192 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $0.8602 \pm 0.0053$ & $0.5757 \pm 0.0377$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 0.8664 & 0.5437 & 0.00 \\
+Energy & S4 & 0.8592 & 0.5436 & 0.00 \\
+Energy & S5 & 0.8557 & 0.6141 & 0.00 \\
+Energy & Mean $\pm$ SD & $0.8604 \pm 0.0055$ & $0.5671 \pm 0.0407$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 0.7628 & 0.7051 & 15.87 \\
+ReAct-Energy & S4 & 0.7581 & 0.6813 & 10.68 \\
+ReAct-Energy & S5 & 0.7586 & 0.7900 & 26.76 \\
+ReAct-Energy & Mean $\pm$ SD & $0.7599 \pm 0.0026$ & $0.7255 \pm 0.0571$ & $17.77 \pm 8.21$ \\
+KNN & S3 & 0.8408 & 0.5916 & 0.00 \\
+KNN & S4 & 0.8431 & 0.5235 & 0.00 \\
+KNN & S5 & 0.8429 & 0.5544 & 0.00 \\
+KNN & Mean $\pm$ SD & $0.8423 \pm 0.0013$ & $0.5565 \pm 0.0341$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 0.8564 & 0.5907 & 0.00 \\
+ViM & S4 & 0.8505 & 0.6206 & 0.00 \\
+ViM & S5 & 0.8547 & 0.6154 & 0.00 \\
+ViM & Mean $\pm$ SD & $0.8539 \pm 0.0030$ & $0.6089 \pm 0.0160$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 0.5851 & 0.8568 & 0.00 \\
+GAIA-Z & S4 & 0.5481 & 0.8765 & 0.00 \\
+GAIA-Z & S5 & 0.5605 & 0.8780 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $0.5646 \pm 0.0189$ & $0.8704 \pm 0.0118$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 0.8193 & 0.6324 & 0.00 \\
+GradNorm & S4 & 0.8167 & 0.6364 & 0.00 \\
+GradNorm & S5 & 0.8072 & 0.6684 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $0.8144 \pm 0.0064$ & $0.6457 \pm 0.0197$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 0.8666 & 0.5431 & 0.00 \\
+Global EDL & S4 & 0.8593 & 0.5430 & 0.00 \\
+Global EDL & S5 & 0.8558 & 0.6141 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $0.8606 \pm 0.0055$ & $0.5667 \pm 0.0410$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 0.8775 & 0.4491 & 14.21 \\
+C-EDL (C018) & S4 & 0.8716 & 0.4662 & 14.50 \\
+C-EDL (C018) & S5 & 0.8690 & 0.4774 & 13.93 \\
+C-EDL (C018) & Mean $\pm$ SD & $0.8727 \pm 0.0044$ & $0.4642 \pm 0.0143$ & $14.21 \pm 0.29$ \\
+C-EDL (C009) & S3 & 0.8777 & 0.4501 & 14.21 \\
+C-EDL (C009) & S4 & 0.8716 & 0.4699 & 14.50 \\
+C-EDL (C009) & S5 & 0.8680 & 0.4842 & 13.93 \\
+C-EDL (C009) & Mean $\pm$ SD & $0.8724 \pm 0.0049$ & $0.4681 \pm 0.0171$ & $14.21 \pm 0.29$ \\
+Orbit-GOP & S3 & 0.8684 & 0.5426 & 0.00 \\
+Orbit-GOP & S4 & 0.8627 & 0.5342 & 0.00 \\
+Orbit-GOP & S5 & 0.8607 & 0.5697 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $0.8639 \pm 0.0040$ & $0.5488 \pm 0.0186$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{WRN-28-10 / Tiny}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AUROC & FPR95 & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 0.8824 & 1.0000 & 0.00 \\
+MSP & S4 & 0.8741 & 1.0000 & 0.00 \\
+MSP & S5 & 0.8738 & 1.0000 & 0.00 \\
+MSP & Mean $\pm$ SD & $0.8768 \pm 0.0049$ & $1.0000 \pm 0.0000$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 0.8891 & 0.4141 & 0.00 \\
+Predictive Entropy & S4 & 0.8816 & 0.4478 & 0.00 \\
+Predictive Entropy & S5 & 0.8802 & 0.4493 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $0.8836 \pm 0.0048$ & $0.4371 \pm 0.0199$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 0.8893 & 0.4139 & 0.00 \\
+Energy & S4 & 0.8815 & 0.4484 & 0.00 \\
+Energy & S5 & 0.8801 & 0.4432 & 0.00 \\
+Energy & Mean $\pm$ SD & $0.8837 \pm 0.0050$ & $0.4352 \pm 0.0186$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 0.7872 & 0.6527 & 18.68 \\
+ReAct-Energy & S4 & 0.7758 & 0.6515 & 11.82 \\
+ReAct-Energy & S5 & 0.7787 & 0.6994 & 30.80 \\
+ReAct-Energy & Mean $\pm$ SD & $0.7806 \pm 0.0059$ & $0.6679 \pm 0.0273$ & $20.43 \pm 9.61$ \\
+KNN & S3 & 0.8600 & 0.4278 & 0.00 \\
+KNN & S4 & 0.8601 & 0.4224 & 0.00 \\
+KNN & S5 & 0.8619 & 0.4186 & 0.00 \\
+KNN & Mean $\pm$ SD & $0.8607 \pm 0.0011$ & $0.4229 \pm 0.0046$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 0.8791 & 0.4865 & 0.00 \\
+ViM & S4 & 0.8711 & 0.5321 & 0.00 \\
+ViM & S5 & 0.8794 & 0.4842 & 0.00 \\
+ViM & Mean $\pm$ SD & $0.8765 \pm 0.0047$ & $0.5009 \pm 0.0270$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 0.6275 & 0.8235 & 0.00 \\
+GAIA-Z & S4 & 0.5838 & 0.8484 & 0.00 \\
+GAIA-Z & S5 & 0.5935 & 0.8536 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $0.6016 \pm 0.0230$ & $0.8418 \pm 0.0161$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 0.8479 & 0.5282 & 0.00 \\
+GradNorm & S4 & 0.8445 & 0.5580 & 0.00 \\
+GradNorm & S5 & 0.8353 & 0.5793 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $0.8426 \pm 0.0065$ & $0.5552 \pm 0.0257$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 0.8895 & 0.4150 & 0.00 \\
+Global EDL & S4 & 0.8816 & 0.4486 & 0.00 \\
+Global EDL & S5 & 0.8803 & 0.4430 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $0.8838 \pm 0.0050$ & $0.4355 \pm 0.0180$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 0.8979 & 0.3577 & 16.21 \\
+C-EDL (C018) & S4 & 0.8925 & 0.3719 & 16.41 \\
+C-EDL (C018) & S5 & 0.8904 & 0.4054 & 15.85 \\
+C-EDL (C018) & Mean $\pm$ SD & $0.8936 \pm 0.0039$ & $0.3783 \pm 0.0245$ & $16.16 \pm 0.29$ \\
+C-EDL (C009) & S3 & 0.8981 & 0.3628 & 16.21 \\
+C-EDL (C009) & S4 & 0.8925 & 0.3620 & 16.41 \\
+C-EDL (C009) & S5 & 0.8897 & 0.4094 & 15.85 \\
+C-EDL (C009) & Mean $\pm$ SD & $0.8934 \pm 0.0043$ & $0.3781 \pm 0.0271$ & $16.16 \pm 0.29$ \\
+Orbit-GOP & S3 & 0.8916 & 0.3937 & 0.00 \\
+Orbit-GOP & S4 & 0.8839 & 0.4275 & 0.00 \\
+Orbit-GOP & S5 & 0.8839 & 0.4481 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $0.8865 \pm 0.0044$ & $0.4231 \pm 0.0275$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup
+
+\clearpage
+\subsection*{WRN-28-10 / ID}
+\begingroup
+\footnotesize
+\setlength{\tabcolsep}{3pt}
+\renewcommand{\arraystretch}{1.1}
+\begin{longtable}{@{}llccc@{}}
+\toprule
+Method & Seed & AURC ($10^{-3}$) & Accuracy (\%) & Change (\%) \\
+\midrule
+\endhead
+\bottomrule
+\endlastfoot
+MSP & S3 & 11.246 & 93.14 & 0.00 \\
+MSP & S4 & 10.529 & 93.29 & 0.00 \\
+MSP & S5 & 12.462 & 93.04 & 0.00 \\
+MSP & Mean $\pm$ SD & $11.413 \pm 0.977$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+Predictive Entropy & S3 & 9.142 & 93.14 & 0.00 \\
+Predictive Entropy & S4 & 9.010 & 93.29 & 0.00 \\
+Predictive Entropy & S5 & 11.097 & 93.04 & 0.00 \\
+Predictive Entropy & Mean $\pm$ SD & $9.750 \pm 1.169$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+Energy & S3 & 9.106 & 93.14 & 0.00 \\
+Energy & S4 & 8.875 & 93.29 & 0.00 \\
+Energy & S5 & 11.180 & 93.04 & 0.00 \\
+Energy & Mean $\pm$ SD & $9.720 \pm 1.269$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+ReAct-Energy & S3 & 26.454 & 92.23 & 3.18 \\
+ReAct-Energy & S4 & 25.593 & 92.51 & 2.63 \\
+ReAct-Energy & S5 & 26.484 & 91.26 & 4.75 \\
+ReAct-Energy & Mean $\pm$ SD & $26.177 \pm 0.506$ & $92.00 \pm 0.66$ & $3.52 \pm 1.10$ \\
+KNN & S3 & 11.768 & 93.14 & 0.00 \\
+KNN & S4 & 10.104 & 93.29 & 0.00 \\
+KNN & S5 & 12.182 & 93.04 & 0.00 \\
+KNN & Mean $\pm$ SD & $11.351 \pm 1.100$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+ViM & S3 & 12.453 & 93.14 & 0.00 \\
+ViM & S4 & 11.396 & 93.29 & 0.00 \\
+ViM & S5 & 12.763 & 93.04 & 0.00 \\
+ViM & Mean $\pm$ SD & $12.204 \pm 0.717$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+GAIA-Z & S3 & 48.304 & 93.14 & 0.00 \\
+GAIA-Z & S4 & 53.116 & 93.29 & 0.00 \\
+GAIA-Z & S5 & 56.459 & 93.04 & 0.00 \\
+GAIA-Z & Mean $\pm$ SD & $52.626 \pm 4.099$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+GradNorm & S3 & 14.189 & 93.14 & 0.00 \\
+GradNorm & S4 & 12.321 & 93.29 & 0.00 \\
+GradNorm & S5 & 16.619 & 93.04 & 0.00 \\
+GradNorm & Mean $\pm$ SD & $14.376 \pm 2.155$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+Global EDL & S3 & 9.142 & 93.14 & 0.00 \\
+Global EDL & S4 & 8.895 & 93.29 & 0.00 \\
+Global EDL & S5 & 11.246 & 93.04 & 0.00 \\
+Global EDL & Mean $\pm$ SD & $9.761 \pm 1.292$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+C-EDL (C018) & S3 & 8.712 & 93.17 & 2.04 \\
+C-EDL (C018) & S4 & 7.918 & 93.26 & 2.39 \\
+C-EDL (C018) & S5 & 9.945 & 92.57 & 2.14 \\
+C-EDL (C018) & Mean $\pm$ SD & $8.858 \pm 1.021$ & $93.00 \pm 0.38$ & $2.19 \pm 0.18$ \\
+C-EDL (C009) & S3 & 8.869 & 93.17 & 2.04 \\
+C-EDL (C009) & S4 & 8.025 & 93.26 & 2.39 \\
+C-EDL (C009) & S5 & 10.189 & 92.57 & 2.14 \\
+C-EDL (C009) & Mean $\pm$ SD & $9.027 \pm 1.091$ & $93.00 \pm 0.38$ & $2.19 \pm 0.18$ \\
+Orbit-GOP & S3 & 9.147 & 93.14 & 0.00 \\
+Orbit-GOP & S4 & 8.937 & 93.29 & 0.00 \\
+Orbit-GOP & S5 & 11.419 & 93.04 & 0.00 \\
+Orbit-GOP & Mean $\pm$ SD & $9.834 \pm 1.376$ & $93.16 \pm 0.13$ & $0.00 \pm 0.00$ \\
+\end{longtable}
+\endgroup

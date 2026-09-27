@@ -1,0 +1,302 @@
+{
+  "protocol_id": "Orbit-GOP-confirmatory-20260917-v2",
+  "seeds": [
+    3,
+    4,
+    5
+  ],
+  "n_independently_trained_models_per_backbone": 3,
+  "n_models": 9,
+  "backbones": [
+    "resnet18",
+    "vgg16_bn",
+    "wrn28_10"
+  ],
+  "data_root": "PROJECT\\datasets",
+  "data_roles": {
+    "train": 44000,
+    "checkpoint_val": 3000,
+    "calibration": 3000,
+    "test": 10000,
+    "split_seed": 20260917,
+    "stratified_per_class": [
+      4400,
+      300,
+      300
+    ]
+  },
+  "training": {
+    "resnet18": {
+      "epochs": 200,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "initial_lr": 0.1,
+      "momentum": 0.9,
+      "nesterov": true,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 5,
+      "cosine_minimum_lr": 1e-06,
+      "kl_schedule": "min(1,epoch/10); one-based epoch",
+      "loss": "Sensoy Eq5 squared-error Bayes risk + label-masked KL to uniform",
+      "augmentation": [
+        "RandomCrop(32,padding=4)",
+        "RandomHorizontalFlip()"
+      ],
+      "pretrained": false,
+      "num_workers": 4,
+      "drop_last": false,
+      "train_shuffle": true,
+      "val_shuffle": false,
+      "persistent_workers": true,
+      "worker_rng": "torch.initial_seed modulo 2^32 for NumPy/Python; DataLoader generator = model seed",
+      "amp": "float16 CUDA convolution; FP32 Softplus/EDL loss",
+      "grad_scaler_init_scale": 65536.0,
+      "grad_scaler_growth_interval": 1000000000,
+      "cudnn_allow_tf32": true,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "torch_deterministic_algorithms": true,
+      "deterministic_warn_only": true,
+      "checkpoint_policy": [
+        "max_validation_accuracy",
+        "min_validation_ECE15",
+        "min_validation_NLL",
+        "earliest_epoch"
+      ],
+      "validation_role": "checkpoint_selection",
+      "early_stopping": false,
+      "performance_admission": false,
+      "performance_retry": false
+    },
+    "vgg16_bn": {
+      "epochs": 200,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "initial_lr": 0.01,
+      "momentum": 0.9,
+      "nesterov": true,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 5,
+      "cosine_minimum_lr": 1e-06,
+      "kl_schedule": "min(1,epoch/10); one-based epoch",
+      "loss": "Sensoy Eq5 squared-error Bayes risk + label-masked KL to uniform",
+      "augmentation": [
+        "RandomCrop(32,padding=4)",
+        "RandomHorizontalFlip()"
+      ],
+      "pretrained": false,
+      "num_workers": 4,
+      "drop_last": false,
+      "train_shuffle": true,
+      "val_shuffle": false,
+      "persistent_workers": true,
+      "worker_rng": "torch.initial_seed modulo 2^32 for NumPy/Python; DataLoader generator = model seed",
+      "amp": "float16 CUDA convolution; FP32 Softplus/EDL loss",
+      "grad_scaler_init_scale": 65536.0,
+      "grad_scaler_growth_interval": 1000000000,
+      "cudnn_allow_tf32": true,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "torch_deterministic_algorithms": true,
+      "deterministic_warn_only": false,
+      "checkpoint_policy": [
+        "max_validation_accuracy",
+        "min_validation_ECE15",
+        "min_validation_NLL",
+        "earliest_epoch"
+      ],
+      "validation_role": "checkpoint_selection",
+      "early_stopping": false,
+      "performance_admission": false,
+      "performance_retry": false
+    },
+    "wrn28_10": {
+      "epochs": 200,
+      "batch_size": 128,
+      "optimizer": "SGD",
+      "initial_lr": 0.1,
+      "momentum": 0.9,
+      "nesterov": true,
+      "weight_decay": 0.0005,
+      "warmup_epochs": 5,
+      "cosine_minimum_lr": 1e-06,
+      "kl_schedule": "min(1,epoch/10); one-based epoch",
+      "loss": "Sensoy Eq5 squared-error Bayes risk + label-masked KL to uniform",
+      "augmentation": [
+        "RandomCrop(32,padding=4)",
+        "RandomHorizontalFlip()"
+      ],
+      "pretrained": false,
+      "num_workers": 4,
+      "drop_last": false,
+      "train_shuffle": true,
+      "val_shuffle": false,
+      "persistent_workers": true,
+      "worker_rng": "torch.initial_seed modulo 2^32 for NumPy/Python; DataLoader generator = model seed",
+      "amp": "float16 CUDA convolution; FP32 Softplus/EDL loss",
+      "grad_scaler_init_scale": 65536.0,
+      "grad_scaler_growth_interval": 1000000000,
+      "cudnn_allow_tf32": false,
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_deterministic": true,
+      "cudnn_benchmark": false,
+      "torch_deterministic_algorithms": true,
+      "deterministic_warn_only": true,
+      "checkpoint_policy": "fixed_epoch_200",
+      "validation_role": "diagnostic_only_after_epoch_200",
+      "early_stopping": false,
+      "performance_admission": false,
+      "performance_retry": false
+    }
+  },
+  "orbit": {
+    "views": [
+      "Original",
+      "Brightness",
+      "Reflect-shift"
+    ],
+    "brightness_multiplier": 0.9,
+    "brightness_clip": [
+      0,
+      1
+    ],
+    "reflect_padding": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "reflect_crop": "[...,0:32,0:32]",
+    "before_normalization": true,
+    "mean": [
+      0.4914,
+      0.4822,
+      0.4465
+    ],
+    "std": [
+      0.247,
+      0.2435,
+      0.2616
+    ],
+    "reference_class": "original-view FP32 base probability argmax; shared across views",
+    "margin": "z_c - logsumexp(z_j, j != c)",
+    "signature": "spatial mean squared gradient per channel; (energy+epsilon)/(sum energy+C*epsilon)",
+    "epsilon": 1e-12,
+    "divergence": "equal-weight generalized JSD / ln(3)",
+    "risk": "predicted-class conditional empirical midrank (N_less+0.5*N_equal)/N",
+    "calibration_n": 3000,
+    "beta": 0.4,
+    "retention": "exp(-0.40*q_func)",
+    "evidence_scaling": "alpha=1+c_global*r*e; shared positive scalar",
+    "prediction": "copy frozen original-view base prediction",
+    "layers": {
+      "resnet18": "layer3",
+      "vgg16_bn": "block4 before pool4",
+      "wrn28_10": "block3 before final BN/ReLU"
+    },
+    "c_global_fit": {
+      "role": "calibration_only",
+      "objective": "categorical NLL",
+      "parameter": "log_c",
+      "bounds": [
+        -8,
+        8
+      ],
+      "method": "bounded minimize_scalar",
+      "xatol": 1e-12,
+      "maxiter": 1000
+    }
+  },
+  "evaluation": {
+    "batch_size": 32,
+    "num_workers": 2,
+    "shuffle": false,
+    "sample_order": "fixed manifest order, identical for all methods/seeds",
+    "numeric_precision": "all model forwards/backwards FP32; common scores and calibration statistics float64; original exact KNN float32 accumulation",
+    "cudnn_allow_tf32": false,
+    "cuda_matmul_allow_tf32": false,
+    "autocast": false,
+    "test_access": "only after all nine checkpoints frozen",
+    "ood_label_correctness": "NOT_APPLICABLE; different class ontology; saved -1",
+    "fpr95": "OOD positive; first descending score group achieving OOD TPR>=0.95; include entire tie group; no interpolation",
+    "aurc": "stable lexsort(risk, original_index); mean cumulative error fraction"
+  },
+  "cedl_transform_seed": 20260813,
+  "baselines": {
+    "MSP": "1-max softmax(raw logits)",
+    "Predictive_Entropy": "-sum softmax(raw)*log_softmax(raw)",
+    "Energy": {
+      "T": 1,
+      "score": "-logsumexp(raw)"
+    },
+    "ReAct_Energy": {
+      "quantile": 0.9,
+      "quantile_method": "linear",
+      "fit_role": "calibration",
+      "feature": "penultimate GAP",
+      "score": "-logsumexp(min(feature,threshold) @ W.T + b)",
+      "prediction": "clipped-logit argmax"
+    },
+    "KNN": {
+      "k": 50,
+      "fit_role": "train 44000",
+      "feature": "L2 normalized penultimate GAP",
+      "distance": "exact Euclidean; sqrt(max(0,2-2dot))",
+      "query_chunk": 256
+    },
+    "ViM": {
+      "fit_role": "train 44000",
+      "dimension": {
+        "resnet18": 256,
+        "vgg16_bn": 256,
+        "wrn28_10": 320
+      },
+      "dimension_rule": "author executable N<768 => N//2; no search",
+      "offset": "-pinv(W)@b",
+      "covariance": "mean-centered-at-offset second moment (assume_centered=True)",
+      "alpha": "mean(max raw training logit)/mean residual training norm",
+      "score": "alpha * residual_norm - logsumexp(raw)"
+    },
+    "GAIA_Z": {
+      "target": "sum of per-sample maximum raw logit",
+      "layers": "all BatchNorm2d outputs",
+      "gradient_binary": "exact !=0",
+      "risk_score": "positive mean squared spatial nonzero fraction across concatenated BN channels; negation of historical ID confidence"
+    },
+    "GradNorm": {
+      "temperature": 1,
+      "target": "all-ones negative log-softmax sum",
+      "score": "negative L1 norm of final classifier weight gradient",
+      "implementation": "per-image backward on detached identical classifier copy; no optimizer"
+    },
+    "C_EDL_Fixed_Dev_Tuned": {
+      "candidate": "C009",
+      "historical_scope": "shared ResNet18 and VGG16-BN selected configuration; prospectively transferred unchanged to WRN, not WRN-retuned"
+    }
+  },
+  "statistics": {
+    "n_models": 3,
+    "replicates": 5000,
+    "bootstrap_seed": 20260917,
+    "hierarchical_seed": 20260918,
+    "primary": "synchronized paired sample-level bootstrap; same sample draw across all three seeds and methods",
+    "ID_resampling": "true-class stratified",
+    "CIFAR100_resampling": "true-class stratified",
+    "Tiny_resampling": "ordinary sample bootstrap",
+    "CI": "percentile [2.5,97.5]",
+    "SD": "sample SD ddof=1 across S3/S4/S5",
+    "hierarchical": "supplementary only, exactly 3 independent models; resample 3 models with replacement, independent paired sample draw within each sampled occurrence; do not replace sample CI",
+    "primary_comparator": "Global_EDL",
+    "secondary_comparators": [
+      "C_EDL_Default",
+      "C_EDL_Fixed_Dev_Tuned"
+    ],
+    "multiple_endpoints": "per-backbone per-dataset per-metric prespecified unadjusted CIs; no omnibus familywise claim"
+  },
+  "fresh_source": "PAUSED_SOURCE_REQUIRED; does not block replication core",
+  "reruns": "same seed/config only for documented engineering failures; no performance-based retry or replacement",
+  "execution": "local single GPU sequential, ResNet S3-S5 then VGG S3-S5 then WRN S3-S5; then calibration/evaluation and analysis",
+  "source_independence": "new models and isolated roles; historical benchmark reuse and two exact cross-dataset duplicate images disclosed"
+}

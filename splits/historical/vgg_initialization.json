@@ -1,0 +1,5 @@
+{
+  "source_relative": "outputs/experiments/P8_R1_vgg_baseline_recovery/checkpoints/seed0_initial_state.pt",
+  "sha256": "750433443b97b89a94ea7b54aeeb60ef065e4402aaf36d5aa7cc04ad81b78e30",
+  "required_for": "VGG seed 0 training; weights withheld"
+}

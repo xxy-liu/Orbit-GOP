@@ -1,0 +1,501 @@
+[
+  {
+    "figure": 3,
+    "check": "original 26 summary rows",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class0 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class1 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class2 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class3 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class4 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class5 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class6 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class7 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class8 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S0 class9 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class0 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class1 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class2 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class3 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class4 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class5 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class6 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class7 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class8 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S1 class9 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class0 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class1 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class2 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class3 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class4 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class5 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class6 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class7 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class8 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "S2 class9 sorted reference",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S0 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S0 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S0 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S1 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S1 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S1 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S2 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S2 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct S2 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S0 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S0 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S0 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S1 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S1 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S1 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S2 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S2 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong S2 density integral",
+    "pass": true,
+    "max_abs_error": 1.1102230246251565e-16,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S0 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S0 quantiles",
+    "pass": true,
+    "max_abs_error": 5.551115123125783e-17,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S0 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S1 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S1 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S1 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S2 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S2 quantiles",
+    "pass": true,
+    "max_abs_error": 5.551115123125783e-17,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 S2 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "tin S0 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "tin S0 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "tin S0 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "tin S1 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "tin S1 quantiles",
+    "pass": true,
+    "max_abs_error": 5.551115123125783e-17,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "tin S1 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "tin S2 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "tin S2 quantiles",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "tin S2 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "svhn S0 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "svhn S0 quantiles",
+    "pass": true,
+    "max_abs_error": 5.551115123125783e-17,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "svhn S0 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "svhn S1 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "svhn S1 quantiles",
+    "pass": true,
+    "max_abs_error": 5.551115123125783e-17,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "svhn S1 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "svhn S2 sample count",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "svhn S2 quantiles",
+    "pass": true,
+    "max_abs_error": 5.551115123125783e-17,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "svhn S2 density integral",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 1e-12
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_correct all 512 historical rendered density vertices",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 2e-13
+  },
+  {
+    "figure": 3,
+    "check": "cifar10_wrong all 512 historical rendered density vertices",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 2e-13
+  },
+  {
+    "figure": 3,
+    "check": "cifar100 all 512 historical rendered density vertices",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 2e-13
+  },
+  {
+    "figure": 3,
+    "check": "tin all 512 historical rendered density vertices",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 2e-13
+  },
+  {
+    "figure": 3,
+    "check": "svhn all 512 historical rendered density vertices",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 2e-13
+  },
+  {
+    "figure": 3,
+    "check": "mean_auc_stratified 2000 saved bootstrap",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "mean_auc_stratified stored CI",
+    "pass": true,
+    "max_abs_error": 2.1255436744027634e-08,
+    "tolerance": 5e-08
+  },
+  {
+    "figure": 3,
+    "check": "mean_delta_auroc_q50 2000 saved bootstrap",
+    "pass": true
+  },
+  {
+    "figure": 3,
+    "check": "mean_delta_auroc_q50 stored CI",
+    "pass": true,
+    "max_abs_error": 7.769150045522366e-10,
+    "tolerance": 5e-08
+  }
+]

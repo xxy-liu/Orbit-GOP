@@ -1,0 +1,41 @@
+{
+  "B": 5000,
+  "seed": 20260912,
+  "generator": "Generator(PCG64)",
+  "order": "replicate; ID true labels 0..9; OOD wnid lexical; choice with replacement of same class count",
+  "ood_class_order": [
+    "n01910747",
+    "n02190166",
+    "n02481823",
+    "n02669723",
+    "n02699494",
+    "n02814860",
+    "n02917067",
+    "n02988304",
+    "n03733131",
+    "n03980874",
+    "n04070727",
+    "n04118538",
+    "n04179913",
+    "n04311004",
+    "n04486054",
+    "n07583066",
+    "n07720875",
+    "n07734744",
+    "n07873807",
+    "n09246464"
+  ],
+  "id_positions_sha256": "9ffdfb750f792907324be22255615fea2a9ccaae03b10ee041cdd818f06aa6b7",
+  "ood_positions_sha256": "92a3211b4b9e1cb6cc4be60edc0f3d5a08c08e6ef7fbbb88756766064630089e",
+  "plan_file_sha256": "c67b28f8665de8e9d3ae52f631d87f84cc5c7dbda708547068b743bdf54626cb",
+  "manifest_sha256": "d19fad4372cbbb17fa6718e1ecdbc1cb07d5a3f728bce2740c1a673ca1e6eafa",
+  "rng_final_state": {
+    "bit_generator": "PCG64",
+    "state": {
+      "state": 55680759679385190385697913421151367063,
+      "inc": 66021640233878769094086984540963791413
+    },
+    "has_uint32": 0,
+    "uinteger": 4121333653
+  }
+}

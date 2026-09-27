@@ -1,0 +1,145 @@
+[
+  {
+    "figure": 10,
+    "check": "results/selected_cases.json sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "results/selected_cases_lock.json sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "results/channel_signatures.npz sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "results/channel_signatures_top20_cifar100.csv sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "results/channel_signatures_top20_tin.csv sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "figures/P4-E\u6848\u4f8b\u56fe_CIFAR100.svg sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "figures/P4-E\u6848\u4f8b\u56fe_TinyImageNet.svg sealed hash",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "cifar100 sealed image count",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "tin sealed image count",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "four fixed representatives",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "cifar100_strong_fix_1 three seeds",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "cifar100_strong_fix_1 Top20 values",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 0
+  },
+  {
+    "figure": 10,
+    "check": "cifar100_strong_fix_1 Top20 mean-over-three-views order",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "cifar100_strong_break_1 three seeds",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "cifar100_strong_break_1 Top20 values",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 0
+  },
+  {
+    "figure": 10,
+    "check": "cifar100_strong_break_1 Top20 mean-over-three-views order",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "tin_strong_fix_1 three seeds",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "tin_strong_fix_1 Top20 values",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 0
+  },
+  {
+    "figure": 10,
+    "check": "tin_strong_fix_1 Top20 mean-over-three-views order",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "tin_strong_break_1 three seeds",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "tin_strong_break_1 Top20 values",
+    "pass": true,
+    "max_abs_error": 0.0,
+    "tolerance": 0
+  },
+  {
+    "figure": 10,
+    "check": "tin_strong_break_1 Top20 mean-over-three-views order",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "240 channel values archived identity",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "12 photo arrays archived identity",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "four source indices",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "displayed qfunc rounding",
+    "pass": true
+  },
+  {
+    "figure": 10,
+    "check": "displayed Delta R rounding",
+    "pass": true
+  }
+]

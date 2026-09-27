@@ -1,0 +1,7 @@
+backbone,seed,Q95,calibration_n,source,field,quantile
+ResNet18,0,0.84171309306476549,3000,PROJECT\outputs\cedl_novelty_check\raw\seed_0_calibration.npz,cedl_official_uncertainty,.95 linear
+ResNet18,1,0.84399025879613221,3000,PROJECT\outputs\cedl_novelty_check\raw\seed_1_calibration.npz,cedl_official_uncertainty,.95 linear
+ResNet18,2,0.85732530436320065,3000,PROJECT\outputs\cedl_novelty_check\raw\seed_2_calibration.npz,cedl_official_uncertainty,.95 linear
+VGG16-BN,0,0.78319317534243871,3000,PROJECT\outputs\experiments\P8_cross_architecture_generalization\calibration\V0_references.npz,cedl_q95; verified against P8 calibration cedl_uncertainty,.95 linear
+VGG16-BN,1,0.75688115391255628,3000,PROJECT\outputs\experiments\P8_cross_architecture_generalization\calibration\V1_references.npz,cedl_q95; verified against P8 calibration cedl_uncertainty,.95 linear
+VGG16-BN,2,0.80696617010656457,3000,PROJECT\outputs\experiments\P8_cross_architecture_generalization\calibration\V2_references.npz,cedl_q95; verified against P8 calibration cedl_uncertainty,.95 linear

@@ -1,0 +1,6304 @@
+{
+  "cells": [
+    {
+      "gid": "cell_cifar100_0_0",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "38",
+        "support_seed0": "14",
+        "support_seed1": "5",
+        "support_seed2": "19",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0420447368421053",
+        "median_delta_r": "-0.03345",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "1.5977",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0420447368421053,
+      "bounds": [
+        0.0,
+        0.2,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.8872855392156863,
+        0.9111825980392156,
+        0.9113664215686275,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.07999999999999985,
+            0.0
+          ],
+          [
+            0.2,
+            0.12000000000000016
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.08000000000000007
+          ],
+          [
+            0.11999999999999994,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_0_1",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "31",
+        "support_seed0": "10",
+        "support_seed1": "11",
+        "support_seed2": "10",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.179929032258064",
+        "median_delta_r": "-0.1659",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "5.5778",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.179929032258064,
+      "bounds": [
+        0.2,
+        0.4,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.6215686274509804,
+        0.7235294117647059,
+        0.7627450980392156,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.3999999999999999,
+            0.0
+          ],
+          [
+            0.4,
+            1.1102230246251565e-16
+          ]
+        ],
+        [
+          [
+            0.24,
+            0.0
+          ],
+          [
+            0.4,
+            0.16000000000000003
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.12000000000000016
+          ],
+          [
+            0.27999999999999986,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_0_2",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "57",
+        "support_seed0": "25",
+        "support_seed1": "12",
+        "support_seed2": "20",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.25659298245614",
+        "median_delta_r": "-0.254",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "14.6258",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.25659298245614,
+      "bounds": [
+        0.4,
+        0.6,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.46973039215686274,
+        0.6162990196078432,
+        0.6778186274509804,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.5599999999999999,
+            0.0
+          ],
+          [
+            0.6,
+            0.040000000000000036
+          ]
+        ],
+        [
+          [
+            0.4,
+            1.1102230246251565e-16
+          ],
+          [
+            0.5999999999999999,
+            0.19999999999999996
+          ]
+        ],
+        [
+          [
+            0.4,
+            0.16000000000000003
+          ],
+          [
+            0.44,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_0_3",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "196",
+        "support_seed0": "63",
+        "support_seed1": "68",
+        "support_seed2": "65",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.122770408163265",
+        "median_delta_r": "-0.11585",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "24.063",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.122770408163265,
+      "bounds": [
+        0.6,
+        0.8,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.7300245098039215,
+        0.8001225490196078,
+        0.8234068627450981,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_0_4",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "1950",
+        "support_seed0": "698",
+        "support_seed1": "594",
+        "support_seed2": "658",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0100746153846154",
+        "median_delta_r": "-0.0064999999999999",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "19.6454999999999",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0100746153846154,
+      "bounds": [
+        0.8,
+        1.0,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.9469362745098039,
+        0.9533088235294118,
+        0.9447303921568628,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_1_0",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "53",
+        "support_seed0": "17",
+        "support_seed1": "21",
+        "support_seed2": "15",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.00982641509433962",
+        "median_delta_r": "0.01",
+        "positive_delta_r_magnitude": "0.963",
+        "negative_delta_r_magnitude": "0.4422",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.00982641509433962,
+      "bounds": [
+        0.0,
+        0.2,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.9595588235294118,
+        0.9497549019607843,
+        0.9363970588235294,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.11999999999999994,
+            0.2
+          ],
+          [
+            0.2,
+            0.2800000000000001
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.24
+          ],
+          [
+            0.16000000000000003,
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_1_1",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "50",
+        "support_seed0": "17",
+        "support_seed1": "15",
+        "support_seed2": "18",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.075562",
+        "median_delta_r": "-0.0664",
+        "positive_delta_r_magnitude": "0.0173",
+        "negative_delta_r_magnitude": "3.7954",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.075562,
+      "bounds": [
+        0.2,
+        0.4,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.8222120098039216,
+        0.8652267156862745,
+        0.8749693627450981,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.27999999999999986,
+            0.2
+          ],
+          [
+            0.4,
+            0.3200000000000002
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.2800000000000001
+          ],
+          [
+            0.31999999999999995,
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_1_2",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "97",
+        "support_seed0": "28",
+        "support_seed1": "34",
+        "support_seed2": "35",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.137361855670103",
+        "median_delta_r": "-0.1325",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "13.3241",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.137361855670103,
+      "bounds": [
+        0.4,
+        0.6,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.7029105392156862,
+        0.7809742647058824,
+        0.8082414215686274,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.5999999999999999,
+            0.19999999999999996
+          ],
+          [
+            0.6,
+            0.20000000000000007
+          ]
+        ],
+        [
+          [
+            0.44,
+            0.2
+          ],
+          [
+            0.6,
+            0.36
+          ]
+        ],
+        [
+          [
+            0.4,
+            0.3200000000000002
+          ],
+          [
+            0.47999999999999987,
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_1_3",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "419",
+        "support_seed0": "160",
+        "support_seed1": "107",
+        "support_seed2": "152",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.070154415274463",
+        "median_delta_r": "-0.0613",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "29.3947",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.070154415274463,
+      "bounds": [
+        0.6,
+        0.8,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.8330575980392156,
+        0.8728860294117646,
+        0.8810355392156863,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_1_4",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "3190",
+        "support_seed0": "1122",
+        "support_seed1": "952",
+        "support_seed2": "1116",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.00566347962382441",
+        "median_delta_r": "-0.0037",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "18.0664999999999",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.00566347962382441,
+      "bounds": [
+        0.8,
+        1.0,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.957781862745098,
+        0.9609681372549019,
+        0.9507965686274511,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_2_0",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "68",
+        "support_seed0": "22",
+        "support_seed1": "29",
+        "support_seed2": "17",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.105776470588235",
+        "median_delta_r": "0.1088",
+        "positive_delta_r_magnitude": "7.1928",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.105776470588235,
+      "bounds": [
+        0.0,
+        0.2,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.8824754901960784,
+        0.7893382352941176,
+        0.7624387254901961,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.16000000000000003,
+            0.4
+          ],
+          [
+            0.2,
+            0.44
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.40000000000000013
+          ],
+          [
+            0.19999999999999984,
+            0.6
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.56
+          ],
+          [
+            0.039999999999999925,
+            0.6
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_2_1",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "91",
+        "support_seed0": "29",
+        "support_seed1": "33",
+        "support_seed2": "29",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0373901098901099",
+        "median_delta_r": "0.0382",
+        "positive_delta_r_magnitude": "3.75",
+        "negative_delta_r_magnitude": "0.3475",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0373901098901099,
+      "bounds": [
+        0.2,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9391544117647059,
+        0.9072916666666666,
+        0.8903492647058824,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.31999999999999995,
+            0.4
+          ],
+          [
+            0.4,
+            0.4800000000000001
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.44
+          ],
+          [
+            0.36,
+            0.6
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_2_2",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "152",
+        "support_seed0": "53",
+        "support_seed1": "56",
+        "support_seed2": "43",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0208690789473684",
+        "median_delta_r": "-0.0221",
+        "positive_delta_r_magnitude": "0.872299999999999",
+        "negative_delta_r_magnitude": "4.0444",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0208690789473684,
+      "bounds": [
+        0.4,
+        0.6,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9306678921568627,
+        0.9418198529411765,
+        0.9356311274509804,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_2_3",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "657",
+        "support_seed0": "205",
+        "support_seed1": "231",
+        "support_seed2": "221",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0212951293759513",
+        "median_delta_r": "-0.0167999999999999",
+        "positive_delta_r_magnitude": "0.000199999999999978",
+        "negative_delta_r_magnitude": "13.9911",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0212951293759513,
+      "bounds": [
+        0.6,
+        0.8,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9252450980392157,
+        0.9379901960784314,
+        0.9325980392156863,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_2_4",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "4268",
+        "support_seed0": "1292",
+        "support_seed1": "1430",
+        "support_seed2": "1546",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.00171794751640109",
+        "median_delta_r": "-0.0013999999999999",
+        "positive_delta_r_magnitude": "0.253299999999985",
+        "negative_delta_r_magnitude": "7.58549999999983",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.00171794751640109,
+      "bounds": [
+        0.8,
+        1.0,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9632046568627451,
+        0.9647977941176471,
+        0.9538296568627451,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_3_0",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "98",
+        "support_seed0": "28",
+        "support_seed1": "46",
+        "support_seed2": "24",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.222136734693878",
+        "median_delta_r": "0.22075",
+        "positive_delta_r_magnitude": "21.7694",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.222136734693878,
+      "bounds": [
+        0.0,
+        0.2,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.7895220588235294,
+        0.5958946078431372,
+        0.5526654411764705,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.19999999999999984,
+            0.6
+          ],
+          [
+            0.2,
+            0.6000000000000001
+          ]
+        ],
+        [
+          [
+            0.039999999999999925,
+            0.6
+          ],
+          [
+            0.2,
+            0.76
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.72
+          ],
+          [
+            0.08000000000000007,
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_cifar100_3_1",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "126",
+        "support_seed0": "40",
+        "support_seed1": "44",
+        "support_seed2": "42",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.157983333333333",
+        "median_delta_r": "0.1567",
+        "positive_delta_r_magnitude": "19.9059",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.157983333333333,
+      "bounds": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.8416666666666667,
+        0.7044117647058823,
+        0.670343137254902,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_3_2",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "256",
+        "support_seed0": "76",
+        "support_seed1": "93",
+        "support_seed2": "87",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.07422890625",
+        "median_delta_r": "0.0725",
+        "positive_delta_r_magnitude": "19.0026",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.07422890625,
+      "bounds": [
+        0.4,
+        0.6,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.9096813725490196,
+        0.8459558823529412,
+        0.8238357843137255,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_3_3",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "983",
+        "support_seed0": "321",
+        "support_seed1": "323",
+        "support_seed2": "339",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.013770498474059",
+        "median_delta_r": "0.0106999999999999",
+        "positive_delta_r_magnitude": "13.7616",
+        "negative_delta_r_magnitude": "0.225199999999995",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.013770498474059,
+      "bounds": [
+        0.6,
+        0.8,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.9572916666666667,
+        0.9450367647058824,
+        0.931280637254902,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_3_4",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "5594",
+        "support_seed0": "1899",
+        "support_seed1": "1832",
+        "support_seed2": "1863",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.00164211655345011",
+        "median_delta_r": "0.0006",
+        "positive_delta_r_magnitude": "9.98649999999983",
+        "negative_delta_r_magnitude": "0.800499999999937",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.00164211655345011,
+      "bounds": [
+        0.8,
+        1.0,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.966360294117647,
+        0.9639093137254902,
+        0.9517463235294118,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_4_0",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "128",
+        "support_seed0": "42",
+        "support_seed1": "41",
+        "support_seed2": "45",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.34676484375",
+        "median_delta_r": "0.346",
+        "positive_delta_r_magnitude": "44.3859",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.34676484375,
+      "bounds": [
+        0.0,
+        0.2,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.6875,
+        0.383578431372549,
+        0.32242647058823526,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_4_1",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "198",
+        "support_seed0": "74",
+        "support_seed1": "59",
+        "support_seed2": "65",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.255829292929293",
+        "median_delta_r": "0.25335",
+        "positive_delta_r_magnitude": "50.6542",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.255829292929293,
+      "bounds": [
+        0.2,
+        0.4,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.7623161764705882,
+        0.5392769607843138,
+        0.4912683823529411,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_4_2",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "382",
+        "support_seed0": "132",
+        "support_seed1": "129",
+        "support_seed2": "121",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.141488481675393",
+        "median_delta_r": "0.13625",
+        "positive_delta_r_magnitude": "54.0486",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.141488481675393,
+      "bounds": [
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.8530024509803922,
+        0.7280024509803922,
+        0.6959252450980392,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_4_3",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "1196",
+        "support_seed0": "385",
+        "support_seed1": "408",
+        "support_seed2": "403",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0406781772575251",
+        "median_delta_r": "0.03285",
+        "positive_delta_r_magnitude": "48.6511",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0406781772575251,
+      "bounds": [
+        0.6,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.9346200980392156,
+        0.8978553921568627,
+        0.8801164215686275,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_cifar100_4_4",
+      "source_record": {
+        "dataset": "cifar100",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "9722",
+        "support_seed0": "3248",
+        "support_seed1": "3427",
+        "support_seed2": "3047",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.00363555338407731",
+        "median_delta_r": "0.0019",
+        "positive_delta_r_magnitude": "35.3559499999996",
+        "negative_delta_r_magnitude": "0.0110999999999977",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.00363555338407731,
+      "bounds": [
+        0.8,
+        1.0,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.966360294117647,
+        0.9639093137254902,
+        0.9517463235294118,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_0_0",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "6",
+        "support_seed0": "1",
+        "support_seed1": "2",
+        "support_seed2": "3",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0782833333333333",
+        "median_delta_r": "-0.0843",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "0.4697",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0782833333333333,
+      "bounds": [
+        0.0,
+        0.2,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.8167892156862745,
+        0.8613970588235293,
+        0.8719362745098039,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.07999999999999985,
+            0.0
+          ],
+          [
+            0.2,
+            0.12000000000000016
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.08000000000000007
+          ],
+          [
+            0.11999999999999994,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_0_1",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "16",
+        "support_seed0": "10",
+        "support_seed1": "4",
+        "support_seed2": "2",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.19330625",
+        "median_delta_r": "-0.2017",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "3.0929",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.19330625,
+      "bounds": [
+        0.2,
+        0.4,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.5944546568627451,
+        0.7043811274509804,
+        0.7475796568627451,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.3999999999999999,
+            0.0
+          ],
+          [
+            0.4,
+            1.1102230246251565e-16
+          ]
+        ],
+        [
+          [
+            0.24,
+            0.0
+          ],
+          [
+            0.4,
+            0.16000000000000003
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.12000000000000016
+          ],
+          [
+            0.27999999999999986,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_0_2",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "21",
+        "support_seed0": "7",
+        "support_seed1": "7",
+        "support_seed2": "7",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.241747619047619",
+        "median_delta_r": "-0.2392",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "5.0767",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.241747619047619,
+      "bounds": [
+        0.4,
+        0.6,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.5022671568627451,
+        0.6392769607843137,
+        0.6960171568627451,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.5599999999999999,
+            0.0
+          ],
+          [
+            0.6,
+            0.040000000000000036
+          ]
+        ],
+        [
+          [
+            0.4,
+            1.1102230246251565e-16
+          ],
+          [
+            0.5999999999999999,
+            0.19999999999999996
+          ]
+        ],
+        [
+          [
+            0.4,
+            0.16000000000000003
+          ],
+          [
+            0.44,
+            0.2
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_0_3",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "113",
+        "support_seed0": "35",
+        "support_seed1": "39",
+        "support_seed2": "39",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.121267256637168",
+        "median_delta_r": "-0.1128",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "13.7032",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.121267256637168,
+      "bounds": [
+        0.6,
+        0.8,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.7354473039215687,
+        0.8039522058823529,
+        0.8264399509803921,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_0_4",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "0",
+        "q_func_left": "0",
+        "q_func_right": "0.2",
+        "q_func_interval": "0–0.2",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "1448",
+        "support_seed0": "561",
+        "support_seed1": "428",
+        "support_seed2": "459",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.00957030386740328",
+        "median_delta_r": "-0.0060999999999999",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "13.8578",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.00957030386740328,
+      "bounds": [
+        0.8,
+        1.0,
+        0.0,
+        0.2
+      ],
+      "facecolor": [
+        0.952359068627451,
+        0.9571384803921569,
+        0.9477634803921569,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_1_0",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "14",
+        "support_seed0": "2",
+        "support_seed1": "4",
+        "support_seed2": "8",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.00845",
+        "median_delta_r": "0.0164",
+        "positive_delta_r_magnitude": "0.2516",
+        "negative_delta_r_magnitude": "0.1333",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.00845,
+      "bounds": [
+        0.0,
+        0.2,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.9618259803921568,
+        0.9544730392156863,
+        0.9415134803921569,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.11999999999999994,
+            0.2
+          ],
+          [
+            0.2,
+            0.2800000000000001
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.24
+          ],
+          [
+            0.16000000000000003,
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_1_1",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "35",
+        "support_seed0": "14",
+        "support_seed1": "15",
+        "support_seed2": "6",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0798914285714286",
+        "median_delta_r": "-0.0811",
+        "positive_delta_r_magnitude": "0.0107",
+        "negative_delta_r_magnitude": "2.8069",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0798914285714286,
+      "bounds": [
+        0.2,
+        0.4,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.8113664215686275,
+        0.8575674019607843,
+        0.8689031862745098,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.27999999999999986,
+            0.2
+          ],
+          [
+            0.4,
+            0.3200000000000002
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.2800000000000001
+          ],
+          [
+            0.31999999999999995,
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_1_2",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "63",
+        "support_seed0": "13",
+        "support_seed1": "23",
+        "support_seed2": "27",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.135885714285714",
+        "median_delta_r": "-0.133",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "8.5608",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.135885714285714,
+      "bounds": [
+        0.4,
+        0.6,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.7029105392156862,
+        0.7809742647058824,
+        0.8082414215686274,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.5999999999999999,
+            0.19999999999999996
+          ],
+          [
+            0.6,
+            0.20000000000000007
+          ]
+        ],
+        [
+          [
+            0.44,
+            0.2
+          ],
+          [
+            0.6,
+            0.36
+          ]
+        ],
+        [
+          [
+            0.4,
+            0.3200000000000002
+          ],
+          [
+            0.47999999999999987,
+            0.4
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_1_3",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "249",
+        "support_seed0": "83",
+        "support_seed1": "68",
+        "support_seed2": "98",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0690847389558233",
+        "median_delta_r": "-0.0613",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "17.2021",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0690847389558233,
+      "bounds": [
+        0.6,
+        0.8,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.8330575980392156,
+        0.8728860294117646,
+        0.8810355392156863,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_1_4",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "1",
+        "q_func_left": "0.2",
+        "q_func_right": "0.4",
+        "q_func_interval": "0.2–0.4",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "2634",
+        "support_seed0": "913",
+        "support_seed1": "735",
+        "support_seed2": "986",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.00516769172361424",
+        "median_delta_r": "-0.0035",
+        "positive_delta_r_magnitude": "0",
+        "negative_delta_r_magnitude": "13.6116999999999",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.00516769172361424,
+      "bounds": [
+        0.8,
+        1.0,
+        0.2,
+        0.4
+      ],
+      "facecolor": [
+        0.957781862745098,
+        0.9609681372549019,
+        0.9507965686274511,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_2_0",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "24",
+        "support_seed0": "6",
+        "support_seed1": "10",
+        "support_seed2": "8",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0980666666666667",
+        "median_delta_r": "0.0946",
+        "positive_delta_r_magnitude": "2.3536",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0980666666666667,
+      "bounds": [
+        0.0,
+        0.2,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.8892769607843137,
+        0.8034926470588235,
+        0.7777879901960785,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.16000000000000003,
+            0.4
+          ],
+          [
+            0.2,
+            0.44
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.40000000000000013
+          ],
+          [
+            0.19999999999999984,
+            0.6
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.56
+          ],
+          [
+            0.039999999999999925,
+            0.6
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_2_1",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "39",
+        "support_seed0": "9",
+        "support_seed1": "22",
+        "support_seed2": "8",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0384179487179487",
+        "median_delta_r": "0.044",
+        "positive_delta_r_magnitude": "1.591",
+        "negative_delta_r_magnitude": "0.0927",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0384179487179487,
+      "bounds": [
+        0.2,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9368872549019608,
+        0.9025735294117647,
+        0.8852328431372549,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.31999999999999995,
+            0.4
+          ],
+          [
+            0.4,
+            0.4800000000000001
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.44
+          ],
+          [
+            0.36,
+            0.6
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_2_2",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "118",
+        "support_seed0": "33",
+        "support_seed1": "43",
+        "support_seed2": "42",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0222389830508475",
+        "median_delta_r": "-0.0167499999999999",
+        "positive_delta_r_magnitude": "0.6122",
+        "negative_delta_r_magnitude": "3.2364",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0222389830508475,
+      "bounds": [
+        0.4,
+        0.6,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9252450980392157,
+        0.9379901960784314,
+        0.9325980392156863,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_2_3",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "394",
+        "support_seed0": "118",
+        "support_seed1": "133",
+        "support_seed2": "143",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.0230593908629442",
+        "median_delta_r": "-0.01785",
+        "positive_delta_r_magnitude": "0.0027999999999999",
+        "negative_delta_r_magnitude": "9.0882",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.0230593908629442,
+      "bounds": [
+        0.6,
+        0.8,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9252450980392157,
+        0.9379901960784314,
+        0.9325980392156863,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_2_4",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "2",
+        "q_func_left": "0.4",
+        "q_func_right": "0.6",
+        "q_func_interval": "0.4–0.6",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "3465",
+        "support_seed0": "1096",
+        "support_seed1": "1121",
+        "support_seed2": "1248",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "-0.00172135642135639",
+        "median_delta_r": "-0.0013999999999999",
+        "positive_delta_r_magnitude": "0.197099999999988",
+        "negative_delta_r_magnitude": "6.16159999999986",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": -0.00172135642135639,
+      "bounds": [
+        0.8,
+        1.0,
+        0.4,
+        0.6
+      ],
+      "facecolor": [
+        0.9632046568627451,
+        0.9647977941176471,
+        0.9538296568627451,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_3_0",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "57",
+        "support_seed0": "17",
+        "support_seed1": "21",
+        "support_seed2": "19",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.235587719298246",
+        "median_delta_r": "0.2432",
+        "positive_delta_r_magnitude": "13.4285",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.235587719298246,
+      "bounds": [
+        0.0,
+        0.2,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.7781862745098039,
+        0.5723039215686274,
+        0.5270833333333333,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.19999999999999984,
+            0.6
+          ],
+          [
+            0.2,
+            0.6000000000000001
+          ]
+        ],
+        [
+          [
+            0.039999999999999925,
+            0.6
+          ],
+          [
+            0.2,
+            0.76
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.72
+          ],
+          [
+            0.08000000000000007,
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_3_1",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "76",
+        "support_seed0": "20",
+        "support_seed1": "26",
+        "support_seed2": "30",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.152696052631579",
+        "median_delta_r": "0.1507",
+        "positive_delta_r_magnitude": "11.6049",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.152696052631579,
+      "bounds": [
+        0.2,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.8439338235294118,
+        0.7091299019607843,
+        0.6754595588235295,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.36,
+            0.6
+          ],
+          [
+            0.4,
+            0.64
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.6000000000000001
+          ],
+          [
+            0.3999999999999999,
+            0.8
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.76
+          ],
+          [
+            0.24,
+            0.8
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_3_2",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "138",
+        "support_seed0": "40",
+        "support_seed1": "49",
+        "support_seed2": "49",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0704898550724638",
+        "median_delta_r": "0.0666",
+        "positive_delta_r_magnitude": "9.7276",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0704898550724638,
+      "bounds": [
+        0.4,
+        0.6,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.9119485294117647,
+        0.8506740196078432,
+        0.828952205882353,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_3_3",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "559",
+        "support_seed0": "184",
+        "support_seed1": "192",
+        "support_seed2": "183",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0141168157423971",
+        "median_delta_r": "0.0113",
+        "positive_delta_r_magnitude": "8.03089999999999",
+        "negative_delta_r_magnitude": "0.139599999999996",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0141168157423971,
+      "bounds": [
+        0.6,
+        0.8,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.9572916666666667,
+        0.9450367647058824,
+        0.931280637254902,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_3_4",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "3",
+        "q_func_left": "0.6",
+        "q_func_right": "0.8",
+        "q_func_interval": "0.6–0.8",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "4590",
+        "support_seed0": "1588",
+        "support_seed1": "1511",
+        "support_seed2": "1491",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.00149784313725488",
+        "median_delta_r": "0.0005999999999999",
+        "positive_delta_r_magnitude": "7.55969999999985",
+        "negative_delta_r_magnitude": "0.684599999999941",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.00149784313725488,
+      "bounds": [
+        0.8,
+        1.0,
+        0.6,
+        0.8
+      ],
+      "facecolor": [
+        0.966360294117647,
+        0.9639093137254902,
+        0.9517463235294118,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_4_0",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "0",
+        "baseline_percentile_left": "0",
+        "baseline_percentile_right": "0.2",
+        "baseline_uncertainty_interval": "0–0.2",
+        "n": "76",
+        "support_seed0": "18",
+        "support_seed1": "30",
+        "support_seed2": "28",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.354993421052632",
+        "median_delta_r": "0.3578",
+        "positive_delta_r_magnitude": "26.9795",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.354993421052632,
+      "bounds": [
+        0.0,
+        0.2,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.6806985294117647,
+        0.3694240196078431,
+        0.3070772058823529,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.08000000000000007,
+            0.8
+          ],
+          [
+            0.2,
+            0.9199999999999999
+          ]
+        ],
+        [
+          [
+            0.0,
+            0.8800000000000001
+          ],
+          [
+            0.11999999999999988,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_4_1",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "1",
+        "baseline_percentile_left": "0.2",
+        "baseline_percentile_right": "0.4",
+        "baseline_uncertainty_interval": "0.2–0.4",
+        "n": "96",
+        "support_seed0": "30",
+        "support_seed1": "38",
+        "support_seed2": "28",
+        "low_support": "True",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.260503125",
+        "median_delta_r": "0.26095",
+        "positive_delta_r_magnitude": "25.0083",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.260503125,
+      "bounds": [
+        0.2,
+        0.4,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.7577818627450981,
+        0.5298406862745098,
+        0.48103553921568626,
+        1.0
+      ],
+      "low_support": true,
+      "hatch_segments": [
+        [
+          [
+            0.3999999999999999,
+            0.8
+          ],
+          [
+            0.4,
+            0.8000000000000002
+          ]
+        ],
+        [
+          [
+            0.24,
+            0.8
+          ],
+          [
+            0.4,
+            0.9600000000000001
+          ]
+        ],
+        [
+          [
+            0.2,
+            0.9199999999999999
+          ],
+          [
+            0.28,
+            1.0
+          ]
+        ]
+      ]
+    },
+    {
+      "gid": "cell_tin_4_2",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "2",
+        "baseline_percentile_left": "0.4",
+        "baseline_percentile_right": "0.6",
+        "baseline_uncertainty_interval": "0.4–0.6",
+        "n": "206",
+        "support_seed0": "62",
+        "support_seed1": "79",
+        "support_seed2": "65",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.145288349514563",
+        "median_delta_r": "0.1415",
+        "positive_delta_r_magnitude": "29.9294",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.145288349514563,
+      "bounds": [
+        0.4,
+        0.6,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.850735294117647,
+        0.7232843137254902,
+        0.6908088235294118,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_4_3",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "3",
+        "baseline_percentile_left": "0.6",
+        "baseline_percentile_right": "0.8",
+        "baseline_uncertainty_interval": "0.6–0.8",
+        "n": "811",
+        "support_seed0": "263",
+        "support_seed1": "290",
+        "support_seed2": "258",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0414257706535142",
+        "median_delta_r": "0.0335",
+        "positive_delta_r_magnitude": "33.5963",
+        "negative_delta_r_magnitude": "0",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0414257706535142,
+      "bounds": [
+        0.6,
+        0.8,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.9346200980392156,
+        0.8978553921568627,
+        0.8801164215686275,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    },
+    {
+      "gid": "cell_tin_4_4",
+      "source_record": {
+        "dataset": "tin",
+        "q_func_bin": "4",
+        "q_func_left": "0.8",
+        "q_func_right": "1",
+        "q_func_interval": "0.8–1.0",
+        "baseline_uncertainty_bin": "4",
+        "baseline_percentile_left": "0.8",
+        "baseline_percentile_right": "1",
+        "baseline_uncertainty_interval": "0.8–1.0",
+        "n": "8131",
+        "support_seed0": "2670",
+        "support_seed1": "2903",
+        "support_seed2": "2558",
+        "low_support": "False",
+        "low_support_rule": "hatch when any seed support < 30",
+        "mean_delta_r": "0.0033350018447915",
+        "median_delta_r": "0.0018",
+        "positive_delta_r_magnitude": "27.1266999999997",
+        "negative_delta_r_magnitude": "0.0097999999999981",
+        "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+      },
+      "value": 0.0033350018447915,
+      "bounds": [
+        0.8,
+        1.0,
+        0.8,
+        1.0
+      ],
+      "facecolor": [
+        0.966360294117647,
+        0.9639093137254902,
+        0.9517463235294118,
+        1.0
+      ],
+      "low_support": false,
+      "hatch_segments": []
+    }
+  ],
+  "cases": [
+    {
+      "gid": "case_q_func_cifar100_strong_fix_1_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "0",
+        "source_index": "3769",
+        "q_func": "0.899665551839465",
+        "d_GOP": "0.0165893300426265",
+        "delta_r": "0.3667"
+      },
+      "x": 0.899665551839465,
+      "y": 17.5,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_fix_1_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "1",
+        "source_index": "3769",
+        "q_func": "0.838283828382838",
+        "d_GOP": "0.0148166242233823",
+        "delta_r": "0.3188"
+      },
+      "x": 0.838283828382838,
+      "y": 18.55,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_fix_1_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "2",
+        "source_index": "3769",
+        "q_func": "0.870550161812298",
+        "d_GOP": "0.016552759627412",
+        "delta_r": "0.3011"
+      },
+      "x": 0.870550161812298,
+      "y": 19.6,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_fix_2_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "0",
+        "source_index": "2320",
+        "q_func": "0.911262798634812",
+        "d_GOP": "0.0155366093517136",
+        "delta_r": "0.297"
+      },
+      "x": 0.911262798634812,
+      "y": 20.65,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_fix_2_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "1",
+        "source_index": "2320",
+        "q_func": "0.986928104575163",
+        "d_GOP": "0.0399336103628127",
+        "delta_r": "0.3879"
+      },
+      "x": 0.986928104575163,
+      "y": 21.7,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_fix_2_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "2",
+        "source_index": "2320",
+        "q_func": "0.88628762541806",
+        "d_GOP": "0.0127294723812257",
+        "delta_r": "0.2929"
+      },
+      "x": 0.88628762541806,
+      "y": 22.75,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_tin_strong_fix_1_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "0",
+        "source_index": "4374",
+        "q_func": "0.946488294314382",
+        "d_GOP": "0.0205947457180969",
+        "delta_r": "0.3195"
+      },
+      "x": 0.946488294314382,
+      "y": 23.8,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_tin_strong_fix_1_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "1",
+        "source_index": "4374",
+        "q_func": "0.953795379537955",
+        "d_GOP": "0.0239291192287949",
+        "delta_r": "0.3736"
+      },
+      "x": 0.953795379537955,
+      "y": 24.85,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_tin_strong_fix_1_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "2",
+        "source_index": "4374",
+        "q_func": "0.841423948220064",
+        "d_GOP": "0.0144321394551568",
+        "delta_r": "0.33"
+      },
+      "x": 0.841423948220064,
+      "y": 25.9,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_tin_strong_fix_2_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "0",
+        "source_index": "7779",
+        "q_func": "0.965079365079366",
+        "d_GOP": "0.0317343259908428",
+        "delta_r": "0.3449"
+      },
+      "x": 0.965079365079366,
+      "y": 26.950000000000003,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_tin_strong_fix_2_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "1",
+        "source_index": "7779",
+        "q_func": "0.762820512820514",
+        "d_GOP": "0.0109301541100018",
+        "delta_r": "0.2667"
+      },
+      "x": 0.762820512820514,
+      "y": 28.0,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_tin_strong_fix_2_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "2",
+        "source_index": "7779",
+        "q_func": "0.942857142857142",
+        "d_GOP": "0.0341882928241929",
+        "delta_r": "0.3885"
+      },
+      "x": 0.942857142857142,
+      "y": 29.05,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_break_1_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "0",
+        "source_index": "1271",
+        "q_func": "0.100334448160535",
+        "d_GOP": "0.0022612224006756",
+        "delta_r": "-0.223"
+      },
+      "x": 0.100334448160535,
+      "y": 35.5,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_break_1_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "1",
+        "source_index": "1271",
+        "q_func": "0.112211221122112",
+        "d_GOP": "0.0023533328243422",
+        "delta_r": "-0.2407"
+      },
+      "x": 0.112211221122112,
+      "y": 36.55,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_break_1_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "2",
+        "source_index": "1271",
+        "q_func": "0.13915857605178",
+        "d_GOP": "0.0030829448187682",
+        "delta_r": "-0.121"
+      },
+      "x": 0.13915857605178,
+      "y": 37.6,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_break_2_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "0",
+        "source_index": "1969",
+        "q_func": "0.0443686006825939",
+        "d_GOP": "0.0021855871817062",
+        "delta_r": "-0.2771"
+      },
+      "x": 0.0443686006825939,
+      "y": 38.65,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_break_2_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "1",
+        "source_index": "1969",
+        "q_func": "0",
+        "d_GOP": "0.0012841014412455",
+        "delta_r": "-0.3125"
+      },
+      "x": 0.0,
+      "y": 39.7,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_cifar100_strong_break_2_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "2",
+        "source_index": "1969",
+        "q_func": "0.434343434343434",
+        "d_GOP": "0.0059886052884216",
+        "delta_r": "-0.0694"
+      },
+      "x": 0.434343434343434,
+      "y": 40.75,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_tin_strong_break_1_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "0",
+        "source_index": "2887",
+        "q_func": "0.282539682539682",
+        "d_GOP": "0.0039055393623137",
+        "delta_r": "-0.125"
+      },
+      "x": 0.282539682539682,
+      "y": 41.8,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_tin_strong_break_1_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "1",
+        "source_index": "2887",
+        "q_func": "0.0897435897435903",
+        "d_GOP": "0.0017821233996301",
+        "delta_r": "-0.203"
+      },
+      "x": 0.0897435897435903,
+      "y": 42.85,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_tin_strong_break_1_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "2",
+        "source_index": "2887",
+        "q_func": "0.0412698412698398",
+        "d_GOP": "0.0013763905088891",
+        "delta_r": "-0.2857"
+      },
+      "x": 0.0412698412698398,
+      "y": 43.9,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_tin_strong_break_2_s0",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "0",
+        "source_index": "2946",
+        "q_func": "0.0564784053156145",
+        "d_GOP": "0.0021710528609738",
+        "delta_r": "-0.2371"
+      },
+      "x": 0.0564784053156145,
+      "y": 44.95,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_tin_strong_break_2_s1",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "1",
+        "source_index": "2946",
+        "q_func": "0.130584192439863",
+        "d_GOP": "0.0038576687713647",
+        "delta_r": "-0.1696"
+      },
+      "x": 0.130584192439863,
+      "y": 46.0,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_q_func_tin_strong_break_2_s2",
+      "metric": "q_func",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "2",
+        "source_index": "2946",
+        "q_func": "0.027027027027025",
+        "d_GOP": "0.0017850552866395",
+        "delta_r": "-0.2622"
+      },
+      "x": 0.027027027027025,
+      "y": 47.05,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_fix_1_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "0",
+        "source_index": "3769",
+        "q_func": "0.899665551839465",
+        "d_GOP": "0.0165893300426265",
+        "delta_r": "0.3667"
+      },
+      "x": 0.0165893300426265,
+      "y": 17.5,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_fix_1_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "1",
+        "source_index": "3769",
+        "q_func": "0.838283828382838",
+        "d_GOP": "0.0148166242233823",
+        "delta_r": "0.3188"
+      },
+      "x": 0.0148166242233823,
+      "y": 18.55,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_fix_1_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "2",
+        "source_index": "3769",
+        "q_func": "0.870550161812298",
+        "d_GOP": "0.016552759627412",
+        "delta_r": "0.3011"
+      },
+      "x": 0.016552759627412,
+      "y": 19.6,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_fix_2_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "0",
+        "source_index": "2320",
+        "q_func": "0.911262798634812",
+        "d_GOP": "0.0155366093517136",
+        "delta_r": "0.297"
+      },
+      "x": 0.0155366093517136,
+      "y": 20.65,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_fix_2_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "1",
+        "source_index": "2320",
+        "q_func": "0.986928104575163",
+        "d_GOP": "0.0399336103628127",
+        "delta_r": "0.3879"
+      },
+      "x": 0.0399336103628127,
+      "y": 21.7,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_fix_2_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "2",
+        "source_index": "2320",
+        "q_func": "0.88628762541806",
+        "d_GOP": "0.0127294723812257",
+        "delta_r": "0.2929"
+      },
+      "x": 0.0127294723812257,
+      "y": 22.75,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_fix_1_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "0",
+        "source_index": "4374",
+        "q_func": "0.946488294314382",
+        "d_GOP": "0.0205947457180969",
+        "delta_r": "0.3195"
+      },
+      "x": 0.0205947457180969,
+      "y": 23.8,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_fix_1_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "1",
+        "source_index": "4374",
+        "q_func": "0.953795379537955",
+        "d_GOP": "0.0239291192287949",
+        "delta_r": "0.3736"
+      },
+      "x": 0.0239291192287949,
+      "y": 24.85,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_fix_1_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "2",
+        "source_index": "4374",
+        "q_func": "0.841423948220064",
+        "d_GOP": "0.0144321394551568",
+        "delta_r": "0.33"
+      },
+      "x": 0.0144321394551568,
+      "y": 25.9,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_fix_2_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "0",
+        "source_index": "7779",
+        "q_func": "0.965079365079366",
+        "d_GOP": "0.0317343259908428",
+        "delta_r": "0.3449"
+      },
+      "x": 0.0317343259908428,
+      "y": 26.950000000000003,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_fix_2_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "1",
+        "source_index": "7779",
+        "q_func": "0.762820512820514",
+        "d_GOP": "0.0109301541100018",
+        "delta_r": "0.2667"
+      },
+      "x": 0.0109301541100018,
+      "y": 28.0,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_fix_2_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "2",
+        "source_index": "7779",
+        "q_func": "0.942857142857142",
+        "d_GOP": "0.0341882928241929",
+        "delta_r": "0.3885"
+      },
+      "x": 0.0341882928241929,
+      "y": 29.05,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_break_1_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "0",
+        "source_index": "1271",
+        "q_func": "0.100334448160535",
+        "d_GOP": "0.0022612224006756",
+        "delta_r": "-0.223"
+      },
+      "x": 0.0022612224006756,
+      "y": 35.5,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_break_1_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "1",
+        "source_index": "1271",
+        "q_func": "0.112211221122112",
+        "d_GOP": "0.0023533328243422",
+        "delta_r": "-0.2407"
+      },
+      "x": 0.0023533328243422,
+      "y": 36.55,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_break_1_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "2",
+        "source_index": "1271",
+        "q_func": "0.13915857605178",
+        "d_GOP": "0.0030829448187682",
+        "delta_r": "-0.121"
+      },
+      "x": 0.0030829448187682,
+      "y": 37.6,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_break_2_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "0",
+        "source_index": "1969",
+        "q_func": "0.0443686006825939",
+        "d_GOP": "0.0021855871817062",
+        "delta_r": "-0.2771"
+      },
+      "x": 0.0021855871817062,
+      "y": 38.65,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_break_2_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "1",
+        "source_index": "1969",
+        "q_func": "0",
+        "d_GOP": "0.0012841014412455",
+        "delta_r": "-0.3125"
+      },
+      "x": 0.0012841014412455,
+      "y": 39.7,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_cifar100_strong_break_2_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "2",
+        "source_index": "1969",
+        "q_func": "0.434343434343434",
+        "d_GOP": "0.0059886052884216",
+        "delta_r": "-0.0694"
+      },
+      "x": 0.0059886052884216,
+      "y": 40.75,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_break_1_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "0",
+        "source_index": "2887",
+        "q_func": "0.282539682539682",
+        "d_GOP": "0.0039055393623137",
+        "delta_r": "-0.125"
+      },
+      "x": 0.0039055393623137,
+      "y": 41.8,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_break_1_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "1",
+        "source_index": "2887",
+        "q_func": "0.0897435897435903",
+        "d_GOP": "0.0017821233996301",
+        "delta_r": "-0.203"
+      },
+      "x": 0.0017821233996301,
+      "y": 42.85,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_break_1_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "2",
+        "source_index": "2887",
+        "q_func": "0.0412698412698398",
+        "d_GOP": "0.0013763905088891",
+        "delta_r": "-0.2857"
+      },
+      "x": 0.0013763905088891,
+      "y": 43.9,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_break_2_s0",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "0",
+        "source_index": "2946",
+        "q_func": "0.0564784053156145",
+        "d_GOP": "0.0021710528609738",
+        "delta_r": "-0.2371"
+      },
+      "x": 0.0021710528609738,
+      "y": 44.95,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_break_2_s1",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "1",
+        "source_index": "2946",
+        "q_func": "0.130584192439863",
+        "d_GOP": "0.0038576687713647",
+        "delta_r": "-0.1696"
+      },
+      "x": 0.0038576687713647,
+      "y": 46.0,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_d_GOP_tin_strong_break_2_s2",
+      "metric": "d_GOP",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "2",
+        "source_index": "2946",
+        "q_func": "0.027027027027025",
+        "d_GOP": "0.0017850552866395",
+        "delta_r": "-0.2622"
+      },
+      "x": 0.0017850552866395,
+      "y": 47.05,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_fix_1_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "0",
+        "source_index": "3769",
+        "q_func": "0.899665551839465",
+        "d_GOP": "0.0165893300426265",
+        "delta_r": "0.3667"
+      },
+      "x": 0.3667,
+      "y": 17.5,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_fix_1_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "1",
+        "source_index": "3769",
+        "q_func": "0.838283828382838",
+        "d_GOP": "0.0148166242233823",
+        "delta_r": "0.3188"
+      },
+      "x": 0.3188,
+      "y": 18.55,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_fix_1_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_1",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "3769",
+        "source_label": "81",
+        "seed": "2",
+        "source_index": "3769",
+        "q_func": "0.870550161812298",
+        "d_GOP": "0.016552759627412",
+        "delta_r": "0.3011"
+      },
+      "x": 0.3011,
+      "y": 19.6,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_fix_2_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "0",
+        "source_index": "2320",
+        "q_func": "0.911262798634812",
+        "d_GOP": "0.0155366093517136",
+        "delta_r": "0.297"
+      },
+      "x": 0.297,
+      "y": 20.65,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_fix_2_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "1",
+        "source_index": "2320",
+        "q_func": "0.986928104575163",
+        "d_GOP": "0.0399336103628127",
+        "delta_r": "0.3879"
+      },
+      "x": 0.3879,
+      "y": 21.7,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_fix_2_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_fix_2",
+        "dataset": "cifar100",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "2320",
+        "source_label": "12",
+        "seed": "2",
+        "source_index": "2320",
+        "q_func": "0.88628762541806",
+        "d_GOP": "0.0127294723812257",
+        "delta_r": "0.2929"
+      },
+      "x": 0.2929,
+      "y": 22.75,
+      "marker": "o",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_fix_1_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "0",
+        "source_index": "4374",
+        "q_func": "0.946488294314382",
+        "d_GOP": "0.0205947457180969",
+        "delta_r": "0.3195"
+      },
+      "x": 0.3195,
+      "y": 23.8,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_fix_1_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "1",
+        "source_index": "4374",
+        "q_func": "0.953795379537955",
+        "d_GOP": "0.0239291192287949",
+        "delta_r": "0.3736"
+      },
+      "x": 0.3736,
+      "y": 24.85,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_fix_1_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_fix_1",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "1",
+        "sample_index": "4374",
+        "source_label": "85",
+        "seed": "2",
+        "source_index": "4374",
+        "q_func": "0.841423948220064",
+        "d_GOP": "0.0144321394551568",
+        "delta_r": "0.33"
+      },
+      "x": 0.33,
+      "y": 25.9,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_fix_2_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "0",
+        "source_index": "7779",
+        "q_func": "0.965079365079366",
+        "d_GOP": "0.0317343259908428",
+        "delta_r": "0.3449"
+      },
+      "x": 0.3449,
+      "y": 26.950000000000003,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_fix_2_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "1",
+        "source_index": "7779",
+        "q_func": "0.762820512820514",
+        "d_GOP": "0.0109301541100018",
+        "delta_r": "0.2667"
+      },
+      "x": 0.2667,
+      "y": 28.0,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_fix_2_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_fix_2",
+        "dataset": "tin",
+        "category": "strong_fix",
+        "selection_order": "2",
+        "sample_index": "7779",
+        "source_label": "175",
+        "seed": "2",
+        "source_index": "7779",
+        "q_func": "0.942857142857142",
+        "d_GOP": "0.0341882928241929",
+        "delta_r": "0.3885"
+      },
+      "x": 0.3885,
+      "y": 29.05,
+      "marker": "^",
+      "color": "#AD5D4D"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_break_1_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "0",
+        "source_index": "1271",
+        "q_func": "0.100334448160535",
+        "d_GOP": "0.0022612224006756",
+        "delta_r": "-0.223"
+      },
+      "x": -0.223,
+      "y": 35.5,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_break_1_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "1",
+        "source_index": "1271",
+        "q_func": "0.112211221122112",
+        "d_GOP": "0.0023533328243422",
+        "delta_r": "-0.2407"
+      },
+      "x": -0.2407,
+      "y": 36.55,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_break_1_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_break_1",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "1271",
+        "source_label": "13",
+        "seed": "2",
+        "source_index": "1271",
+        "q_func": "0.13915857605178",
+        "d_GOP": "0.0030829448187682",
+        "delta_r": "-0.121"
+      },
+      "x": -0.121,
+      "y": 37.6,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_break_2_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "0",
+        "source_index": "1969",
+        "q_func": "0.0443686006825939",
+        "d_GOP": "0.0021855871817062",
+        "delta_r": "-0.2771"
+      },
+      "x": -0.2771,
+      "y": 38.65,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_break_2_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "1",
+        "source_index": "1969",
+        "q_func": "0",
+        "d_GOP": "0.0012841014412455",
+        "delta_r": "-0.3125"
+      },
+      "x": -0.3125,
+      "y": 39.7,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_cifar100_strong_break_2_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "cifar100_strong_break_2",
+        "dataset": "cifar100",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "1969",
+        "source_label": "36",
+        "seed": "2",
+        "source_index": "1969",
+        "q_func": "0.434343434343434",
+        "d_GOP": "0.0059886052884216",
+        "delta_r": "-0.0694"
+      },
+      "x": -0.0694,
+      "y": 40.75,
+      "marker": "o",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_break_1_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "0",
+        "source_index": "2887",
+        "q_func": "0.282539682539682",
+        "d_GOP": "0.0039055393623137",
+        "delta_r": "-0.125"
+      },
+      "x": -0.125,
+      "y": 41.8,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_break_1_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "1",
+        "source_index": "2887",
+        "q_func": "0.0897435897435903",
+        "d_GOP": "0.0017821233996301",
+        "delta_r": "-0.203"
+      },
+      "x": -0.203,
+      "y": 42.85,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_break_1_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_break_1",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "1",
+        "sample_index": "2887",
+        "source_label": "36",
+        "seed": "2",
+        "source_index": "2887",
+        "q_func": "0.0412698412698398",
+        "d_GOP": "0.0013763905088891",
+        "delta_r": "-0.2857"
+      },
+      "x": -0.2857,
+      "y": 43.9,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_break_2_s0",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "0",
+        "source_index": "2946",
+        "q_func": "0.0564784053156145",
+        "d_GOP": "0.0021710528609738",
+        "delta_r": "-0.2371"
+      },
+      "x": -0.2371,
+      "y": 44.95,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_break_2_s1",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "1",
+        "source_index": "2946",
+        "q_func": "0.130584192439863",
+        "d_GOP": "0.0038576687713647",
+        "delta_r": "-0.1696"
+      },
+      "x": -0.1696,
+      "y": 46.0,
+      "marker": "^",
+      "color": "#467A91"
+    },
+    {
+      "gid": "case_delta_r_tin_strong_break_2_s2",
+      "metric": "delta_r",
+      "source_record": {
+        "case_id": "tin_strong_break_2",
+        "dataset": "tin",
+        "category": "strong_break",
+        "selection_order": "2",
+        "sample_index": "2946",
+        "source_label": "96",
+        "seed": "2",
+        "source_index": "2946",
+        "q_func": "0.027027027027025",
+        "d_GOP": "0.0017850552866395",
+        "delta_r": "-0.2622"
+      },
+      "x": -0.2622,
+      "y": 47.05,
+      "marker": "^",
+      "color": "#467A91"
+    }
+  ],
+  "means": [
+    {
+      "gid": "mean_q_func_strong_fix",
+      "metric": "q_func",
+      "category": "strong_fix",
+      "x": 0.9004535594576715,
+      "y": 31.2
+    },
+    {
+      "gid": "mean_q_func_strong_break",
+      "metric": "q_func",
+      "category": "strong_break",
+      "x": 0.12150491822467245,
+      "y": 49.2
+    },
+    {
+      "gid": "mean_d_GOP_strong_fix",
+      "metric": "d_GOP",
+      "category": "strong_fix",
+      "x": 0.020997265276354912,
+      "y": 31.2
+    },
+    {
+      "gid": "mean_d_GOP_strong_break",
+      "metric": "d_GOP",
+      "category": "strong_break",
+      "x": 0.0026694686787475165,
+      "y": 49.2
+    },
+    {
+      "gid": "mean_delta_r_strong_fix",
+      "metric": "delta_r",
+      "category": "strong_fix",
+      "x": 0.3323,
+      "y": 31.2
+    },
+    {
+      "gid": "mean_delta_r_strong_break",
+      "metric": "delta_r",
+      "category": "strong_break",
+      "x": -0.210525,
+      "y": 49.2
+    }
+  ],
+  "rows": [
+    {
+      "case_id": "cifar100_strong_fix_1",
+      "seed": "0",
+      "category": "strong_fix",
+      "y": 17.5
+    },
+    {
+      "case_id": "cifar100_strong_fix_1",
+      "seed": "1",
+      "category": "strong_fix",
+      "y": 18.55
+    },
+    {
+      "case_id": "cifar100_strong_fix_1",
+      "seed": "2",
+      "category": "strong_fix",
+      "y": 19.6
+    },
+    {
+      "case_id": "cifar100_strong_fix_2",
+      "seed": "0",
+      "category": "strong_fix",
+      "y": 20.65
+    },
+    {
+      "case_id": "cifar100_strong_fix_2",
+      "seed": "1",
+      "category": "strong_fix",
+      "y": 21.7
+    },
+    {
+      "case_id": "cifar100_strong_fix_2",
+      "seed": "2",
+      "category": "strong_fix",
+      "y": 22.75
+    },
+    {
+      "case_id": "tin_strong_fix_1",
+      "seed": "0",
+      "category": "strong_fix",
+      "y": 23.8
+    },
+    {
+      "case_id": "tin_strong_fix_1",
+      "seed": "1",
+      "category": "strong_fix",
+      "y": 24.85
+    },
+    {
+      "case_id": "tin_strong_fix_1",
+      "seed": "2",
+      "category": "strong_fix",
+      "y": 25.9
+    },
+    {
+      "case_id": "tin_strong_fix_2",
+      "seed": "0",
+      "category": "strong_fix",
+      "y": 26.950000000000003
+    },
+    {
+      "case_id": "tin_strong_fix_2",
+      "seed": "1",
+      "category": "strong_fix",
+      "y": 28.0
+    },
+    {
+      "case_id": "tin_strong_fix_2",
+      "seed": "2",
+      "category": "strong_fix",
+      "y": 29.05
+    },
+    {
+      "case_id": "cifar100_strong_break_1",
+      "seed": "0",
+      "category": "strong_break",
+      "y": 35.5
+    },
+    {
+      "case_id": "cifar100_strong_break_1",
+      "seed": "1",
+      "category": "strong_break",
+      "y": 36.55
+    },
+    {
+      "case_id": "cifar100_strong_break_1",
+      "seed": "2",
+      "category": "strong_break",
+      "y": 37.6
+    },
+    {
+      "case_id": "cifar100_strong_break_2",
+      "seed": "0",
+      "category": "strong_break",
+      "y": 38.65
+    },
+    {
+      "case_id": "cifar100_strong_break_2",
+      "seed": "1",
+      "category": "strong_break",
+      "y": 39.7
+    },
+    {
+      "case_id": "cifar100_strong_break_2",
+      "seed": "2",
+      "category": "strong_break",
+      "y": 40.75
+    },
+    {
+      "case_id": "tin_strong_break_1",
+      "seed": "0",
+      "category": "strong_break",
+      "y": 41.8
+    },
+    {
+      "case_id": "tin_strong_break_1",
+      "seed": "1",
+      "category": "strong_break",
+      "y": 42.85
+    },
+    {
+      "case_id": "tin_strong_break_1",
+      "seed": "2",
+      "category": "strong_break",
+      "y": 43.9
+    },
+    {
+      "case_id": "tin_strong_break_2",
+      "seed": "0",
+      "category": "strong_break",
+      "y": 44.95
+    },
+    {
+      "case_id": "tin_strong_break_2",
+      "seed": "1",
+      "category": "strong_break",
+      "y": 46.0
+    },
+    {
+      "case_id": "tin_strong_break_2",
+      "seed": "2",
+      "category": "strong_break",
+      "y": 47.05
+    }
+  ],
+  "size_mm": [
+    178.0,
+    73.0
+  ],
+  "heat_axes_mm": [
+    [
+      13.0,
+      15.0,
+      38.0,
+      38.0
+    ],
+    [
+      57.0,
+      15.0,
+      38.0,
+      38.0
+    ]
+  ],
+  "mini_axes_mm": [
+    [
+      121.0,
+      20.0,
+      17.0,
+      38.0
+    ],
+    [
+      140.5,
+      20.0,
+      17.0,
+      38.0
+    ],
+    [
+      160.0,
+      20.0,
+      17.0,
+      38.0
+    ]
+  ],
+  "mini_xlim": [
+    [
+      0.0,
+      1.0
+    ],
+    [
+      -0.0015,
+      0.043
+    ],
+    [
+      -0.345,
+      0.415
+    ]
+  ],
+  "mini_ylim": [
+    [
+      53.0,
+      15.0
+    ],
+    [
+      53.0,
+      15.0
+    ],
+    [
+      53.0,
+      15.0
+    ]
+  ],
+  "norm": [
+    -0.36,
+    0.0,
+    0.36
+  ],
+  "zero_rgba": [
+    0.9686274509803922,
+    0.9686274509803922,
+    0.9568627450980393,
+    1.0
+  ],
+  "palette": [
+    "#467A91",
+    "#F7F7F4",
+    "#AD5D4D"
+  ],
+  "text_boxes": [
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        72.45915354330708,
+        93.73523622047244,
+        81.08415354330708,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.2",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        110.77854330708661,
+        93.73523622047244,
+        132.5285433070866,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        155.66043307086613,
+        93.73523622047244,
+        177.41043307086613,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.6",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        200.54232283464563,
+        93.73523622047244,
+        222.29232283464563,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.8",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        245.48671259842519,
+        93.73523622047244,
+        267.1117125984252,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "1",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        296.8061023622047,
+        93.73523622047244,
+        305.5561023622047,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "$q_{\\mathrm{func}}$",
+      "gid": null,
+      "size_pt": 10.8,
+      "bbox_px": [
+        16.67618479330708,
+        208.2437326025775,
+        39.39665354330708,
+        252.386188657265
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        58.77165354330708,
+        109.11023622047244,
+        67.39665354330708,
+        124.11023622047244
+      ]
+    },
+    {
+      "text": "0.2",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        45.64665354330708,
+        153.99212598425197,
+        67.39665354330708,
+        168.99212598425197
+      ]
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        45.64665354330708,
+        198.8740157480315,
+        67.39665354330708,
+        213.8740157480315
+      ]
+    },
+    {
+      "text": "0.6",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        45.64665354330708,
+        243.75590551181102,
+        67.39665354330708,
+        258.755905511811
+      ]
+    },
+    {
+      "text": "0.8",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        45.77165354330708,
+        288.6377952755905,
+        67.39665354330708,
+        303.6377952755905
+      ]
+    },
+    {
+      "text": "1",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        58.64665354330708,
+        333.5196850393701,
+        67.39665354330708,
+        348.5196850393701
+      ]
+    },
+    {
+      "text": "CIFAR-100",
+      "gid": null,
+      "size_pt": 8.0,
+      "bbox_px": [
+        147.97637795275588,
+        349.9363517060367,
+        229.97637795275588,
+        364.9363517060367
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        332.30167322834643,
+        93.73523622047244,
+        340.92667322834643,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.2",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        370.621062992126,
+        93.73523622047244,
+        392.371062992126,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.4",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        415.5029527559055,
+        93.73523622047244,
+        437.2529527559055,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.6",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        460.384842519685,
+        93.73523622047244,
+        482.134842519685,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "0.8",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        505.32923228346453,
+        93.73523622047244,
+        526.9542322834645,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "1",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        556.6486220472441,
+        93.73523622047244,
+        565.3986220472441,
+        108.73523622047244
+      ]
+    },
+    {
+      "text": "Tiny ImageNet",
+      "gid": null,
+      "size_pt": 8.0,
+      "bbox_px": [
+        395.00639763779526,
+        349.9363517060367,
+        502.63139763779526,
+        365.0144767060367
+      ]
+    },
+    {
+      "text": "−0.3",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        185.41240157480314,
+        5.464238845144365,
+        216.16240157480314,
+        20.464238845144365
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        314.5851377952755,
+        5.464238845144365,
+        323.2101377952755,
+        20.464238845144365
+      ]
+    },
+    {
+      "text": "+0.3",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        421.6328740157479,
+        5.464238845144365,
+        452.3828740157479,
+        20.464238845144365
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        714.5669291338583,
+        64.20767716535435,
+        723.1919291338583,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "0.5",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        753.9512795275591,
+        64.20767716535435,
+        775.5762795275591,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "1",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        806.2106299212599,
+        64.20767716535435,
+        814.9606299212599,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "$q_{\\mathrm{func}}$",
+      "gid": null,
+      "size_pt": 10.8,
+      "bbox_px": [
+        742.6925515002154,
+        314.6883239009187,
+        786.8350075549029,
+        337.4087926509187
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        833.1084667787312,
+        64.20767716535435,
+        841.7334667787312,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "0.04",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        892.9749955763956,
+        64.20767716535435,
+        923.3499955763956,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "$d_{\\mathrm{GOP}}$",
+      "gid": null,
+      "size_pt": 10.8,
+      "bbox_px": [
+        855.4761914831447,
+        314.6883239009187,
+        904.3663282018947,
+        341.4087926509187
+      ]
+    },
+    {
+      "text": "−0.3",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        950.8262536261914,
+        64.20767716535435,
+        981.5762536261914,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "0",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        986.142846042271,
+        64.20767716535435,
+        994.767846042271,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "+0.3",
+      "gid": null,
+      "size_pt": 7.5,
+      "bbox_px": [
+        999.3344384583506,
+        64.20767716535435,
+        1030.0844384583506,
+        79.20767716535435
+      ]
+    },
+    {
+      "text": "ΔR",
+      "gid": null,
+      "size_pt": 9.0,
+      "bbox_px": [
+        982.0162401574803,
+        319.4087926509187,
+        1008.1412401574803,
+        337.4087926509187
+      ]
+    },
+    {
+      "text": "a",
+      "gid": "panel_a",
+      "size_pt": 10.0,
+      "bbox_px": [
+        11.811023622047243,
+        394.6220472440945,
+        23.436023622047244,
+        413.6220472440945
+      ]
+    },
+    {
+      "text": "Sample-level rank change",
+      "gid": "title_a",
+      "size_pt": 9.0,
+      "bbox_px": [
+        41.33858267716535,
+        394.6220472440945,
+        258.58858267716533,
+        412.6220472440945
+      ]
+    },
+    {
+      "text": "b",
+      "gid": "panel_b",
+      "size_pt": 10.0,
+      "bbox_px": [
+        649.6062992125984,
+        394.6220472440945,
+        662.3562992125984,
+        413.6220472440945
+      ]
+    },
+    {
+      "text": "Fixed-case summary",
+      "gid": "title_b",
+      "size_pt": 9.0,
+      "bbox_px": [
+        679.1338582677165,
+        394.6220472440945,
+        853.2588582677165,
+        412.6220472440945
+      ]
+    },
+    {
+      "text": "Global EDL uncertainty percentile",
+      "gid": "shared_heat_xlabel",
+      "size_pt": 8.0,
+      "bbox_px": [
+        195.3351377952756,
+        73.77165354330711,
+        442.4601377952756,
+        88.84977854330711
+      ]
+    },
+    {
+      "text": "Mean rank change, ΔR",
+      "gid": "colorbar_label",
+      "size_pt": 7.5,
+      "bbox_px": [
+        239.0851377952756,
+        50.14960629921262,
+        398.7101377952756,
+        65.14960629921262
+      ]
+    },
+    {
+      "text": "Hatched: low support",
+      "gid": "hatch_key",
+      "size_pt": 7.5,
+      "bbox_px": [
+        259.84251968503935,
+        371.40944881889766,
+        406.96751968503935,
+        386.48757381889766
+      ]
+    },
+    {
+      "text": "Positive\nΔR",
+      "gid": "group_Positive",
+      "size_pt": 7.5,
+      "bbox_px": [
+        635.9448818897638,
+        247.1763779527559,
+        690.9448818897638,
+        280.7763779527559
+      ]
+    },
+    {
+      "text": "Negative\nΔR",
+      "gid": "group_Negative",
+      "size_pt": 7.5,
+      "bbox_px": [
+        628.9448818897638,
+        140.8381028543307,
+        690.9448818897638,
+        174.51622785433074
+      ]
+    },
+    {
+      "text": "CIFAR-100",
+      "gid": "legend_label_0",
+      "size_pt": 7.5,
+      "bbox_px": [
+        713.4050196850393,
+        363.73228346456693,
+        790.5300196850393,
+        378.73228346456693
+      ]
+    },
+    {
+      "text": "Tiny ImageNet",
+      "gid": "legend_label_1",
+      "size_pt": 7.5,
+      "bbox_px": [
+        823.0103346456693,
+        363.73228346456693,
+        924.5103346456693,
+        378.81040846456693
+      ]
+    },
+    {
+      "text": "Mean",
+      "gid": "legend_label_2",
+      "size_pt": 7.5,
+      "bbox_px": [
+        956.9906496062993,
+        363.73228346456693,
+        996.2406496062993,
+        378.73228346456693
+      ]
+    }
+  ],
+  "colorbar_count": 1,
+  "cell_numbers": false,
+  "source_cells": [
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "38",
+      "support_seed0": "14",
+      "support_seed1": "5",
+      "support_seed2": "19",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0420447368421053",
+      "median_delta_r": "-0.03345",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "1.5977",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "31",
+      "support_seed0": "10",
+      "support_seed1": "11",
+      "support_seed2": "10",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.179929032258064",
+      "median_delta_r": "-0.1659",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "5.5778",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "57",
+      "support_seed0": "25",
+      "support_seed1": "12",
+      "support_seed2": "20",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.25659298245614",
+      "median_delta_r": "-0.254",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "14.6258",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "196",
+      "support_seed0": "63",
+      "support_seed1": "68",
+      "support_seed2": "65",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.122770408163265",
+      "median_delta_r": "-0.11585",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "24.063",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "1950",
+      "support_seed0": "698",
+      "support_seed1": "594",
+      "support_seed2": "658",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0100746153846154",
+      "median_delta_r": "-0.0064999999999999",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "19.6454999999999",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "53",
+      "support_seed0": "17",
+      "support_seed1": "21",
+      "support_seed2": "15",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.00982641509433962",
+      "median_delta_r": "0.01",
+      "positive_delta_r_magnitude": "0.963",
+      "negative_delta_r_magnitude": "0.4422",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "50",
+      "support_seed0": "17",
+      "support_seed1": "15",
+      "support_seed2": "18",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.075562",
+      "median_delta_r": "-0.0664",
+      "positive_delta_r_magnitude": "0.0173",
+      "negative_delta_r_magnitude": "3.7954",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "97",
+      "support_seed0": "28",
+      "support_seed1": "34",
+      "support_seed2": "35",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.137361855670103",
+      "median_delta_r": "-0.1325",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "13.3241",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "419",
+      "support_seed0": "160",
+      "support_seed1": "107",
+      "support_seed2": "152",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.070154415274463",
+      "median_delta_r": "-0.0613",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "29.3947",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "3190",
+      "support_seed0": "1122",
+      "support_seed1": "952",
+      "support_seed2": "1116",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.00566347962382441",
+      "median_delta_r": "-0.0037",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "18.0664999999999",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "68",
+      "support_seed0": "22",
+      "support_seed1": "29",
+      "support_seed2": "17",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.105776470588235",
+      "median_delta_r": "0.1088",
+      "positive_delta_r_magnitude": "7.1928",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "91",
+      "support_seed0": "29",
+      "support_seed1": "33",
+      "support_seed2": "29",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0373901098901099",
+      "median_delta_r": "0.0382",
+      "positive_delta_r_magnitude": "3.75",
+      "negative_delta_r_magnitude": "0.3475",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "152",
+      "support_seed0": "53",
+      "support_seed1": "56",
+      "support_seed2": "43",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0208690789473684",
+      "median_delta_r": "-0.0221",
+      "positive_delta_r_magnitude": "0.872299999999999",
+      "negative_delta_r_magnitude": "4.0444",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "657",
+      "support_seed0": "205",
+      "support_seed1": "231",
+      "support_seed2": "221",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0212951293759513",
+      "median_delta_r": "-0.0167999999999999",
+      "positive_delta_r_magnitude": "0.000199999999999978",
+      "negative_delta_r_magnitude": "13.9911",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "4268",
+      "support_seed0": "1292",
+      "support_seed1": "1430",
+      "support_seed2": "1546",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.00171794751640109",
+      "median_delta_r": "-0.0013999999999999",
+      "positive_delta_r_magnitude": "0.253299999999985",
+      "negative_delta_r_magnitude": "7.58549999999983",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "98",
+      "support_seed0": "28",
+      "support_seed1": "46",
+      "support_seed2": "24",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.222136734693878",
+      "median_delta_r": "0.22075",
+      "positive_delta_r_magnitude": "21.7694",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "126",
+      "support_seed0": "40",
+      "support_seed1": "44",
+      "support_seed2": "42",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.157983333333333",
+      "median_delta_r": "0.1567",
+      "positive_delta_r_magnitude": "19.9059",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "256",
+      "support_seed0": "76",
+      "support_seed1": "93",
+      "support_seed2": "87",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.07422890625",
+      "median_delta_r": "0.0725",
+      "positive_delta_r_magnitude": "19.0026",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "983",
+      "support_seed0": "321",
+      "support_seed1": "323",
+      "support_seed2": "339",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.013770498474059",
+      "median_delta_r": "0.0106999999999999",
+      "positive_delta_r_magnitude": "13.7616",
+      "negative_delta_r_magnitude": "0.225199999999995",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "5594",
+      "support_seed0": "1899",
+      "support_seed1": "1832",
+      "support_seed2": "1863",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.00164211655345011",
+      "median_delta_r": "0.0006",
+      "positive_delta_r_magnitude": "9.98649999999983",
+      "negative_delta_r_magnitude": "0.800499999999937",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "128",
+      "support_seed0": "42",
+      "support_seed1": "41",
+      "support_seed2": "45",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.34676484375",
+      "median_delta_r": "0.346",
+      "positive_delta_r_magnitude": "44.3859",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "198",
+      "support_seed0": "74",
+      "support_seed1": "59",
+      "support_seed2": "65",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.255829292929293",
+      "median_delta_r": "0.25335",
+      "positive_delta_r_magnitude": "50.6542",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "382",
+      "support_seed0": "132",
+      "support_seed1": "129",
+      "support_seed2": "121",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.141488481675393",
+      "median_delta_r": "0.13625",
+      "positive_delta_r_magnitude": "54.0486",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "1196",
+      "support_seed0": "385",
+      "support_seed1": "408",
+      "support_seed2": "403",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0406781772575251",
+      "median_delta_r": "0.03285",
+      "positive_delta_r_magnitude": "48.6511",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "cifar100",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "9722",
+      "support_seed0": "3248",
+      "support_seed1": "3427",
+      "support_seed2": "3047",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.00363555338407731",
+      "median_delta_r": "0.0019",
+      "positive_delta_r_magnitude": "35.3559499999996",
+      "negative_delta_r_magnitude": "0.0110999999999977",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "6",
+      "support_seed0": "1",
+      "support_seed1": "2",
+      "support_seed2": "3",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0782833333333333",
+      "median_delta_r": "-0.0843",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "0.4697",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "16",
+      "support_seed0": "10",
+      "support_seed1": "4",
+      "support_seed2": "2",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.19330625",
+      "median_delta_r": "-0.2017",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "3.0929",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "21",
+      "support_seed0": "7",
+      "support_seed1": "7",
+      "support_seed2": "7",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.241747619047619",
+      "median_delta_r": "-0.2392",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "5.0767",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "113",
+      "support_seed0": "35",
+      "support_seed1": "39",
+      "support_seed2": "39",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.121267256637168",
+      "median_delta_r": "-0.1128",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "13.7032",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "0",
+      "q_func_left": "0",
+      "q_func_right": "0.2",
+      "q_func_interval": "0–0.2",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "1448",
+      "support_seed0": "561",
+      "support_seed1": "428",
+      "support_seed2": "459",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.00957030386740328",
+      "median_delta_r": "-0.0060999999999999",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "13.8578",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "14",
+      "support_seed0": "2",
+      "support_seed1": "4",
+      "support_seed2": "8",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.00845",
+      "median_delta_r": "0.0164",
+      "positive_delta_r_magnitude": "0.2516",
+      "negative_delta_r_magnitude": "0.1333",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "35",
+      "support_seed0": "14",
+      "support_seed1": "15",
+      "support_seed2": "6",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0798914285714286",
+      "median_delta_r": "-0.0811",
+      "positive_delta_r_magnitude": "0.0107",
+      "negative_delta_r_magnitude": "2.8069",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "63",
+      "support_seed0": "13",
+      "support_seed1": "23",
+      "support_seed2": "27",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.135885714285714",
+      "median_delta_r": "-0.133",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "8.5608",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "249",
+      "support_seed0": "83",
+      "support_seed1": "68",
+      "support_seed2": "98",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0690847389558233",
+      "median_delta_r": "-0.0613",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "17.2021",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "1",
+      "q_func_left": "0.2",
+      "q_func_right": "0.4",
+      "q_func_interval": "0.2–0.4",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "2634",
+      "support_seed0": "913",
+      "support_seed1": "735",
+      "support_seed2": "986",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.00516769172361424",
+      "median_delta_r": "-0.0035",
+      "positive_delta_r_magnitude": "0",
+      "negative_delta_r_magnitude": "13.6116999999999",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "24",
+      "support_seed0": "6",
+      "support_seed1": "10",
+      "support_seed2": "8",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0980666666666667",
+      "median_delta_r": "0.0946",
+      "positive_delta_r_magnitude": "2.3536",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "39",
+      "support_seed0": "9",
+      "support_seed1": "22",
+      "support_seed2": "8",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0384179487179487",
+      "median_delta_r": "0.044",
+      "positive_delta_r_magnitude": "1.591",
+      "negative_delta_r_magnitude": "0.0927",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "118",
+      "support_seed0": "33",
+      "support_seed1": "43",
+      "support_seed2": "42",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0222389830508475",
+      "median_delta_r": "-0.0167499999999999",
+      "positive_delta_r_magnitude": "0.6122",
+      "negative_delta_r_magnitude": "3.2364",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "394",
+      "support_seed0": "118",
+      "support_seed1": "133",
+      "support_seed2": "143",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.0230593908629442",
+      "median_delta_r": "-0.01785",
+      "positive_delta_r_magnitude": "0.0027999999999999",
+      "negative_delta_r_magnitude": "9.0882",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "2",
+      "q_func_left": "0.4",
+      "q_func_right": "0.6",
+      "q_func_interval": "0.4–0.6",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "3465",
+      "support_seed0": "1096",
+      "support_seed1": "1121",
+      "support_seed2": "1248",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "-0.00172135642135639",
+      "median_delta_r": "-0.0013999999999999",
+      "positive_delta_r_magnitude": "0.197099999999988",
+      "negative_delta_r_magnitude": "6.16159999999986",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "57",
+      "support_seed0": "17",
+      "support_seed1": "21",
+      "support_seed2": "19",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.235587719298246",
+      "median_delta_r": "0.2432",
+      "positive_delta_r_magnitude": "13.4285",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "76",
+      "support_seed0": "20",
+      "support_seed1": "26",
+      "support_seed2": "30",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.152696052631579",
+      "median_delta_r": "0.1507",
+      "positive_delta_r_magnitude": "11.6049",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "138",
+      "support_seed0": "40",
+      "support_seed1": "49",
+      "support_seed2": "49",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0704898550724638",
+      "median_delta_r": "0.0666",
+      "positive_delta_r_magnitude": "9.7276",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "559",
+      "support_seed0": "184",
+      "support_seed1": "192",
+      "support_seed2": "183",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0141168157423971",
+      "median_delta_r": "0.0113",
+      "positive_delta_r_magnitude": "8.03089999999999",
+      "negative_delta_r_magnitude": "0.139599999999996",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "3",
+      "q_func_left": "0.6",
+      "q_func_right": "0.8",
+      "q_func_interval": "0.6–0.8",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "4590",
+      "support_seed0": "1588",
+      "support_seed1": "1511",
+      "support_seed2": "1491",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.00149784313725488",
+      "median_delta_r": "0.0005999999999999",
+      "positive_delta_r_magnitude": "7.55969999999985",
+      "negative_delta_r_magnitude": "0.684599999999941",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "0",
+      "baseline_percentile_left": "0",
+      "baseline_percentile_right": "0.2",
+      "baseline_uncertainty_interval": "0–0.2",
+      "n": "76",
+      "support_seed0": "18",
+      "support_seed1": "30",
+      "support_seed2": "28",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.354993421052632",
+      "median_delta_r": "0.3578",
+      "positive_delta_r_magnitude": "26.9795",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "1",
+      "baseline_percentile_left": "0.2",
+      "baseline_percentile_right": "0.4",
+      "baseline_uncertainty_interval": "0.2–0.4",
+      "n": "96",
+      "support_seed0": "30",
+      "support_seed1": "38",
+      "support_seed2": "28",
+      "low_support": "True",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.260503125",
+      "median_delta_r": "0.26095",
+      "positive_delta_r_magnitude": "25.0083",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "2",
+      "baseline_percentile_left": "0.4",
+      "baseline_percentile_right": "0.6",
+      "baseline_uncertainty_interval": "0.4–0.6",
+      "n": "206",
+      "support_seed0": "62",
+      "support_seed1": "79",
+      "support_seed2": "65",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.145288349514563",
+      "median_delta_r": "0.1415",
+      "positive_delta_r_magnitude": "29.9294",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "3",
+      "baseline_percentile_left": "0.6",
+      "baseline_percentile_right": "0.8",
+      "baseline_uncertainty_interval": "0.6–0.8",
+      "n": "811",
+      "support_seed0": "263",
+      "support_seed1": "290",
+      "support_seed2": "258",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0414257706535142",
+      "median_delta_r": "0.0335",
+      "positive_delta_r_magnitude": "33.5963",
+      "negative_delta_r_magnitude": "0",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    },
+    {
+      "dataset": "tin",
+      "q_func_bin": "4",
+      "q_func_left": "0.8",
+      "q_func_right": "1",
+      "q_func_interval": "0.8–1.0",
+      "baseline_uncertainty_bin": "4",
+      "baseline_percentile_left": "0.8",
+      "baseline_percentile_right": "1",
+      "baseline_uncertainty_interval": "0.8–1.0",
+      "n": "8131",
+      "support_seed0": "2670",
+      "support_seed1": "2903",
+      "support_seed2": "2558",
+      "low_support": "False",
+      "low_support_rule": "hatch when any seed support < 30",
+      "mean_delta_r": "0.0033350018447915",
+      "median_delta_r": "0.0018",
+      "positive_delta_r_magnitude": "27.1266999999997",
+      "negative_delta_r_magnitude": "0.0097999999999981",
+      "delta_r_definition": "ranking_orbit_beta040 - ranking_global"
+    }
+  ],
+  "source_cases": [
+    {
+      "case_id": "cifar100_strong_break_1",
+      "dataset": "cifar100",
+      "category": "strong_break",
+      "selection_order": "1",
+      "sample_index": "1271",
+      "source_label": "13",
+      "seed": "0",
+      "source_index": "1271",
+      "q_func": "0.100334448160535",
+      "d_GOP": "0.0022612224006756",
+      "delta_r": "-0.223"
+    },
+    {
+      "case_id": "cifar100_strong_break_1",
+      "dataset": "cifar100",
+      "category": "strong_break",
+      "selection_order": "1",
+      "sample_index": "1271",
+      "source_label": "13",
+      "seed": "1",
+      "source_index": "1271",
+      "q_func": "0.112211221122112",
+      "d_GOP": "0.0023533328243422",
+      "delta_r": "-0.2407"
+    },
+    {
+      "case_id": "cifar100_strong_break_1",
+      "dataset": "cifar100",
+      "category": "strong_break",
+      "selection_order": "1",
+      "sample_index": "1271",
+      "source_label": "13",
+      "seed": "2",
+      "source_index": "1271",
+      "q_func": "0.13915857605178",
+      "d_GOP": "0.0030829448187682",
+      "delta_r": "-0.121"
+    },
+    {
+      "case_id": "cifar100_strong_break_2",
+      "dataset": "cifar100",
+      "category": "strong_break",
+      "selection_order": "2",
+      "sample_index": "1969",
+      "source_label": "36",
+      "seed": "0",
+      "source_index": "1969",
+      "q_func": "0.0443686006825939",
+      "d_GOP": "0.0021855871817062",
+      "delta_r": "-0.2771"
+    },
+    {
+      "case_id": "cifar100_strong_break_2",
+      "dataset": "cifar100",
+      "category": "strong_break",
+      "selection_order": "2",
+      "sample_index": "1969",
+      "source_label": "36",
+      "seed": "1",
+      "source_index": "1969",
+      "q_func": "0",
+      "d_GOP": "0.0012841014412455",
+      "delta_r": "-0.3125"
+    },
+    {
+      "case_id": "cifar100_strong_break_2",
+      "dataset": "cifar100",
+      "category": "strong_break",
+      "selection_order": "2",
+      "sample_index": "1969",
+      "source_label": "36",
+      "seed": "2",
+      "source_index": "1969",
+      "q_func": "0.434343434343434",
+      "d_GOP": "0.0059886052884216",
+      "delta_r": "-0.0694"
+    },
+    {
+      "case_id": "cifar100_strong_fix_1",
+      "dataset": "cifar100",
+      "category": "strong_fix",
+      "selection_order": "1",
+      "sample_index": "3769",
+      "source_label": "81",
+      "seed": "0",
+      "source_index": "3769",
+      "q_func": "0.899665551839465",
+      "d_GOP": "0.0165893300426265",
+      "delta_r": "0.3667"
+    },
+    {
+      "case_id": "cifar100_strong_fix_1",
+      "dataset": "cifar100",
+      "category": "strong_fix",
+      "selection_order": "1",
+      "sample_index": "3769",
+      "source_label": "81",
+      "seed": "1",
+      "source_index": "3769",
+      "q_func": "0.838283828382838",
+      "d_GOP": "0.0148166242233823",
+      "delta_r": "0.3188"
+    },
+    {
+      "case_id": "cifar100_strong_fix_1",
+      "dataset": "cifar100",
+      "category": "strong_fix",
+      "selection_order": "1",
+      "sample_index": "3769",
+      "source_label": "81",
+      "seed": "2",
+      "source_index": "3769",
+      "q_func": "0.870550161812298",
+      "d_GOP": "0.016552759627412",
+      "delta_r": "0.3011"
+    },
+    {
+      "case_id": "cifar100_strong_fix_2",
+      "dataset": "cifar100",
+      "category": "strong_fix",
+      "selection_order": "2",
+      "sample_index": "2320",
+      "source_label": "12",
+      "seed": "0",
+      "source_index": "2320",
+      "q_func": "0.911262798634812",
+      "d_GOP": "0.0155366093517136",
+      "delta_r": "0.297"
+    },
+    {
+      "case_id": "cifar100_strong_fix_2",
+      "dataset": "cifar100",
+      "category": "strong_fix",
+      "selection_order": "2",
+      "sample_index": "2320",
+      "source_label": "12",
+      "seed": "1",
+      "source_index": "2320",
+      "q_func": "0.986928104575163",
+      "d_GOP": "0.0399336103628127",
+      "delta_r": "0.3879"
+    },
+    {
+      "case_id": "cifar100_strong_fix_2",
+      "dataset": "cifar100",
+      "category": "strong_fix",
+      "selection_order": "2",
+      "sample_index": "2320",
+      "source_label": "12",
+      "seed": "2",
+      "source_index": "2320",
+      "q_func": "0.88628762541806",
+      "d_GOP": "0.0127294723812257",
+      "delta_r": "0.2929"
+    },
+    {
+      "case_id": "tin_strong_break_1",
+      "dataset": "tin",
+      "category": "strong_break",
+      "selection_order": "1",
+      "sample_index": "2887",
+      "source_label": "36",
+      "seed": "0",
+      "source_index": "2887",
+      "q_func": "0.282539682539682",
+      "d_GOP": "0.0039055393623137",
+      "delta_r": "-0.125"
+    },
+    {
+      "case_id": "tin_strong_break_1",
+      "dataset": "tin",
+      "category": "strong_break",
+      "selection_order": "1",
+      "sample_index": "2887",
+      "source_label": "36",
+      "seed": "1",
+      "source_index": "2887",
+      "q_func": "0.0897435897435903",
+      "d_GOP": "0.0017821233996301",
+      "delta_r": "-0.203"
+    },
+    {
+      "case_id": "tin_strong_break_1",
+      "dataset": "tin",
+      "category": "strong_break",
+      "selection_order": "1",
+      "sample_index": "2887",
+      "source_label": "36",
+      "seed": "2",
+      "source_index": "2887",
+      "q_func": "0.0412698412698398",
+      "d_GOP": "0.0013763905088891",
+      "delta_r": "-0.2857"
+    },
+    {
+      "case_id": "tin_strong_break_2",
+      "dataset": "tin",
+      "category": "strong_break",
+      "selection_order": "2",
+      "sample_index": "2946",
+      "source_label": "96",
+      "seed": "0",
+      "source_index": "2946",
+      "q_func": "0.0564784053156145",
+      "d_GOP": "0.0021710528609738",
+      "delta_r": "-0.2371"
+    },
+    {
+      "case_id": "tin_strong_break_2",
+      "dataset": "tin",
+      "category": "strong_break",
+      "selection_order": "2",
+      "sample_index": "2946",
+      "source_label": "96",
+      "seed": "1",
+      "source_index": "2946",
+      "q_func": "0.130584192439863",
+      "d_GOP": "0.0038576687713647",
+      "delta_r": "-0.1696"
+    },
+    {
+      "case_id": "tin_strong_break_2",
+      "dataset": "tin",
+      "category": "strong_break",
+      "selection_order": "2",
+      "sample_index": "2946",
+      "source_label": "96",
+      "seed": "2",
+      "source_index": "2946",
+      "q_func": "0.027027027027025",
+      "d_GOP": "0.0017850552866395",
+      "delta_r": "-0.2622"
+    },
+    {
+      "case_id": "tin_strong_fix_1",
+      "dataset": "tin",
+      "category": "strong_fix",
+      "selection_order": "1",
+      "sample_index": "4374",
+      "source_label": "85",
+      "seed": "0",
+      "source_index": "4374",
+      "q_func": "0.946488294314382",
+      "d_GOP": "0.0205947457180969",
+      "delta_r": "0.3195"
+    },
+    {
+      "case_id": "tin_strong_fix_1",
+      "dataset": "tin",
+      "category": "strong_fix",
+      "selection_order": "1",
+      "sample_index": "4374",
+      "source_label": "85",
+      "seed": "1",
+      "source_index": "4374",
+      "q_func": "0.953795379537955",
+      "d_GOP": "0.0239291192287949",
+      "delta_r": "0.3736"
+    },
+    {
+      "case_id": "tin_strong_fix_1",
+      "dataset": "tin",
+      "category": "strong_fix",
+      "selection_order": "1",
+      "sample_index": "4374",
+      "source_label": "85",
+      "seed": "2",
+      "source_index": "4374",
+      "q_func": "0.841423948220064",
+      "d_GOP": "0.0144321394551568",
+      "delta_r": "0.33"
+    },
+    {
+      "case_id": "tin_strong_fix_2",
+      "dataset": "tin",
+      "category": "strong_fix",
+      "selection_order": "2",
+      "sample_index": "7779",
+      "source_label": "175",
+      "seed": "0",
+      "source_index": "7779",
+      "q_func": "0.965079365079366",
+      "d_GOP": "0.0317343259908428",
+      "delta_r": "0.3449"
+    },
+    {
+      "case_id": "tin_strong_fix_2",
+      "dataset": "tin",
+      "category": "strong_fix",
+      "selection_order": "2",
+      "sample_index": "7779",
+      "source_label": "175",
+      "seed": "1",
+      "source_index": "7779",
+      "q_func": "0.762820512820514",
+      "d_GOP": "0.0109301541100018",
+      "delta_r": "0.2667"
+    },
+    {
+      "case_id": "tin_strong_fix_2",
+      "dataset": "tin",
+      "category": "strong_fix",
+      "selection_order": "2",
+      "sample_index": "7779",
+      "source_label": "175",
+      "seed": "2",
+      "source_index": "7779",
+      "q_func": "0.942857142857142",
+      "d_GOP": "0.0341882928241929",
+      "delta_r": "0.3885"
+    }
+  ],
+  "saved_means": {
+    "q_func": {
+      "strong_fix": 0.9004535594576715,
+      "strong_break": 0.12150491822467245
+    },
+    "d_GOP": {
+      "strong_fix": 0.020997265276354912,
+      "strong_break": 0.0026694686787475165
+    },
+    "delta_r": {
+      "strong_fix": 0.3323,
+      "strong_break": -0.210525
+    }
+  },
+  "low_support_count": 21,
+  "recomputed_scientific_values": false
+}

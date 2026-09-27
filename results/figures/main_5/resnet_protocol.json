@@ -1,0 +1,168 @@
+{
+  "status": "FROZEN_BEFORE_P7_SEALED_SCORE_GENERATION",
+  "created_utc": "2026-08-12T17:55:26.226605+00:00",
+  "protocol_name": "P7 Frozen Residual Functional Signal Validation",
+  "protocol_id": "P7_FROZEN_RESIDUAL_FUNCTIONAL_SIGNAL_VALIDATION_V1_20260813",
+  "checkpoints": {
+    "S0": {
+      "path": "ARCHIVE_E/7\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_0\\best.pt",
+      "sha256": "a2a29a847c7a1afbf333b4313fa3639ad98a6947ab86bcac14819cb763879dee"
+    },
+    "S1": {
+      "path": "ARCHIVE_E/7\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_1\\best.pt",
+      "sha256": "0928f3a6a1f16d83829c70044ca2212e6485cc1fe214976fbf27c8b64504ed18"
+    },
+    "S2": {
+      "path": "ARCHIVE_E/7\\outputs\\ResNet18-EDL-Softplus\\runs\\seed_2\\best.pt",
+      "sha256": "330281b9cd4c943a2bf5cbb5fa0535da85d7cfe07c28ba886d867485bbc7f374"
+    }
+  },
+  "sealed_holdout_index": {
+    "path": "ARCHIVE_E/7\\outputs\\Stage_P1_v2\\protocol\\data_indices\\cifar100_p2_v2_holdout_indices.npy",
+    "sha256": "61b05e43f87251a9e34a328b878b5aaaaddecf2b0dfbe17e5be0eae8d93c696e",
+    "n": 12500,
+    "hash_source": "ARCHIVE_E/7\\outputs\\Stage_P1_v2\\protocol\\data_indices\\index_manifest.json",
+    "pre_freeze_access": "PATH_AND_METADATA_ONLY; actual byte hash deferred to first post-freeze access"
+  },
+  "cifar10_safety_index": {
+    "path": "ARCHIVE_E/7\\outputs\\Stage_P3\\protocol\\data_indices\\cifar10_id_safety_indices.npy",
+    "sha256": "ad3fd63c36812961aa9ca4b5235926ef6d34cf3bf66cbc4dde3a78559c94fbb4",
+    "n": 2000
+  },
+  "cifar10_official_test": {
+    "definition": "torchvision.datasets.CIFAR10(train=False), full source indices 0..9999",
+    "n": 10000,
+    "data_file": "ARCHIVE_E/7\\datasets\\CIFAR-10\\cifar-10-batches-py\\test_batch",
+    "data_file_sha256": "f53d8d457504f7cff4ea9e021afcf0e0ad8e24a91f3fc42091b8adef61157831",
+    "torchvision_archive_md5": "c58f30108f718f92721af3b95e74349a"
+  },
+  "cifar10_calibration_index": {
+    "path": "ARCHIVE_E/7\\outputs\\Stage_P3\\protocol\\data_indices\\cifar10_calibration_indices.npy",
+    "sha256": "9eb11ea177d3a00904440a450a40da3ade3767880aecc5798750bdd9120960c6",
+    "n": 3000
+  },
+  "q_func_references": {
+    "S0": {
+      "path": "ARCHIVE_E/7\\outputs\\Stage_P3\\protocol\\calibration\\seed_0_calibration.npz",
+      "sha256": "e3f5e1bbb54e63e8612808dec2d37f7e14b94db19f5e853d05772f90a4749bee"
+    },
+    "S1": {
+      "path": "ARCHIVE_E/7\\outputs\\Stage_P3\\protocol\\calibration\\seed_1_calibration.npz",
+      "sha256": "ae32f8037fd520ad9e38a7b0719a9784f949a3fd58fd88d1711c09c0cec9efe8"
+    },
+    "S2": {
+      "path": "ARCHIVE_E/7\\outputs\\Stage_P3\\protocol\\calibration\\seed_2_calibration.npz",
+      "sha256": "c501f2483f1dbf263db7289ed7022c1b223297ea4d235273db459fd111901c00"
+    }
+  },
+  "q_conf_references": {
+    "S0": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\raw\\seed_0_calibration.npz",
+      "sha256": "d30e309e6bee4560340dffa26ca8dcd14246928556cfdffc1a3115a38c3e6cf1"
+    },
+    "S1": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\raw\\seed_1_calibration.npz",
+      "sha256": "fa35c0478d1aa0cc4fc4169c98a4b738017814d30bfdcffa7d08feb426cd2a28"
+    },
+    "S2": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\raw\\seed_2_calibration.npz",
+      "sha256": "fd236587ddde6589fb01238fd83340736fd7632919700b0dbba753ab070f919d"
+    }
+  },
+  "id_safety_score_sources": {
+    "S0": {
+      "path": "ARCHIVE_E/7\\outputs\\experiments\\P6_functional_blind_spot\\internal\\seed_0_safety_scores.npz",
+      "sha256": "2197223aeef3c0062b8dddb1252ad518b63d8d4a54d9909bfa428a78ec135a76"
+    },
+    "S1": {
+      "path": "ARCHIVE_E/7\\outputs\\experiments\\P6_functional_blind_spot\\internal\\seed_1_safety_scores.npz",
+      "sha256": "52910a5a2cec028860cc061bfc47e1376d255d8e6e66356e2d142445059bb022"
+    },
+    "S2": {
+      "path": "ARCHIVE_E/7\\outputs\\experiments\\P6_functional_blind_spot\\internal\\seed_2_safety_scores.npz",
+      "sha256": "daf13afcf252409e41ef59a0dd34958f843dcedc4ecd3f2226e34d371896f35f"
+    }
+  },
+  "official_test_score_sources": {
+    "S0": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\raw\\seed_0_cifar10_test.npz",
+      "sha256": "998f080bc5abd2f2737f4443489f019f4e816c091915a0e6a3d6346f437090b1"
+    },
+    "S1": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\raw\\seed_1_cifar10_test.npz",
+      "sha256": "bf8d5e3fafdeb23381851fe8c9787a54c46ac6e6ee90d26086802b56a216ddb5"
+    },
+    "S2": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\raw\\seed_2_cifar10_test.npz",
+      "sha256": "4d0622bfad4a35f36baeeff3e4f43947a62a957b6148c60b4e0523592162aadd"
+    }
+  },
+  "implementations": {
+    "q_func_and_dGOP": {
+      "path": "ARCHIVE_E/7\\outputs\\P0实验归档\\02_V3技术停止\\code\\p0_core.py",
+      "sha256": "39623189186c60c56551f5d487c8ae406277522b66303087525fb61613cfbb8e"
+    },
+    "q_conf_and_CEDL": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\code\\cedl_core.py",
+      "sha256": "5e8e73d25f8f43773ad904459328a1966b308684e34ad1e7a000ae54b00062ca"
+    },
+    "transformations": {
+      "path": "ARCHIVE_E/7\\outputs\\cedl_novelty_check\\code\\run_inference.py",
+      "sha256": "c93c0b4940a03931484fe42cda9b215238103604e4c49ffbfb980f3faa98b898"
+    },
+    "bootstrap_and_P7": {
+      "path": "ARCHIVE_E/7\\outputs\\experiments\\P7_residual_functional_validation\\code\\p7.py",
+      "sha256": "e9dd87272d2861d517073934e44fe5ee6a8343c1cd2ca18d459a3a136aeb9d74"
+    }
+  },
+  "frozen_rules": {
+    "primary_condition_A": "q_conf <= 0.2",
+    "primary_condition_B": "cedl_uncertainty <= frozen per-seed tau_cedl_Q95",
+    "tau_cedl_Q95": {
+      "S0": 0.8417130930647655,
+      "S1": 0.8439902587961322,
+      "S2": 0.8573253043632006
+    },
+    "tau_source": "ARCHIVE_E/7\\outputs\\experiments\\P6_functional_blind_spot\\P6_05_CEDL_UNFLAGGED.csv",
+    "tau_source_sha256": "ff11a4e40054312f6d7060c18e133c757f0eed5a66e7766b8be0fc193bfea4d9",
+    "score_after_filtering": "q_func only",
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "backbone": "ResNet18-EDL-Softplus",
+    "layer": "layer3",
+    "orbit_views": [
+      "original",
+      "brightness_0.9",
+      "reflect_shift_right_down_1"
+    ],
+    "orbit_beta": 0.2,
+    "bootstrap_replicates": 5000,
+    "bootstrap_rng": "numpy Generator(PCG64)",
+    "bootstrap_seed": 20260817,
+    "bootstrap_interval": "two-sided 95% percentile, numpy linear quantiles",
+    "bootstrap_id": "sample positions with replacement",
+    "bootstrap_ood": "sample positions with replacement within true CIFAR-100 source class",
+    "bootstrap_sync": "same sampled source positions across S0/S1/S2",
+    "threshold_refit": false,
+    "fusion": "PROHIBITED",
+    "hard_blind_spot_reanalysis": "PROHIBITED"
+  },
+  "legacy_access_disclosure": {
+    "historical_fact": "The same holdout index had legacy P2-v2 outputs before P7; P6 did not use it.",
+    "current_session_incident": "A broad filename/content search printed a small number of legacy P2-v2 per-sample rows before this manifest. Those rows did not contain the P7 joint q_conf/q_func/C-EDL endpoints and no frozen rule was changed.",
+    "P7_score_generation_before_freeze": false,
+    "threshold_or_method_change_after_incident": false
+  },
+  "prohibited": [
+    "threshold fishing",
+    "new endpoint",
+    "view/layer/dGOP/q_func/q_conf change",
+    "seed deletion",
+    "fusion",
+    "CIFAR-100 development reselection",
+    "second backbone training"
+  ]
+}

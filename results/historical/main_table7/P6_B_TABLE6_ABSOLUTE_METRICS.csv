@@ -1,0 +1,3 @@
+method,aurc,error_auroc,nll,brier,ece15,n_conditions,aggregation_rule,source_file
+Global EDL,0.12486640112257245,0.8431318920842569,1.141891811995665,0.42610410947772626,0.13613913809162592,225,"arithmetic macro mean over all seed x corruption x severity condition rows (3 x 15 x 5); no sample pooling","P6_B_CONDITION_LEVEL_RESULTS.csv (direct recomputation); P6_B_MACRO_SUMMARY.csv (cross-check)"
+Orbit-GOP,0.12326419167383322,0.8443357802117986,1.1215862849955582,0.4230009011616909,0.1305003265405821,225,"arithmetic macro mean over all seed x corruption x severity condition rows (3 x 15 x 5); no sample pooling","P6_B_CONDITION_LEVEL_RESULTS.csv (direct recomputation); P6_B_MACRO_SUMMARY.csv (cross-check)"

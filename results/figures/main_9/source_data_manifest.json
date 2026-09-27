@@ -1,0 +1,27 @@
+{
+  "a_display_order": [
+    "forward",
+    "gradient_extraction",
+    "gop_signature",
+    "jsd",
+    "view_construction",
+    "risk_mapping"
+  ],
+  "sources": [
+    {
+      "source": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\figure8\\profile.csv",
+      "copy": "profile.csv",
+      "sha256": "725c54ce421b336f962fd15b74d957d17ca256f10bfd242a23965cca64024702"
+    },
+    {
+      "source": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\figure8\\performance.csv",
+      "copy": "performance.csv",
+      "sha256": "5d04c45e0ba23f2d097de194bf190c7cb5c071998b8c967a87b3c0e31a5a3308"
+    },
+    {
+      "source": "PROJECT\\outputs\\FINAL_FIGURE_SOURCE_CLOSURE_20260909\\figure8\\cost.csv",
+      "copy": "cost.csv",
+      "sha256": "3be5bb0e01c5e8b997ca2e321f48d5b974aa0d1833a2f45057781d1bb179d2ae"
+    }
+  ]
+}

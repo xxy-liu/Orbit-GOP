@@ -1,0 +1,8 @@
+{
+  "cifar100_development_indices.npy": "023fd70333e4032412f02c5e520b459570f5c36a7117e7fd0e4501b77a491ae9",
+  "cifar100_p2_v2_holdout_indices.npy": "61b05e43f87251a9e34a328b878b5aaaaddecf2b0dfbe17e5be0eae8d93c696e",
+  "cifar10_calibration_indices.npy": "9eb11ea177d3a00904440a450a40da3ade3767880aecc5798750bdd9120960c6",
+  "cifar10_id_safety_indices.npy": "ad3fd63c36812961aa9ca4b5235926ef6d34cf3bf66cbc4dde3a78559c94fbb4",
+  "train_indices.npy": "09211853556dc294e9a756796d8007dfe5c511713124bdc2920163dcd1765f5c",
+  "validation_indices.npy": "adc0b54caf7e75c5cd2deb912e5296bb3b87f0ef5ac1c91b231cb87d20b7c002"
+}

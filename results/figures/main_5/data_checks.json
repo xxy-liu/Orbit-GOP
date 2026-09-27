@@ -1,0 +1,26 @@
+[
+  {
+    "figure": 6,
+    "check": "P7 A bootstrap size",
+    "pass": true
+  },
+  {
+    "figure": 6,
+    "check": "P7 A CI",
+    "pass": true,
+    "max_abs_error": 3.3306690738754696e-16,
+    "tolerance": 2e-14
+  },
+  {
+    "figure": 6,
+    "check": "P7 B bootstrap size",
+    "pass": true
+  },
+  {
+    "figure": 6,
+    "check": "P7 B CI",
+    "pass": true,
+    "max_abs_error": 1.1102230246251565e-16,
+    "tolerance": 2e-14
+  }
+]

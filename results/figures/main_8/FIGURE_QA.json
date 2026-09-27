@@ -1,0 +1,67 @@
+{
+  "status": "PASS",
+  "checks": {
+    "all_14_coordinates_from_source": true,
+    "text_inside_canvas": true,
+    "pdf_single_page": true,
+    "pdf_selectable_text": true,
+    "svg_editable_text": true,
+    "png_600dpi": true,
+    "size_170x55mm": true
+  },
+  "traces": [
+    {
+      "panel": "a",
+      "metric": "AUROC",
+      "x": [
+        0.0,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1.2
+      ],
+      "y": [
+        87.181888,
+        87.341356,
+        87.476408,
+        87.675596,
+        87.842696,
+        87.67515999999999,
+        87.215612
+      ],
+      "source_sha256": "6facdd2b0d4c90ae270dc52c7b372a15ba0c4ff48fe3dd9db0e2eafca76f968b"
+    },
+    {
+      "panel": "b",
+      "metric": "FPR95",
+      "x": [
+        0.0,
+        0.05,
+        0.1,
+        0.2,
+        0.4,
+        0.8,
+        1.2
+      ],
+      "y": [
+        46.9,
+        45.15,
+        43.8,
+        42.5,
+        41.099999999999994,
+        41.5,
+        44.9
+      ],
+      "source_sha256": "6facdd2b0d4c90ae270dc52c7b372a15ba0c4ff48fe3dd9db0e2eafca76f968b"
+    }
+  ],
+  "png_pixels": [
+    4015,
+    1299
+  ],
+  "out_of_bounds_text": [],
+  "visual_review": "PASS",
+  "visual_review_note": "PDF rendered via PyMuPDF and visually inspected: both panels, all seven vertices, selected diamond, axes and legend readable; no clipping or overlap."
+}

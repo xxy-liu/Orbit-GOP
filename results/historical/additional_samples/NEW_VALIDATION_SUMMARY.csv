@@ -1,0 +1,7 @@
+backbone,method,AUROC_mean,FPR95_mean,n_seeds,n_ID,n_OOD,unit,aggregation
+ResNet18,Global EDL,0.8079457035016896,0.6036442661317285,3,1994,968,fraction_0_to_1,equal_weight_seed_arithmetic_mean
+ResNet18,C-EDL Dev-tuned,0.8173480496586177,0.5593447007689735,3,1994,968,fraction_0_to_1,equal_weight_seed_arithmetic_mean
+ResNet18,Orbit-GOP,0.8117043969373686,0.5606820461384152,3,1994,968,fraction_0_to_1,equal_weight_seed_arithmetic_mean
+VGG16-BN,Global EDL,0.7934892832768278,0.7004346372450686,3,1994,968,fraction_0_to_1,equal_weight_seed_arithmetic_mean
+VGG16-BN,C-EDL Dev-tuned,0.8045641746175165,0.6028084252758276,3,1994,968,fraction_0_to_1,equal_weight_seed_arithmetic_mean
+VGG16-BN,Orbit-GOP,0.8049732876314896,0.5591775325977933,3,1994,968,fraction_0_to_1,equal_weight_seed_arithmetic_mean

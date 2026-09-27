@@ -1,0 +1,15 @@
+# WRN S5 AMP overflow engineering fix
+
+Protocol: Orbit-GOP-confirmatory-20260917-v2. Parent: confirmatory_study_20260917 (v1), preserved in place.
+
+Root cause: **scale-only AMP overflow**, epoch 181 / batch 111. Recorded scale=65536 reproduces nonfinite gradients exactly (A); AMP forward with unscaled backward (B) and full FP32 (C) are finite; forward logits/evidence/alpha and all EDL loss terms are finite. Evidence: ../wrn_S5诊断/replay_A.json, replay_B.json, replay_C.json, result.json and diagnostics/epoch_181_batch_0111_unscaled_gradient.pt. Original hashes are retained and inventoried in audit/ORIGINAL_SHA256.json. Both failure attempts and all original v1 checksums remain untouched.
+
+The manual finite-gradient guard raised after scaler.unscale_ but before scaler.step()/scaler.update(), preventing PyTorch GradScaler's standard overflow recovery. The exact guard is present in the copied historical training/wrn.py; the v1 adapter did not introduce it. This engineering rationale is entirely independent of accuracy, OOD performance or any model-performance outcome.
+
+The only training recovery change lets GradScaler step/update handle nonfinite AMP gradients. A post-step hook installed only on the overflow branch records whether the optimizer actually ran; it never changes parameters, gradients or RNG. The standard backoff scale is recorded, never set manually. Explicit forward finite assertions and batch enumeration provide fail-fast validation and event location. Finite-path arithmetic and all scientific parameters are unchanged. A path-only preflight.OUT correction isolates v2 audit writes. A dedicated locked S5 launcher prevents the inherited full-study driver from launching evaluation or other models.
+
+No clipping, clamping, gradient rewriting, lower initial scale, changed precision, changed batch, schedule, split, architecture, loss, augmentation or determinism. Finite QA executes the actual extracted v1/v2 batch code, compares exact forward/loss/gradient/model/optimizer/scaler/RNG states on real training batches. Separate overflow regression uses the captured failing batch for QA only and checks skipped step, unchanged parameters and optimizer, and standard scale reduction. No QA state is used for formal initialization.
+
+S3/S4 reached epoch 200 under the original fail-fast gradient guard: that branch was never entered in their completed runs. Their frozen checkpoint hashes are verified in audit/CODE_AUDIT.json; they are retained without retraining. Runtime finite-equivalence checks complement an exact source whitelist and byte-identical scientific dependencies, not an exhaustive empirical test of every possible batch.
+
+This is a post-failure engineering freeze, not a claim of a new pre-outcome scientific preregistration. Launch requires all QA PASS. The formal run starts from seed-5 initialization at epoch 1 in a new directory. After epoch 200, freeze the final checkpoint; this launcher never calls official test, OOD evaluation or final analysis.

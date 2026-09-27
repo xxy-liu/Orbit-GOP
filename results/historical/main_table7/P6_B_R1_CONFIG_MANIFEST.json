@@ -1,0 +1,164 @@
+{
+  "task": "P6-B-R1 Finite-Precision-Faithful Prediction Preservation Repair and Full CIFAR-10-C Safety Re-run",
+  "status": "FROZEN_BEFORE_RESULTS",
+  "created_at_utc": "2026-09-06T08:07:47.303595+00:00",
+  "project_root": "PROJECT",
+  "output_root": "PROJECT\\outputs\\P6_B_R1_CIFAR10C_COVARIATE_SAFETY_20260906_160023",
+  "executor_sha256": {
+    "p6b_core.py": "8aae29b0a7ee12aca004a4c2b1f45906cce7401e676fe434d673c2541d829e9a",
+    "run_p6b.py": "2728fd324f5f53ebb8a470833fa7a7f34fde996dd4d3e43e249b64be4e36858a"
+  },
+  "runtime": {
+    "python_executable": "ARCHIVE_E/Python 3.10\\python.exe",
+    "python": "3.10.10 (tags/v3.10.10:aad5f6a, Feb  7 2023, 17:20:36) [MSC v.1929 64 bit (AMD64)]",
+    "platform": "Windows-10-10.0.26200-SP0",
+    "torch": "2.11.0+cu128",
+    "cuda": "12.8",
+    "gpu": "NVIDIA GeForce RTX 5060 Ti",
+    "backend": {
+      "cuda_matmul_allow_tf32": false,
+      "cudnn_allow_tf32": false,
+      "cudnn_benchmark": false,
+      "cudnn_deterministic": true,
+      "float32_matmul_precision": "highest"
+    },
+    "batch_size": 32
+  },
+  "frozen_configuration": {
+    "backbone": "ResNet18-EDL-Softplus",
+    "feature_layer": "Layer3",
+    "gradient_target": "predicted-class decision margin; original-view class fixed across views",
+    "views": [
+      "Original",
+      "Brightness factor 0.90 before normalization",
+      "Reflect shift 1px before normalization"
+    ],
+    "discrepancy": "normalized generalized JSD",
+    "q_func": "predicted-class conditional empirical midrank",
+    "beta": 0.4,
+    "c_global": "existing seed-specific frozen value",
+    "evidence_scaling": "alpha'=1+c_global*exp(-0.40*q_func)*evidence"
+  },
+  "prediction_contract": {
+    "pred_base": "historical/regenerated frozen base-classifier prediction from the original float32 inference path",
+    "pred_orbit_operational": "pred_base",
+    "pred_alpha_numeric": "argmax of Orbit-GOP calibrated alpha in the frozen float64 scoring path; QA diagnostic only",
+    "classification_and_correctness": "all accuracy, correctness, selective prediction, error-detection AUROC, and AURC calculations use pred_base",
+    "scientific_identity": "positive scalar evidence scaling preserves real-valued evidence ordering; calibrated alpha is used only for uncertainty/probability scoring and does not redefine the classifier decision"
+  },
+  "data": {
+    "canonical_corruptions": [
+      "gaussian_noise",
+      "shot_noise",
+      "impulse_noise",
+      "defocus_blur",
+      "glass_blur",
+      "motion_blur",
+      "zoom_blur",
+      "snow",
+      "frost",
+      "fog",
+      "brightness",
+      "contrast",
+      "elastic_transform",
+      "pixelate",
+      "jpeg_compression"
+    ],
+    "families": {
+      "gaussian_noise": "Noise",
+      "shot_noise": "Noise",
+      "impulse_noise": "Noise",
+      "defocus_blur": "Blur",
+      "glass_blur": "Blur",
+      "motion_blur": "Blur",
+      "zoom_blur": "Blur",
+      "snow": "Weather",
+      "frost": "Weather",
+      "fog": "Weather",
+      "brightness": "Weather",
+      "contrast": "Digital",
+      "elastic_transform": "Digital",
+      "pixelate": "Digital",
+      "jpeg_compression": "Digital"
+    },
+    "severities": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "samples_per_condition": 10000,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "excluded_extra_corruptions": [
+      "gaussian_blur",
+      "saturate",
+      "spatter",
+      "speckle_noise"
+    ]
+  },
+  "thresholds": {
+    "0": {
+      "global_q95": 0.37688227367449467,
+      "orbit_q95": 0.46612220602636223,
+      "n": 2000,
+      "source": "PROJECT\\outputs\\P0_beta040_promotion_gate_safe_20260824_161228\\derived"
+    },
+    "1": {
+      "global_q95": 0.4863336264294726,
+      "orbit_q95": 0.5636064971036064,
+      "n": 2000,
+      "source": "PROJECT\\outputs\\P0_beta040_promotion_gate_safe_20260824_161228\\derived"
+    },
+    "2": {
+      "global_q95": 0.3072689308185814,
+      "orbit_q95": 0.3631152707278713,
+      "n": 2000,
+      "source": "PROJECT\\outputs\\P0_beta040_promotion_gate_safe_20260824_161228\\derived"
+    }
+  },
+  "statistics": {
+    "replicates": 2000,
+    "rng_seed": 20260906,
+    "cluster": "base_sample_index",
+    "synchronization": "same sampled base indices retain clean, all 75 conditions, both methods, and all three seeds",
+    "overall_metric": "pool 75 equally sized conditions within seed, compute metric per seed, then arithmetic mean over frozen seeds"
+  },
+  "clean_reproduction_tolerances_frozen_after_prediction-exact_smoke_before_full_clean": {
+    "sample_index_label_prediction": "exact",
+    "d_gop_max_abs": 1e-05,
+    "global_uncertainty_max_abs": 1e-10,
+    "q_func_max_abs": 0.005,
+    "orbit_beta040_uncertainty_max_abs": 0.0001,
+    "smoke_observed_d_gop_max_abs": 2.603977918624878e-06
+  },
+  "interpretation_rules_frozen_before_results": {
+    "PASS": "operational prediction identity; pooled Delta AURC <= 0; pooled Delta Error-AUROC >= 0; at least half of 225 seed-condition cells jointly favorable; overall and mild(severity1-2) Delta_G > 0; no broad mild indiscriminate boundary",
+    "MIXED": "operational prediction identity holds, but one or more PASS requirements fail without meeting FAIL",
+    "FAIL": "operational prediction identity breaks, or pooled Delta AURC > 0 and Delta Error-AUROC < 0 with a majority of seed-condition cells jointly unfavorable, or overall Delta_G <= 0 with stable-correct response at least newly-wrong in both mild severities",
+    "broad_mild_indiscriminate_boundary": "both mild severities have Delta_G <= 0 and, within each, mean Orbit delta uncertainty on stable-correct is >= newly-wrong"
+  },
+  "hard_failure_conditions": [
+    "frozen base prediction cannot reproduce historical authority",
+    "pred_orbit_operational differs from pred_base",
+    "Orbit-GOP uncertainty formula differs from frozen formal formula",
+    "checkpoint/split/calibration/config mutation",
+    "CIFAR-10-C label or base-index misalignment"
+  ],
+  "non_failure_diagnostic": "pred_alpha_numeric != pred_base is retained and reported but does not stop scientific execution",
+  "prohibitions": [
+    "training",
+    "checkpoint mutation",
+    "beta/layer/view/discrepancy/q_func change",
+    "CIFAR-10-C tuning or threshold selection",
+    "subset selection",
+    "historical overwrite",
+    "manuscript edit"
+  ],
+  "protected_snapshot_sha256": "fbf4958be4095753f05dbfa527babbecd6d8c7dcd9c901602e376001b8b3e292",
+  "protected_file_count": 235
+}

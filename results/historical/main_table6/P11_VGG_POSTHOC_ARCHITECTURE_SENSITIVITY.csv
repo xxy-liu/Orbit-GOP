@@ -1,0 +1,13 @@
+Backbone,Layer,Seed,AUROC,FPR95,ID_role,OOD_role,Score,Analysis_type
+VGG16-BN-EDL,block2,0,0.54433122,0.9225,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block3,0,0.49440028,0.976,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block4,0,0.8031866400000001,0.4795,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block2,1,0.5533023,0.901,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block3,1,0.49246542000000004,0.9745,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block4,1,0.80043358,0.497,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block2,2,0.54084602,0.92,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block3,2,0.4940136,0.9785,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block4,2,0.80243452,0.4775,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block2,Mean,0.5461598466666667,0.9145,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block3,Mean,0.49362643333333334,0.9763333333333333,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity
+VGG16-BN-EDL,block4,Mean,0.8020182466666667,0.48466666666666663,CIFAR-10 id_safety,CIFAR-100 development,q_func,Post-hoc Architecture Sensitivity

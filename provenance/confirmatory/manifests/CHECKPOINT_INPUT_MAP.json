@@ -1,0 +1,1122 @@
+{
+  "summary_path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\manifests\\NINE_CHECKPOINT_FREEZE_SUMMARY.json",
+  "summary_sha256": "4a9e675187db2a65f0702c27459550999b6b4b735668c6ea283fba0929691f32",
+  "checkpoints": [
+    {
+      "backbone": "resnet18",
+      "seed": 3,
+      "epoch": 198,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_3\\best.pt",
+      "sha256": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\resnet18_S3.json",
+        "sha256": "0fdff6a6c1bfc3b659bfdb426d8cf6fa3ac08696dc622c72e83d1d10d0cdc300"
+      },
+      "original_manifest": {
+        "backbone": "resnet18",
+        "seed": 3,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_3\\best.pt",
+        "best_val_epoch": 198,
+        "fixed_epoch": "NOT_APPLICABLE",
+        "val_metric": 0.929,
+        "val_role": "checkpoint_selection",
+        "train_end_time": "2026-09-17T11:23:43.162205+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_3\\runs\\seed_3\\training_complete.json",
+        "sha256": "0411914e829a440c320b466fee5702c8645e66461d01bfe5f18ca05c76facb3a"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_3\\runs\\seed_3\\train_history.csv",
+        "sha256": "c5d57e9127c3e33fe4942e85ac14c30da9f534c4f22a4c6576312adf0b3da4b9"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_3\\runs\\seed_3\\best.pt",
+        "sha256": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac"
+      },
+      "completion_status": "COMPLETED",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_3\\best.pt",
+            "expected_sha256": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+            "actual_sha256": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_3\\runs\\seed_3\\best.pt",
+            "expected_sha256": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+            "actual_sha256": "c707a65928b33be27fe181768c8c354999530bb193e8ab404b8b8b513adfedac",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "maximum validation accuracy, minimum ECE15, minimum categorical NLL, earliest epoch",
+        "method": "compare already-recorded CSV values only; no performance metric recomputation",
+        "recorded_history_selected_epoch": 198,
+        "selected_history_row": {
+          "epoch": "198",
+          "learning_rate": "2.6953062036039646e-05",
+          "annealing_coefficient": "1.0",
+          "train_online_accuracy": "0.9742272727272727",
+          "train_mean_uncertainty": "0.25986234842647205",
+          "train_mean_total_evidence": "35.91706620649858",
+          "grad_scaler_scale": "65536.0",
+          "grad_scaler_overflow_count": "0",
+          "train_loss_total": "0.11281680210612037",
+          "train_loss_bayes_risk": "0.10435199917988344",
+          "train_loss_error": "0.09251688462495804",
+          "train_loss_variance": "0.011835114528509704",
+          "train_loss_kl": "0.00846480275658806",
+          "val_n": "3000",
+          "val_accuracy": "0.929",
+          "val_macro_f1": "0.928745445746641",
+          "val_categorical_nll": "0.469905029242223",
+          "val_brier": "0.15413926975472897",
+          "val_ece": "0.18615428281823795",
+          "val_aurc": "0.008516194312270287",
+          "val_mean_uncertainty": "0.2833053725610177",
+          "val_correct_mean_uncertainty": "0.25048655207904813",
+          "val_wrong_mean_uncertainty": "0.7127234602758022",
+          "val_mean_total_evidence": "35.548728942871094",
+          "val_error_count": "213",
+          "val_error_auroc": "0.930702742949745",
+          "val_error_aupr": "0.5149124418207284",
+          "val_loss_total": "0.4063309485912323",
+          "val_loss_bayes_risk": "0.1683843738635381",
+          "val_loss_error": "0.15413927125930788",
+          "val_loss_variance": "0.014245102932055791",
+          "val_loss_kl": "0.23794657345612844"
+        }
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "resnet18",
+      "seed": 4,
+      "epoch": 200,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_4\\best.pt",
+      "sha256": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\resnet18_S4.json",
+        "sha256": "4b052ed31bd9ff5c786ac02b106da04f61ea47269586778ed9ae0b3d8170cf68"
+      },
+      "original_manifest": {
+        "backbone": "resnet18",
+        "seed": 4,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_4\\best.pt",
+        "best_val_epoch": 200,
+        "fixed_epoch": "NOT_APPLICABLE",
+        "val_metric": 0.933,
+        "val_role": "checkpoint_selection",
+        "train_end_time": "2026-09-17T12:12:34.753741+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_4\\runs\\seed_4\\training_complete.json",
+        "sha256": "3a4e9c6cd16f291e73850d9effd5e96ea42b8b0920b0c63ac556f864877b5687"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_4\\runs\\seed_4\\train_history.csv",
+        "sha256": "40be58dd287046352865a03055f6735f8216516cf630246a4536d53be76b9f8a"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_4\\runs\\seed_4\\best.pt",
+        "sha256": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af"
+      },
+      "completion_status": "COMPLETED",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_4\\best.pt",
+            "expected_sha256": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+            "actual_sha256": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_4\\runs\\seed_4\\best.pt",
+            "expected_sha256": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+            "actual_sha256": "2bed15e869ed32c85114925a9b1f599c2b403f8ac8933cdf39649b99d3f328af",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "maximum validation accuracy, minimum ECE15, minimum categorical NLL, earliest epoch",
+        "method": "compare already-recorded CSV values only; no performance metric recomputation",
+        "recorded_history_selected_epoch": 200,
+        "selected_history_row": {
+          "epoch": "200",
+          "learning_rate": "1e-06",
+          "annealing_coefficient": "1.0",
+          "train_online_accuracy": "0.9762045454545455",
+          "train_mean_uncertainty": "0.25639425962621515",
+          "train_mean_total_evidence": "36.06908380126953",
+          "grad_scaler_scale": "65536.0",
+          "grad_scaler_overflow_count": "0",
+          "train_loss_total": "0.10679661703109741",
+          "train_loss_bayes_risk": "0.09988860395821658",
+          "train_loss_error": "0.0883855202739889",
+          "train_loss_variance": "0.011503083964640445",
+          "train_loss_kl": "0.0069080129566348415",
+          "val_n": "3000",
+          "val_accuracy": "0.933",
+          "val_macro_f1": "0.9329219738623428",
+          "val_categorical_nll": "0.46370026709542733",
+          "val_brier": "0.1514332445929567",
+          "val_ece": "0.1866905698056022",
+          "val_aurc": "0.008656744232619447",
+          "val_mean_uncertainty": "0.27941277655462426",
+          "val_correct_mean_uncertainty": "0.24975477439052252",
+          "val_wrong_mean_uncertainty": "0.6924115231084587",
+          "val_mean_total_evidence": "35.87925338745117",
+          "val_error_count": "201",
+          "val_error_auroc": "0.9191342323751018",
+          "val_error_aupr": "0.4477371776914642",
+          "val_loss_total": "0.41440328598022463",
+          "val_loss_bayes_risk": "0.16534284694989523",
+          "val_loss_error": "0.15143324800332386",
+          "val_loss_variance": "0.013909600193301837",
+          "val_loss_kl": "0.24906044030189514"
+        }
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "resnet18",
+      "seed": 5,
+      "epoch": 200,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_5\\best.pt",
+      "sha256": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\resnet18_S5.json",
+        "sha256": "1ad6f5f423fa401e8ae30af5e6a23e735532911f2ca5eb7035d32535c0fbd594"
+      },
+      "original_manifest": {
+        "backbone": "resnet18",
+        "seed": 5,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_5\\best.pt",
+        "best_val_epoch": 200,
+        "fixed_epoch": "NOT_APPLICABLE",
+        "val_metric": 0.9316666666666666,
+        "val_role": "checkpoint_selection",
+        "train_end_time": "2026-09-17T13:00:03.461281+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_5\\runs\\seed_5\\training_complete.json",
+        "sha256": "3d1b4f6cae7421fd6b867a60a229bbf8a9af18cf4206355b20a74364f15a98ef"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_5\\runs\\seed_5\\train_history.csv",
+        "sha256": "597a9e1608337240b558fb9ff96b085eecaf01f68882daa41a0838976cf95da2"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_5\\runs\\seed_5\\best.pt",
+        "sha256": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3"
+      },
+      "completion_status": "COMPLETED",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\resnet18\\seed_5\\best.pt",
+            "expected_sha256": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+            "actual_sha256": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\resnet18\\seed_5\\runs\\seed_5\\best.pt",
+            "expected_sha256": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+            "actual_sha256": "debc09a31e8f3e09da508898d0c18827a6dab87a673b840fbff66a5733f6a3e3",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "maximum validation accuracy, minimum ECE15, minimum categorical NLL, earliest epoch",
+        "method": "compare already-recorded CSV values only; no performance metric recomputation",
+        "recorded_history_selected_epoch": 200,
+        "selected_history_row": {
+          "epoch": "200",
+          "learning_rate": "1e-06",
+          "annealing_coefficient": "1.0",
+          "train_online_accuracy": "0.9727272727272728",
+          "train_mean_uncertainty": "0.2627360160134055",
+          "train_mean_total_evidence": "35.56261946244673",
+          "grad_scaler_scale": "65536.0",
+          "grad_scaler_overflow_count": "0",
+          "train_loss_total": "0.1150422001210126",
+          "train_loss_bayes_risk": "0.10670987221327695",
+          "train_loss_error": "0.09464180308038538",
+          "train_loss_variance": "0.012068069218234582",
+          "train_loss_kl": "0.00833232781646604",
+          "val_n": "3000",
+          "val_accuracy": "0.9316666666666666",
+          "val_macro_f1": "0.9316265797080285",
+          "val_categorical_nll": "0.4638512679945796",
+          "val_brier": "0.1511027756991555",
+          "val_ece": "0.1861081795642773",
+          "val_aurc": "0.009051089413610248",
+          "val_mean_uncertainty": "0.2803382184902827",
+          "val_correct_mean_uncertainty": "0.24874591204689311",
+          "val_wrong_mean_uncertainty": "0.7110723478038137",
+          "val_mean_total_evidence": "35.73155212402344",
+          "val_error_count": "205",
+          "val_error_auroc": "0.9220978227671365",
+          "val_error_aupr": "0.4752029309570517",
+          "val_loss_total": "0.40745527187983194",
+          "val_loss_bayes_risk": "0.16507018327713013",
+          "val_loss_error": "0.15110277537504832",
+          "val_loss_variance": "0.013967406993110975",
+          "val_loss_kl": "0.24238508494695027"
+        }
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "vgg16_bn",
+      "seed": 3,
+      "epoch": 184,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_3\\best.pt",
+      "sha256": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\vgg16_bn_S3.json",
+        "sha256": "9894e4d0c97fe9f4655770e10b6b5a672c195f34b4eb0e9a8569fc01041f40b6"
+      },
+      "original_manifest": {
+        "backbone": "vgg16_bn",
+        "seed": 3,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_3\\best.pt",
+        "best_val_epoch": 184,
+        "fixed_epoch": "NOT_APPLICABLE",
+        "val_metric": 0.9193333333333333,
+        "val_role": "checkpoint_selection",
+        "train_end_time": "2026-09-17T13:44:29.266561+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_3\\runs\\seed_3\\run_state.json",
+        "sha256": "04d6ce7184d04620778f747629307c82dd54fad54486e8390575c397318f004b"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_3\\runs\\seed_3\\dynamics.csv",
+        "sha256": "65d27609e6caf8c99b45cc0b264ef3b434aa23870612364dcff1f92cd3b0f0fa"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_3\\runs\\seed_3\\best.pt",
+        "sha256": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab"
+      },
+      "completion_status": "HEALTHY",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_3\\best.pt",
+            "expected_sha256": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+            "actual_sha256": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_3\\runs\\seed_3\\best.pt",
+            "expected_sha256": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+            "actual_sha256": "0841c476da89d3a88a825904b3fb7263168696540773f4c4772382011363dfab",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "maximum validation accuracy, minimum ECE15, minimum categorical NLL, earliest epoch",
+        "method": "compare already-recorded CSV values only; no performance metric recomputation",
+        "recorded_history_selected_epoch": 184,
+        "selected_history_row": {
+          "epoch": "184",
+          "actual_learning_rate": "0.00016618133128801162",
+          "train_total_loss": "0.07666068373485045",
+          "train_data_loss": "0.0709584894369949",
+          "train_error_loss": "0.06265537001869895",
+          "train_variance_loss": "0.008303119350902059",
+          "train_kl_loss_raw": "0.005702194130386818",
+          "train_kl_loss_weighted": "0.005702194130386818",
+          "kl_coefficient": "1.0",
+          "train_accuracy": "0.9824545454545455",
+          "validation_accuracy": "0.9193333333333333",
+          "validation_NLL": "0.48256613688146066",
+          "validation_ECE": "0.15251600124190248",
+          "mean_validation_evidence": "3.960599843376619",
+          "mean_validation_total_evidence": "39.60599843376619",
+          "mean_validation_uncertainty": "0.25637614232301714",
+          "unique_predicted_classes": "10",
+          "max_class_prediction_fraction": "0.10233333333333333",
+          "pred_0": "290",
+          "pred_1": "297",
+          "pred_2": "303",
+          "pred_3": "305",
+          "pred_4": "301",
+          "pred_5": "296",
+          "pred_6": "300",
+          "pred_7": "299",
+          "pred_8": "302",
+          "pred_9": "307",
+          "global_parameter_norm": "34.89604949951172",
+          "global_gradient_norm": "2.288051308457588",
+          "classifier_gradient_norm": "0.018226185108285917",
+          "block1_parameter_norm": "8.583754539489746",
+          "block2_parameter_norm": "13.238767623901367",
+          "block3_parameter_norm": "20.397031784057617",
+          "block4_parameter_norm": "15.0945463180542",
+          "block5_parameter_norm": "15.705415725708008",
+          "classifier_parameter_norm": "8.845579147338867",
+          "NaN_count": "0",
+          "Inf_count": "0",
+          "GradScaler_overflow_count": "0"
+        }
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "vgg16_bn",
+      "seed": 4,
+      "epoch": 200,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_4\\best.pt",
+      "sha256": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\vgg16_bn_S4.json",
+        "sha256": "4670a6f681747ad144f1123c3f9d090303047ae228595a964c3cc29db59cec13"
+      },
+      "original_manifest": {
+        "backbone": "vgg16_bn",
+        "seed": 4,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_4\\best.pt",
+        "best_val_epoch": 200,
+        "fixed_epoch": "NOT_APPLICABLE",
+        "val_metric": 0.923,
+        "val_role": "checkpoint_selection",
+        "train_end_time": "2026-09-17T14:28:42.357029+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_4\\runs\\seed_4\\run_state.json",
+        "sha256": "2d0f8f3067d65d855a03cc22c6acaff813c361bbcc1ae63efc895de53e6779d6"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_4\\runs\\seed_4\\dynamics.csv",
+        "sha256": "9a63ed90acd22f66a30db54cfd9384fbe79fd18fbb704f7f2f173933b09a1b82"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_4\\runs\\seed_4\\best.pt",
+        "sha256": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590"
+      },
+      "completion_status": "HEALTHY",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_4\\best.pt",
+            "expected_sha256": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+            "actual_sha256": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_4\\runs\\seed_4\\best.pt",
+            "expected_sha256": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+            "actual_sha256": "517c3bda9fe52d9d7bbd17a950345c214fb1bb1470beecc633061edafe7cd590",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "maximum validation accuracy, minimum ECE15, minimum categorical NLL, earliest epoch",
+        "method": "compare already-recorded CSV values only; no performance metric recomputation",
+        "recorded_history_selected_epoch": 200,
+        "selected_history_row": {
+          "epoch": "200",
+          "actual_learning_rate": "1e-06",
+          "train_total_loss": "0.07827145675637505",
+          "train_data_loss": "0.07234386697682467",
+          "train_error_loss": "0.0639296377138658",
+          "train_variance_loss": "0.008414229417389089",
+          "train_kl_loss_raw": "0.005927589754404669",
+          "train_kl_loss_weighted": "0.005927589754404669",
+          "kl_coefficient": "1.0",
+          "train_accuracy": "0.9811136363636364",
+          "validation_accuracy": "0.923",
+          "validation_NLL": "0.468639998336287",
+          "validation_ECE": "0.15166665378957983",
+          "mean_validation_evidence": "4.015630754006425",
+          "mean_validation_total_evidence": "40.15630754006425",
+          "mean_validation_uncertainty": "0.25149605414271353",
+          "unique_predicted_classes": "10",
+          "max_class_prediction_fraction": "0.10333333333333333",
+          "pred_0": "298",
+          "pred_1": "287",
+          "pred_2": "301",
+          "pred_3": "304",
+          "pred_4": "310",
+          "pred_5": "289",
+          "pred_6": "301",
+          "pred_7": "304",
+          "pred_8": "296",
+          "pred_9": "310",
+          "global_parameter_norm": "34.783721923828125",
+          "global_gradient_norm": "2.3747751215299546",
+          "classifier_gradient_norm": "0.01905295260515887",
+          "block1_parameter_norm": "8.576773643493652",
+          "block2_parameter_norm": "13.124366760253906",
+          "block3_parameter_norm": "20.239469528198242",
+          "block4_parameter_norm": "15.15748119354248",
+          "block5_parameter_norm": "15.701083183288574",
+          "classifier_parameter_norm": "8.84238052368164",
+          "NaN_count": "0",
+          "Inf_count": "0",
+          "GradScaler_overflow_count": "0"
+        }
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "vgg16_bn",
+      "seed": 5,
+      "epoch": 191,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_5\\best.pt",
+      "sha256": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\vgg16_bn_S5.json",
+        "sha256": "054943fed2bda3d2c3be2f5d9c92f018a1f3bd37733336d7c14fdb1bad191eb7"
+      },
+      "original_manifest": {
+        "backbone": "vgg16_bn",
+        "seed": 5,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_5\\best.pt",
+        "best_val_epoch": 191,
+        "fixed_epoch": "NOT_APPLICABLE",
+        "val_metric": 0.9193333333333333,
+        "val_role": "checkpoint_selection",
+        "train_end_time": "2026-09-17T15:13:06.678120+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_5\\runs\\seed_5\\run_state.json",
+        "sha256": "7013297bcb5e2f517dcc3c25aced4a0d8e02a372ddd8bfb6327344a9469b5fd9"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_5\\runs\\seed_5\\dynamics.csv",
+        "sha256": "d4f767c9dda99df3d2395c075a286142499ebb7520f2f1c18dc98b23be143834"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_5\\runs\\seed_5\\best.pt",
+        "sha256": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d"
+      },
+      "completion_status": "HEALTHY",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\vgg16_bn\\seed_5\\best.pt",
+            "expected_sha256": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+            "actual_sha256": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\vgg16_bn\\seed_5\\runs\\seed_5\\best.pt",
+            "expected_sha256": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+            "actual_sha256": "d57d30a1f0e56b80c968dc837066fe612feb1407a47079798f72ca12bbf0238d",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "maximum validation accuracy, minimum ECE15, minimum categorical NLL, earliest epoch",
+        "method": "compare already-recorded CSV values only; no performance metric recomputation",
+        "recorded_history_selected_epoch": 191,
+        "selected_history_row": {
+          "epoch": "191",
+          "actual_learning_rate": "5.346275594446992e-05",
+          "train_total_loss": "0.07519783430207859",
+          "train_data_loss": "0.07106033984639427",
+          "train_error_loss": "0.06273394839601083",
+          "train_variance_loss": "0.00832639141143723",
+          "train_kl_loss_raw": "0.0041374943715266205",
+          "train_kl_loss_weighted": "0.0041374943715266205",
+          "kl_coefficient": "1.0",
+          "train_accuracy": "0.981909090909091",
+          "validation_accuracy": "0.9193333333333333",
+          "validation_NLL": "0.4850329835212242",
+          "validation_ECE": "0.1526349570055803",
+          "mean_validation_evidence": "3.9651062342164765",
+          "mean_validation_total_evidence": "39.651062342164764",
+          "mean_validation_uncertainty": "0.25535015860696636",
+          "unique_predicted_classes": "10",
+          "max_class_prediction_fraction": "0.10366666666666667",
+          "pred_0": "299",
+          "pred_1": "288",
+          "pred_2": "294",
+          "pred_3": "310",
+          "pred_4": "297",
+          "pred_5": "294",
+          "pred_6": "298",
+          "pred_7": "304",
+          "pred_8": "305",
+          "pred_9": "311",
+          "global_parameter_norm": "34.8011474609375",
+          "global_gradient_norm": "2.1621036766053634",
+          "classifier_gradient_norm": "0.01800714758343908",
+          "block1_parameter_norm": "8.532479286193848",
+          "block2_parameter_norm": "13.093053817749023",
+          "block3_parameter_norm": "20.2406063079834",
+          "block4_parameter_norm": "15.241814613342285",
+          "block5_parameter_norm": "15.70674991607666",
+          "classifier_parameter_norm": "8.842601776123047",
+          "NaN_count": "0",
+          "Inf_count": "0",
+          "GradScaler_overflow_count": "0"
+        }
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "wrn28_10",
+      "seed": 3,
+      "epoch": 200,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_3\\best.pt",
+      "sha256": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\wrn28_10_S3.json",
+        "sha256": "0afa7f8a89a83582942f1c7efc2fc12b54769a7073d35ac34f489b3c4677c5c5"
+      },
+      "original_manifest": {
+        "backbone": "wrn28_10",
+        "seed": 3,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_3\\best.pt",
+        "best_val_epoch": "NOT_APPLICABLE",
+        "fixed_epoch": 200,
+        "val_metric": 0.9293333333333333,
+        "val_role": "diagnostic_only",
+        "train_end_time": "2026-09-17T18:41:01.581135+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_3\\training_logs\\seed_3_complete.json",
+        "sha256": "0f9346ad109097b7b107153b1b7c17c2483e665e42172281fc23d0763ac16722"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_3\\training_logs\\seed_3_history.csv",
+        "sha256": "019601b636d867d1d2a40b08e6d282c4fa7c20489199d13bdbd8720e9cf6e270"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_3\\checkpoints\\seed_3_final.pt",
+        "sha256": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226"
+      },
+      "completion_status": "COMPLETED",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_3\\best.pt",
+            "expected_sha256": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+            "actual_sha256": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_3\\checkpoints\\seed_3_final.pt",
+            "expected_sha256": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+            "actual_sha256": "1ce9c955c27d5f308397a95f1ce1aff387123f61f45a40862b8ca2cca847d226",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "fixed_epoch_200; validation diagnostic only"
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "wrn28_10",
+      "seed": 4,
+      "epoch": 200,
+      "checkpoint_path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_4\\best.pt",
+      "sha256": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+      "status": "FROZEN",
+      "source_protocol": "confirmatory_study_20260917",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\manifests\\wrn28_10_S4.json",
+        "sha256": "9f457e1ffd73fce8008c30edc84b6454a6662179c9930c5cf0bc3889edc6a5a3"
+      },
+      "original_manifest": {
+        "backbone": "wrn28_10",
+        "seed": 4,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "a58e437b6891b703435e7d949e884cdb8744a56cf43b8a9a008d8064ae80c510",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+        "checkpoint": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_4\\best.pt",
+        "best_val_epoch": "NOT_APPLICABLE",
+        "fixed_epoch": 200,
+        "val_metric": 0.931,
+        "val_role": "diagnostic_only",
+        "train_end_time": "2026-09-17T22:08:44.067773+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_4\\training_logs\\seed_4_complete.json",
+        "sha256": "f0b56d68f9d6810a7101ebb99552c7f8b8b5e15c79756cad4afb5100d10afe75"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_4\\training_logs\\seed_4_history.csv",
+        "sha256": "d8c8948c94b17dcc32b9ca66d55af3fcee595eeb70a44872129328307edf6797"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_4\\checkpoints\\seed_4_final.pt",
+        "sha256": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302"
+      },
+      "completion_status": "COMPLETED",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\checkpoints\\wrn28_10\\seed_4\\best.pt",
+            "expected_sha256": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+            "actual_sha256": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\confirmatory_study_20260917\\training\\wrn28_10\\seed_4\\checkpoints\\seed_4_final.pt",
+            "expected_sha256": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+            "actual_sha256": "03f2207f47987418de4b5654ff924b35f703b67c022e75116a1ce2b7456f7302",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "fixed_epoch_200; validation diagnostic only"
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    },
+    {
+      "backbone": "wrn28_10",
+      "seed": 5,
+      "epoch": 200,
+      "checkpoint_path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\checkpoints\\wrn28_10\\seed_5\\best.pt",
+      "sha256": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+      "status": "FROZEN",
+      "source_protocol": "Orbit-GOP-confirmatory-20260917-v2",
+      "completion_freeze_manifest": {
+        "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\manifests\\wrn28_10_S5.json",
+        "sha256": "f626851d50269e2ce23c3fef97843a8a6e4cd700ede0e144669ab2374890cabb"
+      },
+      "original_manifest": {
+        "backbone": "wrn28_10",
+        "seed": 5,
+        "training_commit": "NO_ROOT_GIT_COMMIT",
+        "config_hash": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+        "split_hash": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+        "checkpoint_hash": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+        "checkpoint": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\checkpoints\\wrn28_10\\seed_5\\best.pt",
+        "best_val_epoch": "NOT_APPLICABLE",
+        "fixed_epoch": 200,
+        "val_metric": 0.929,
+        "val_role": "diagnostic_only",
+        "train_end_time": "2026-09-18T12:31:45.712811+00:00",
+        "test_admission": false,
+        "status": "FROZEN"
+      },
+      "completion_record": {
+        "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\training\\wrn28_10\\seed_5\\training_logs\\seed_5_complete.json",
+        "sha256": "774669b6f576c97da8b4d37d6ef7d9aeea23a554f0c19117b81a0081821168b0"
+      },
+      "history": {
+        "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\training\\wrn28_10\\seed_5\\training_logs\\seed_5_history.csv",
+        "sha256": "ad645d56d388c2245bb0b112f4215fbe17b1f943c6339da5368e42d5f3adde7a"
+      },
+      "source_training_checkpoint": {
+        "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\training\\wrn28_10\\seed_5\\checkpoints\\seed_5_final.pt",
+        "sha256": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556"
+      },
+      "completion_status": "COMPLETED",
+      "training_complete": true,
+      "history_rows": 200,
+      "history_epochs_1_to_200": true,
+      "hash_verification": {
+        "status": "PASS",
+        "verified_count": 2,
+        "total_count": 2,
+        "entries": [
+          {
+            "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\checkpoints\\wrn28_10\\seed_5\\best.pt",
+            "expected_sha256": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+            "actual_sha256": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+            "status": "PASS"
+          },
+          {
+            "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\training\\wrn28_10\\seed_5\\checkpoints\\seed_5_final.pt",
+            "expected_sha256": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+            "actual_sha256": "69e633563080635eba1b608902c26ab99c606ef8f0152d173eb5143ad48a3556",
+            "status": "PASS"
+          }
+        ]
+      },
+      "completion_manifest_hash_agreement": true,
+      "completion_epoch_agreement": true,
+      "selection_check": {
+        "status": "PASS",
+        "rule": "fixed_epoch_200; validation diagnostic only"
+      },
+      "closeout_status": "PASS",
+      "stage7_checkpoint_hash_reverified": true,
+      "stage7_epoch_record_checked": true
+    }
+  ],
+  "method_implementation_files": [
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\analyze_confirmatory.py",
+      "sha256": "90e543254b0e69d532e150c5b7220975eb9f4937990a7bfef9be2471eb575a87"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\bootstrap_kernel.py",
+      "sha256": "af75a44e210dc6ea93dd0d91247bcef946d55b05e8febfff0a66992a206e094d"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\build_adapters.py",
+      "sha256": "bb5a442c57d1b5ff2b3c4ff07747337856f6b459493a643d6de8a29475cacbd5"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\cedl_views.py",
+      "sha256": "96164a326c2988cd4093acbaa998711979faee8dec50aae37e9b287ca4988f9b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\data_manifest.py",
+      "sha256": "a0ec5ad2507848dbae88f35f7eb7dcb580a840d0d658e3c4c98888e671a93334"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\evaluate_confirmatory.py",
+      "sha256": "5a76fccba30e09505d87740192b6cda045924a32da796c1964a1b5c90b2cc73f"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\finish_confirmatory.py",
+      "sha256": "6c0a6a9abe04f89836b6632f35404200e07bd153acadd81b710bff51cf5780b1"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\freeze.py",
+      "sha256": "e4914c850cac813421632890b6859a8700a51939ed50d1d04f9e2837d3fddab1"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\freeze_v2.py",
+      "sha256": "c836e40f5ad2ebc3620d4e74eeb947898ce5598689d76714633cc9c989284918"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\launch_s5.py",
+      "sha256": "3c9051d3dbc92c88ce1308707e21dc4b7a8b9c08750c29515e5921b9e990a789"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\preflight.py",
+      "sha256": "b36f3ba2c706f87046d7eee9e941da2943bbc38f85f036607d89e2e02f0c6177"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\prepare.py",
+      "sha256": "b4234d93b1befc11438b1624f3b0d2e1070d17f362c48f9edbb3e6bcd7d6dbb1"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\prepare_v2.py",
+      "sha256": "1e597076e79e3ed41bc8a7f4f760738e47221d5db97e0f63602cb45dd18ca78d"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\qa_pre_run.py",
+      "sha256": "2913d0fd2a0065214753a3295289cb2d83675ffd921fb4b01f3859e79da2c52b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\qa_v2.py",
+      "sha256": "63d08702ddcfef5c64a116f6569ce86e23c76f0ad9a94101c96680249b32b25b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\run_study.py",
+      "sha256": "8177b6807ed6f3d5be4de1d4fa6d83de45a2d3a83b0f43147e428db68002134e"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\train_confirmatory.py",
+      "sha256": "9dbb71d42ac71a078e7237dd674b0dab0dc2afe8952ab861f8499bbf9f3012ef"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\train_wrn.py",
+      "sha256": "25dda364097a8533761edf73db25470f50149e2c96715f1195fe3da000803337"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\baselines\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\baselines\\cedl_offline.py",
+      "sha256": "ce9ea9551cfb0d979192423c60422d796258718bebb37bf365c85738bb9c835b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\baselines\\gradnorm.py",
+      "sha256": "2ea7712b44f6fcece9d72c374b2b62903e8bafc121f687ba03a57d5c4869d45b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\baselines\\knn.py",
+      "sha256": "8cd2710f170c25dec9d24eb43b00225de7d85b35f8412b8b953c260549b5d891"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\baselines\\output_scores.py",
+      "sha256": "c4d09736b751c02ed8de5afda1f71f216db92af0fbb11bf87538d56aa6a5e25b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\models\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\models\\registry.py",
+      "sha256": "7d6aa13a44130b9d9a313df32eddbc9e424cfcdb15e41f13313cfea3abab719b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\models\\resnet18.py",
+      "sha256": "7267d210e54c68428f0b0dc4831360ca84ef5685fb9ef33c2dcd6fe51ba65d8f"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\models\\vgg16_bn.py",
+      "sha256": "c90cc9618a62fee4e46e18c9225a8bb62709220a7ca34940b6414f69a10c655f"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\models\\wrn28_10.py",
+      "sha256": "4a34cfdf6a52c5953e909987e6571f18ba94a867f6d81befccd021129f5621cc"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\_resnet_signature.py",
+      "sha256": "e4d39b0a01582a44b37ab00bc4ad3261f0c2b50bfdd9a4637bd575561288afbc"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\_scores.py",
+      "sha256": "d3955a9c226a5c97f326925cc64c83d56e4e21811e7a241661f7c96d2790a286"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\_wrn_source.py",
+      "sha256": "bb842f56072cea8795a796aba0715e524925398f5a9bac127ade20c2a8a8e0c9"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\calibration.py",
+      "sha256": "bf55cad26c3a1fe79124694428bff9a16f111379777e64d5f9bbb4c1b8a03869"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\evidence.py",
+      "sha256": "2a0c27f4a38b60f38e3d467194c3eb7082f0a6d60a18ebfb93e7833a79391ce1"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\functional_risk.py",
+      "sha256": "6dbe913e348f533fc64c2da9a580e5714d4f0f01aff26d2aaf408ad825a8536b"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\functional_signature.py",
+      "sha256": "a6b64e426e09a8a02842668d3457c9562b5b2663d48d49b9cd6ee50df436b7aa"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\inference.py",
+      "sha256": "987a7b420ef72c663b8437b11892abfd11da3368eedb0f3df6c785f7f61e305a"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\metrics.py",
+      "sha256": "d47c401835630a8ca8565441852e5b2ea89697112f11d4661c3584dab0bd1eab"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\orbit_gop\\views.py",
+      "sha256": "ccd4e0781d5d78ccdbfa7792e11e947a2014e54478a38298ddf6dc37a28e3fd5"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\artifacts.py",
+      "sha256": "54e28e8d48e03c673af82efb8714dca80373c112445075fd67c0c5b0c30abacd"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\b0\\__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\b0\\data.py",
+      "sha256": "36b89c9b139ec3c05b34f3c7728241e88b57541a1422e7203b0ba1a050c630b0"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\b0\\engine.py",
+      "sha256": "5c68ef0842a135aff5ed6b38bb823baec3927370d275b1f51bab61c17ef410ad"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\b0\\loss.py",
+      "sha256": "6f079b44c0d6d68cc43482b141b736478bfc119430e0bbb4f406b562372ef38e"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\b0\\metrics.py",
+      "sha256": "7b26b68e51f52249c7dc780f47caef4acfac6822b7dfb551167c5eb5f0064a87"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\b0\\schedule.py",
+      "sha256": "e01ceeb2f7a6a6481e164c275b1bb61ea0a627e9dc7df17ae1c81f716d7d31d9"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\resnet.py",
+      "sha256": "08936753c7469bc8e24a8dd361f259842aa665d63e29952537a142bf0be07bc4"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\vgg.py",
+      "sha256": "86211dac3564bddb091c8654a08931091fa4fc33de01b3439bb1ac8c29ba5b64"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\wrn.py",
+      "sha256": "0136ef3ca74c43cc33dc5ae6cf682a28b91e8b7d0e384d7459d6fdd5e14cc97f"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\vendor\\training\\wrn_core.py",
+      "sha256": "1c42f696cee2fefddfb642f3f5a6892e2cb2a5b332e8c4f1e569a6fc84275003"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\write_audit.py",
+      "sha256": "0d255bcaac19ac768de5b4fd0e2f3558918192b783444a36fb48215fe1e8d614"
+    },
+    {
+      "path": "PROJECT\\outputs\\Orbit-GOP-confirmatory-20260917-v2\\code\\write_protocol.py",
+      "sha256": "bff1640cfefbda3b92db646615a1e48ad71c65331aa6fd3dbc62e09cbaed7411"
+    }
+  ],
+  "method_implementation_sha256": "676c54474bc3ba66c19f92d5d341fa465db506ea52ce5dc0e0c211765f931d9e",
+  "stage7_config_sha256": "ad2e3ac11db83dbf253835aa692ec4b7efb7ff3fd6b4565a7103956ffffea347",
+  "manifest_sha256": "b004a7765dee6c56ff9a0714d6139c35dc35e703ef58067313e80bbed3264735",
+  "split_sha256": "47f6bddfef2e474baea8df9d49fee620168b1bbafebd4af635d77c66cf94fe5e",
+  "wrapper_sha256": "20b2e086067a8dc8dbe6b5702ec4815d7849f5dd5e5f7d61a3680ad36d448cce"
+}

@@ -1,0 +1,18 @@
+{
+  "candidate": "C009",
+  "conflict_beta": 1.0,
+  "cedl_lambda": 0.75,
+  "delta": 0.5,
+  "T": 5,
+  "epsilon": 1e-08,
+  "transform_seed": 20260813,
+  "transform_source": "code/cedl_views.py:transformed_batch; first 5 views; rotate/vertical roll/Gaussian noise; original is view 0",
+  "additional_global_scaling": false,
+  "backbones": [
+    "resnet18",
+    "vgg16_bn",
+    "wrn28_10"
+  ],
+  "retuning": false,
+  "source": "existing author default C018 / shared project selection C009; WRN fixed transfer, no historical WRN dev-tuning claim"
+}
